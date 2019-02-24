@@ -256,7 +256,7 @@ let buildImgs = function (done) {
             imagemin.jpegtran({progressive: true}),
             imagemin.optipng({optimizationLevel: 5}),
         ])))
-        .pipe(dest(paths.svgs.output));
+        .pipe(dest(paths.imgs.output));
 
     // Signal completion
     done();
@@ -379,7 +379,8 @@ exports.default = series(
         buildStyles,
         buildImgs,
         buildSVGs,
-        copyFiles
+        copyFiles,
+        injectDev
     )
 );
 
@@ -404,15 +405,7 @@ exports.injectprod = series(
 // Watch and reload
 // gulp watch
 exports.watch = series(
-    parallel(
-        buildScripts,
-        lintScripts,
-        buildStyles,
-        buildImgs,
-        buildSVGs,
-        copyFiles
-    ),
-    injectDev,
+    exports.default,
     startServer,
     watchSource
 );
