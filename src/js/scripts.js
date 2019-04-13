@@ -8,7 +8,7 @@ $(document).ready(function() {
     // Check for click events on the navbar burger icon
     navbarBurger$.click(function() {
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-        $(".navbar-burger").toggleClass("is-active");
+        navbarBurger$.toggleClass("is-active");
         navbarMenu$.toggleClass("is-active");
         navbarItem$.toggleClass("is-active");
         headerLogo$.toggleClass("is-active");

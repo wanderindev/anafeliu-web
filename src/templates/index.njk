@@ -1,0 +1,15 @@
+{% set page = 'Productos' %}
+{% extends "_base.njk" %}
+{% block content %}
+<div class="container">
+    <div class="columns is-multiline">
+        {% for item in galeries.products %}
+        <div class="column is-6-tablet is-4-desktop">
+            <a class="image-trigger image-{{item.img}}" href="{{item.url}}">
+                <img class="thumb-img" src="img/{{item.img}}.png" alt="{{item.alt}}">
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ana Isabel Feliu - {{page}}</title>
+    <!-- inject:css -->
+    <!-- endinject -->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+<div class="container">
+    {% include '_header.njk' %}
+</div>
+<section class="section">
+{%  block content %} {% endblock %}
+</section>
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Nunjucks JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/nunjucks/3.0.1/nunjucks.min.js"></script>
+<!-- inject:js -->
+<!-- endinject -->
+</body>
+</html>

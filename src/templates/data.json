@@ -1,0 +1,85 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Productos"
+    },
+    {
+      "url": "/espacios.html",
+      "name": "Espacios"
+    },
+    {
+      "url": "/graficos.html",
+      "name": "Gráficos"
+    },
+    {
+      "url": "/acerca.html",
+      "name": "Sobre mí"
+    }
+  ],
+
+  "galeries": {
+    "products": [
+      {
+        "img": "1",
+        "url": "",
+        "alt": ""
+      },
+      {
+        "img": "2",
+        "url": "",
+        "alt": ""
+      },
+      {
+        "img": "3",
+        "url": "",
+        "alt": ""
+      },
+      {
+        "img": "4",
+        "url": "",
+        "alt": ""
+      },
+      {
+        "img": "5",
+        "url": "",
+        "alt": ""
+      },
+      {
+        "img": "6",
+        "url": "",
+        "alt": ""
+      },
+      {
+        "img": "7",
+        "url": "",
+        "alt": ""
+      },
+      {
+        "img": "8",
+        "url": "",
+        "alt": ""
+      },
+      {
+        "img": "9",
+        "url": "",
+        "alt": ""
+      },
+      {
+        "img": "10",
+        "url": "",
+        "alt": ""
+      },
+      {
+        "img": "11",
+        "url": "",
+        "alt": ""
+      },
+      {
+        "img": "12",
+        "url": "",
+        "alt": ""
+      }
+    ]
+  }
+}
