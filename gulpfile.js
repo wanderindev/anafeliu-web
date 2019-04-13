@@ -1,13 +1,13 @@
 let settings = {
     clean: true,
+    render: true,
     scripts: true,
     polyfills: true,
     styles: true,
     imgs: true,
     svgs: true,
-    inject: true,
     copy: true,
-    reload: true
+    reload: true,
 };
 
 
@@ -18,34 +18,36 @@ let settings = {
 let paths = {
     input: 'src/',
     output: 'dist/',
+    render: {
+        input: 'src/templates/*.njk',
+        output: 'dist/',
+        data: './src/templates/data.json',
+        partials: 'src/templates/partials',
+        cssSrc: 'src/sass/*.{sass,scss}',
+        jsSrc: 'src/js/*.js',
+    },
     scripts: {
         input: 'src/js/*',
         polyfills: '.polyfill.js',
-        output: 'dist/js/'
+        output: 'dist/js/',
     },
     styles: {
         input: 'src/sass/*.{scss,sass}',
-        output: 'dist/css/'
+        output: 'dist/css/',
     },
     imgs: {
         input: 'src/img/*.{gif,jpg,png}',
-        output: 'dist/img/'
+        output: 'dist/img/',
     },
     svgs: {
         input: 'src/svg/*.svg',
-        output: 'dist/svg/'
-    },
-    inject: {
-        target: 'src/*.html',
-        devsrc: ['dist/js/*.js', 'dist/css/*.css', '!dist/js/*.min.js', '!dist/css/*.min.css'],
-        prodsrc: ['dist/js/*.min.js', 'dist/css/*.min.css'],
-        output: 'dist/'
+        output: 'dist/svg/',
     },
     copy: {
-        input: 'src/copy/**/*',
-        output: 'dist/'
+        input: ['src/templates/data.json', 'src/copy/**/*'],
+        output: 'dist/',
     },
-    reload: './dist/'
+    reload: './dist/',
 };
 
 
@@ -77,20 +79,28 @@ let banner = {
  */
 
 // General
-let {src, dest, watch, series, parallel} = require('gulp');
+let {src, dest, watch, series} = require('gulp');
 let del = require('del');
 let flatmap = require('gulp-flatmap');
 let lazypipe = require('lazypipe');
 let rename = require('gulp-rename');
 let header = require('gulp-header');
+let cache = require('gulp-cache');
 let _package = require('./package.json');
+
+// Render
+let nunjucks = require('gulp-nunjucks-render');
+let data = require('gulp-data');
+let fs = require('fs');
+let inject = require('gulp-inject');
 
 // Scripts
 let jshint = require('gulp-jshint');
 let stylish = require('jshint-stylish');
 let concat = require('gulp-concat');
-let uglify = require('gulp-uglify');
+//let uglify = require('gulp-uglify');
 let optimizejs = require('gulp-optimize-js');
+//let babel = require('gulp-babel');
 
 // Styles
 let sass = require('gulp-sass');
@@ -99,13 +109,9 @@ let minify = require('gulp-cssnano');
 
 // Imgs
 let imagemin = require('gulp-imagemin');
-let cache = require('gulp-cache');
 
 // SVGs
 let svgmin = require('gulp-svgmin');
-
-// Inject
-let inject = require('gulp-inject');
 
 // BrowserSync
 let browserSync = require('browser-sync');
@@ -133,6 +139,35 @@ let cleanDist = function (done) {
 
 };
 
+// Render templates
+let renderTempls = function(done) {
+
+    // Make sure this feature is activated before running
+    if (!settings.render) return done();
+
+    // Define css and js sources to inject into html files.
+    let cssSources = src(paths.render.cssSrc).pipe(rename({dirname: 'css', extname: '.css'}));
+    let jsSources = src(paths.render.jsSrc, {read: false});
+
+    // Render the templates
+    src(paths.render.input)
+        .pipe(data(function() {
+            return JSON.parse(fs.readFileSync(paths.render.data).toString());
+        }))
+        .pipe(nunjucks({
+            path: [paths.render.partials]
+        }))
+        .pipe(dest(paths.render.output))
+        .pipe(inject(cssSources, {relative: true, ignorePath: '../src/sass/'}))
+        .pipe(dest(paths.render.output))
+        .pipe(inject(jsSources, {relative: true, ignorePath: '../src/'}))
+        .pipe(dest(paths.render.output));
+
+
+    // Signal completion
+    done();
+};
+
 // Repeated JavaScript tasks
 // noinspection JSUnresolvedFunction
 let jsTasks = lazypipe()
@@ -140,7 +175,7 @@ let jsTasks = lazypipe()
     .pipe(optimizejs)
     .pipe(dest, paths.scripts.output)
     .pipe(rename, {suffix: '.min'})
-    .pipe(uglify)
+    //.pipe(uglify)
     .pipe(optimizejs)
     .pipe(header, banner.min, {package: _package})
     .pipe(dest, paths.scripts.output);
@@ -185,7 +220,7 @@ let buildScripts = function (done) {
             }
 
             // Otherwise, process the file
-            return stream.pipe(jsTasks());
+            return stream .pipe(jsTasks());
 
         }));
 
@@ -279,46 +314,6 @@ let buildSVGs = function (done) {
 
 };
 
-// Inject references to css and js files
-let injectDev = function(done) {
-
-    // Make sure this feature is activated before running
-    if (!settings.inject) return done();
-
-    // Get target and sources
-    let target = src(paths.inject.target);
-    let sources = src(paths.inject.devsrc, {read: false});
-
-    // Inject sources into target
-    target
-        .pipe(inject(sources, {relative: true, ignorePath: '../dist/'}))
-        .pipe(dest(paths.inject.output));
-
-    // Signal completion
-    done()
-
-};
-
-// Inject references to css and js files
-let injectProd = function(done) {
-
-    // Make sure this feature is activated before running
-    if (!settings.inject) return done();
-
-    // Get target and sources
-    let target = src(paths.inject.target);
-    let sources = src(paths.inject.prodsrc, {read: false});
-
-    // Inject sources into target
-    target
-        .pipe(inject(sources, {relative: true, ignorePath: '../dist/'}))
-        .pipe(dest(paths.inject.output));
-
-    // Signal completion
-    done()
-
-};
-
 // Copy static files into output folder
 let copyFiles = function (done) {
 
@@ -361,7 +356,16 @@ let reloadBrowser = function (done) {
 
 // Watch for changes
 let watchSource = function (done) {
-    watch(paths.input, series(exports.default, reloadBrowser));
+    let options = {delay: 1000};
+
+    watch([paths.render.input, paths.render.partials, paths.render.data],
+        {delay: 1000},
+        series(renderTempls, reloadBrowser));
+    watch(paths.scripts.input, {delay: 1000}, series(buildScripts, lintScripts, reloadBrowser));
+    watch(paths.styles.input, {delay: 1000}, series(buildStyles, reloadBrowser));
+    watch(paths.imgs.input, options, series(buildImgs, reloadBrowser));
+    watch(paths.svgs.input, options, series(buildSVGs, reloadBrowser));
+    watch(paths.copy.input, options, series(copyFiles, reloadBrowser));
     done();
 };
 
@@ -369,37 +373,27 @@ let watchSource = function (done) {
 /**
  * Export Tasks
  */
-
-// Default task
-// gulp
-exports.default = series(
-    parallel(
-        buildScripts,
-        lintScripts,
-        buildStyles,
-        buildImgs,
-        buildSVGs,
-        copyFiles,
-        injectDev
-    )
-);
-
 // Clear the dist folder
 // gulp clear
 exports.clean = series(
     cleanDist
 );
 
-// Inject css and js references
-// gulp injectdev
-exports.injectdev = series(
-    injectDev
+// Render the templates
+exports.render = series(
+    renderTempls
 );
 
-// Inject css and js references
-// gulp injectprod
-exports.injectprod = series(
-    injectProd
+// Default task
+// gulp
+exports.default = series(
+    renderTempls,
+    buildScripts,
+    lintScripts,
+    buildStyles,
+    buildImgs,
+    buildSVGs,
+    copyFiles
 );
 
 // Watch and reload
