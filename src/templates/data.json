@@ -81,5 +81,128 @@
         "alt": ""
       }
     ]
-  }
+  },
+
+  "productPages": [
+    {
+      "id": "10",
+      "url": "/futbolito.html",
+      "title": "Mesa de Futbolito",
+      "featureImage": {
+        "src": "10a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "10b.png",
+          "alt": "",
+          "caption": "La estructura se hizo con tubos de hierro cuadrados."
+        },
+        {
+          "src": "10c.png",
+          "alt": "",
+          "caption": "Luego de soldar los tubos, se les aplicó sellador y pintura automotriz con un compresor."
+        },
+        {
+          "src": "10d.png",
+          "alt": "",
+          "caption": "Los jugadores se cortaron de un bolillo de madera y se pintaron de blanco y negro para diferenciar los equipos."
+        },
+        {
+          "src": "10e.png",
+          "alt": "",
+          "caption": "La cancha es de ACM amarillo grafado con una ruteadora para crear las porterías."
+        },
+        {
+          "src": "10f.png",
+          "alt": "",
+          "caption": "Las paredes de concreto se construyeron con un molde de plywood fenólico."
+        },
+        {
+          "src": "10g.png",
+          "alt": "",
+          "caption": ""
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": "Experimentar con materiales."
+        },
+        {
+          "title": "¿Cómo?",
+          "text": "Se utilizó concreto, plywood fenólico, varillas de acero inoxidable, tubo de hierro cuadrado, madera de pino, ACM, vinilo y acrílico dental."
+        },
+        {
+          "title": "¿Qué?",
+          "text": "Una mesa de futbolito hecha a partir de materiales no convencionales."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "",
+          "text": ""
+        },
+        "next": {
+          "url": "",
+          "text": ""
+        }
+      }
+    },
+    {
+      "id": "12",
+      "url": "/dispensadores.html",
+      "title": "Dispensadores de Papelería",
+      "featureImage": {
+        "src": "12a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "12b.png",
+          "alt": "",
+          "caption": "Se estudiaron los movimientos del operario para determinar causas de fatiga o molestia."
+        },
+        {
+          "src": "12c.png",
+          "alt": "",
+          "caption": "Las dimensiones de los dispensadores se definieron a partir de las tablas ergonómicas de ACOPLA."
+        },
+        {
+          "src": "12d.png",
+          "alt": "",
+          "caption": "Se usan ruedas para facilitar el transporte de los materiales, y un resorte para elevar la papelería."
+        },
+        {
+          "src": "12e.png",
+          "alt": "",
+          "caption": "El operario de la máquina empacadora actualmente carga la papelería de un lado al otro y la coloca sobre un tubo de cartón."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": "Comprender la ergonomía."
+        },
+        {
+          "title": "¿Cómo?",
+          "text": "Rediseñar un puesto de trabajo en una empresa de cuadernos."
+        },
+        {
+          "title": "¿Qué?",
+          "text": "Dispensadores móviles de papelería para el operario de la máquina empacadora."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "",
+          "text": ""
+        },
+        "next": {
+          "url": "",
+          "text": ""
+        }
+      }
+    }
+  ]
 }
