@@ -290,7 +290,9 @@ let buildImgs = function (done) {
             imagemin.gifsicle({interlaced: true}),
             imagemin.jpegtran({progressive: true}),
             imagemin.optipng({optimizationLevel: 5}),
-        ])))
+        ], {
+            verbose: true
+        })))
         .pipe(dest(paths.imgs.output));
 
     // Signal completion

@@ -17,8 +17,13 @@ a.navbar-item {
 a.navbar-item:last-child {
   margin-right: 0;
 }
+a.navbar-item,
+a.navbar-item.is-active {
+  color: #787878;
+}
 
-a.navbar-item:hover {
+a.navbar-item:hover,
+a.navbar-item.is-active:hover {
   color: #000;
   text-decoration: none;
   background-color: #fff;
@@ -139,6 +144,10 @@ a.navbar-item.active:hover {
   margin-bottom: 3rem;
 }
 
+.descr {
+  min-width: 300px;
+}
+
 .descr-title {
   font-size: 1.5rem;
   font-weight: 500;
@@ -251,5 +260,15 @@ a.navbar-item.active:hover {
 
   .header-logo.is-active {
     opacity: 0;
+  }
+
+  .feature-img-col {
+    max-width: 58%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .feature-img-col {
+    max-width: 100%;
   }
 }

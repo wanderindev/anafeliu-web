@@ -5,15 +5,17 @@
         <div class="column is-full has-text-centered">
             <h1 class="page-title">{{page.title}}</h1>
         </div>
-        <div class="column is-two-thirds-tablet">
+        <div class="feature-img-col column is-narrow-tablet">
             <img class="feature-img" src="/img/{{page.featureImage.src}}" alt="{{page.featureImage.alt}}">
         </div>
-        <div class="column is-one-thirds-tablet has-text-centered-mobile">
+        <div class="descr column has-text-centered-mobile">
             {% for description in page.descriptions %}
             <h3 class="descr-title">{{description.title}}</h3>
             <p class="descr-text">{{description.text}}</p>
             {% endfor %}
         </div>
+    </div>
+    <div class="columns is-variable is-8 is-multiline">
         {% for image in page.images %}
         <div class="column is-half-tablet has-text-centered-mobile">
             <img class="product-img" src="/img/{{image.src}}" alt="{{image.alt}}">

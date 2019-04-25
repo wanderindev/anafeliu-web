@@ -22,68 +22,408 @@
     "products": [
       {
         "img": "1",
-        "url": "",
+        "url": "/organizador.html",
         "alt": ""
       },
       {
         "img": "2",
-        "url": "",
+        "url": "/amplificador.html",
         "alt": ""
       },
       {
         "img": "3",
-        "url": "",
+        "url": "/mesa10.html",
         "alt": ""
       },
       {
         "img": "4",
-        "url": "",
+        "url": "/scooter.html",
         "alt": ""
       },
       {
         "img": "5",
-        "url": "",
+        "url": "/tapondeldarien.html",
         "alt": ""
       },
       {
         "img": "6",
-        "url": "",
+        "url": "/lotuslamp.html",
         "alt": ""
       },
       {
         "img": "7",
-        "url": "",
+        "url": "/wabisabi.html",
         "alt": ""
       },
       {
         "img": "8",
-        "url": "",
+        "url": "/fororomano.html",
         "alt": ""
       },
       {
         "img": "9",
-        "url": "",
+        "url": "/kibo.html",
         "alt": ""
       },
       {
         "img": "10",
-        "url": "",
+        "url": "/futbolito.html",
         "alt": ""
       },
       {
         "img": "11",
-        "url": "",
+        "url": "/sunrise.html",
         "alt": ""
       },
       {
         "img": "12",
-        "url": "",
+        "url": "/dispensadores.html",
         "alt": ""
       }
     ]
   },
 
   "productPages": [
+    {
+      "id": "1",
+      "url": "/organizador.html",
+      "title": "Organizador de Escritorio",
+      "featureImage": {
+        "src": "1a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "1b.png",
+          "alt": "",
+          "caption": "El organizador cuenta con dos compartimientos principales para guardar utensilios."
+        },
+        {
+          "src": "1c.png",
+          "alt": "",
+          "caption": "Se hizo con varias capas de cartón en serie que se doblaron y se pegaron entre sí."
+        },
+        {
+          "src": "1d.png",
+          "alt": "",
+          "caption": "En los bordes hay magnetos para mantenerlas unidas o usarlas separadas."
+        },
+        {
+          "src": "1e.png",
+          "alt": "",
+          "caption": "Se cubrió todo con masilla automotriz y se lijó para darle un acabado que imita al plástico. Finalmente, se pintó."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": "Conocer formas de utilizar el cartón."
+        },
+        {
+          "title": "¿Cómo?",
+          "text": "Diseñar un organizador de escritorio."
+        },
+        {
+          "title": "¿Qué?",
+          "text": "Organizador con cierre magnético hecho con cartón doblado y masilla automotriz."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "",
+          "text": ""
+        },
+        "next": {
+          "url": "",
+          "text": ""
+        }
+      }
+    },
+    {
+      "id": "2",
+      "url": "/amplificador.html",
+      "title": "Amplificador",
+      "featureImage": {
+        "src": "2a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "2b.png",
+          "alt": "",
+          "caption": "El amplificador está compuesto por seis marcos de madera acomodados por tamaño."
+        },
+        {
+          "src": "2c.png",
+          "alt": "",
+          "caption": "La primera caja de resonancia hace que rebote el sonido, mientras que el resto de los marcos lo guían hacia el usuario."
+        },
+        {
+          "src": "2d.png",
+          "alt": "",
+          "caption": "El ángulo de rotación de los marcos crean una estética dinámica e interesante."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": "Aprovechar los retazos de un material."
+        },
+        {
+          "title": "¿Cómo?",
+          "text": "Fabricar un objeto para el hogar."
+        },
+        {
+          "title": "¿Qué?",
+          "text": "Amplificador pasivo para celulares."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "",
+          "text": ""
+        },
+        "next": {
+          "url": "",
+          "text": ""
+        }
+      }
+    },
+    {
+      "id": "3",
+      "url": "/mesa10.html",
+      "title": "Mesa 10",
+      "featureImage": {
+        "src": "3a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "3b.png",
+          "alt": "",
+          "caption": "Primero exploré haciendo diferentes pliegues y formas para probar las resistencias."
+        },
+        {
+          "src": "3c.png",
+          "alt": "",
+          "caption": "Me basé en el trapezio y el triángulo porque creaban la mejor estructura."
+        },
+        {
+          "src": "3d.png",
+          "alt": "",
+          "caption": "Quería aprovechar las cualidades del material. La fabricación y el transporte del cartón son muy económicos por ser tan liviano y porque se puede enviar flat para ensamblar en sitio."
+        },
+        {
+          "src": "3e.png",
+          "alt": "",
+          "caption": "Decidí hacer un escritorio escolar para zonas rurales ya que se pueden sacar, guardar, decorar y acomodar muy fácilmente."
+        },
+        {
+          "src": "3f.png",
+          "alt": "",
+          "caption": "La superficie tiene un ángulo de inclinación de 10 grados para que el usuario mantenga una buena postura sin fatiga."
+        },
+        {
+          "src": "3g.png",
+          "alt": "",
+          "caption": "Las patas también tienen un ángulo hacia afuera para que toda la pieza comparta el mismo lenguaje estético."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": "Explorar el potencial del cartón como material."
+        },
+        {
+          "title": "¿Cómo?",
+          "text": "Diseñar mobiliario de cartón que se ensamble sin utilizar pegamento y cuyo embalaje sea plano."
+        },
+        {
+          "title": "¿Qué?",
+          "text": "Un escritorio de cartón para escuelas en zonas rurales."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "",
+          "text": ""
+        },
+        "next": {
+          "url": "",
+          "text": ""
+        }
+      }
+    },
+    {
+      "id": "4",
+      "url": "/wabisabi.html",
+      "title": "Silla Wabi-Sabi",
+      "featureImage": {
+        "src": "4a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "4b.png",
+          "alt": "",
+          "caption": "Para esta silla conseguí un pallet usado y lo desarmé. De aquí se originan formalmente las cintas horizontales adelante y atrás."
+        },
+        {
+          "src": "4c.png",
+          "alt": "",
+          "caption": "El pallet tenía sellos y marcas que no oculté, pues la belleza proviene de poder trazar la historia de la pieza y su transformación."
+        },
+        {
+          "src": "4d.png",
+          "alt": "",
+          "caption": "Los rellenos los hice forrando espuma y madera con tela."
+        },
+        {
+          "src": "4e.png",
+          "alt": "",
+          "caption": "En Japón se reparan piezas cerámicas con oro y se admira el arte de la reparación. A esto se le llama wabi-sabi."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": "Estudiar la silla como elemento de diseño y sus medidas ergonómicas."
+        },
+        {
+          "title": "¿Cómo?",
+          "text": "Diseñar y construir una silla a partir de un 80% de materiales reciclados."
+        },
+        {
+          "title": "¿Qué?",
+          "text": "Silla inspirada en el concepto japonés centrado en la belleza de lo impermanente, imperfecto e incompleto."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "",
+          "text": ""
+        },
+        "next": {
+          "url": "",
+          "text": ""
+        }
+      }
+    },
+    {
+      "id": "5",
+      "url": "/scooter.html",
+      "title": "Scooter PVC",
+      "featureImage": {
+        "src": "5a.gif",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "5b.png",
+          "alt": "",
+          "caption": "Decidí utilizar PVC para que los niños armen y se apropien de su scooter, ya que es similar a construir con LEGOs."
+        },
+        {
+          "src": "5c.png",
+          "alt": "",
+          "caption": "El contorno del manual de instrucciones tiene la forma de la tabla para que solo se tenga que trazar sobre madera, lijar los bordes y pegar el grip en el patrón que se quiera."
+        },
+        {
+          "src": "5d.png",
+          "alt": "",
+          "caption": "El manual de instrucciones se puede descargar de internet y explica todo el proceso gráficamente sin necesidad de leer."
+        },
+        {
+          "src": "5e.png",
+          "alt": "",
+          "caption": "No presenta ningún problema si el usuario tienen que hacer ajustes a las medidas, y se pueden pintar las piezas."
+        },
+        {
+          "src": "5f.png",
+          "alt": "",
+          "caption": "Diseñar es rediseñar. El PVC se presta para realizar modificaciones estéticas y que cada usuario personalice su scooter."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": "Repensar productos caros y ofrecer soluciones asequibles."
+        },
+        {
+          "title": "¿Cómo?",
+          "text": "Diseñar transporte para niños en zonas de bajos recursos e impulsarlos a hacer deporte."
+        },
+        {
+          "title": "¿Qué?",
+          "text": "Un scooter con estructura de PVC para que los usuarios puedan construirlo y modificarlo fácilmente por su cuenta."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "",
+          "text": ""
+        },
+        "next": {
+          "url": "",
+          "text": ""
+        }
+      }
+    },
+    {
+      "id": "9",
+      "url": "/kibo.html",
+      "title": "Lámpara Kibo",
+      "featureImage": {
+        "src": "9a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "9b.png",
+          "alt": "",
+          "caption": "Está es la fórmula asignada."
+        },
+        {
+          "src": "9c.png",
+          "alt": "",
+          "caption": "Mood board a partir de la fórmula."
+        },
+        {
+          "src": "9d.png",
+          "alt": "",
+          "caption": "El tubo del centro representa un tronco y los discos son las copas de los árboles. Sin embargo, la transparencia del material simboliza que los árboles están desapareciendo, producto de la deforestación."
+        },
+        {
+          "src": "9e.png",
+          "alt": "",
+          "caption": "Se desarmó un xilófono y se colgó para simular una campanilla, típica en las casas de campo. Por lo tanto, cuando sopla el viento la lámpara suena.  Finalmente, su forma circular hace alusión al reloj y el movimiento cíclico del tiempo."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": "Involucrar los sentidos en una experiencia de diseño."
+        },
+        {
+          "title": "¿Cómo?",
+          "text": "Diseñar un objeto de iluminación utilizando una fórmula de 10 componentes aleatorios que se deben incorporar de alguna manera."
+        },
+        {
+          "title": "¿Qué?",
+          "text": "Lámpara Kibo que invita al usuario a interactuar y crear sonidos. Kibo es uno de los tres picos volcánicos del Kilimanjaro. Su nombre proviene del Swahili “Kilima” o montaña, y “Njaro” o brillante."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "",
+          "text": ""
+        },
+        "next": {
+          "url": "",
+          "text": ""
+        }
+      }
+    },
     {
       "id": "10",
       "url": "/futbolito.html",
@@ -121,7 +461,7 @@
         {
           "src": "10g.png",
           "alt": "",
-          "caption": ""
+          "caption": "Las marcas blancas de la cancha se hicieron con vinilo blanco y los tubos son de acero inoxidable con agarraderas talladas de madera."
         }
       ],
       "descriptions": [
@@ -136,6 +476,61 @@
         {
           "title": "¿Qué?",
           "text": "Una mesa de futbolito hecha a partir de materiales no convencionales."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "",
+          "text": ""
+        },
+        "next": {
+          "url": "",
+          "text": ""
+        }
+      }
+    },
+    {
+      "id": "11",
+      "url": "/sunrise.html",
+      "title": "Lámpara Sunrise",
+      "featureImage": {
+        "src": "11a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "11b.png",
+          "alt": "",
+          "caption": "La lámpara está hecha de madera balsa con una estética ligera y limpia."
+        },
+        {
+          "src": "11c.png",
+          "alt": "",
+          "caption": "Adentro están los LEDs que iluminan de forma indirecta a través de una ventana cubierta con papel pergamino."
+        },
+        {
+          "src": "11d.png",
+          "alt": "",
+          "caption": "El logo del producto es una persona realizando la posición de yoga del saludo al sol."
+        },
+        {
+          "src": "11e.png",
+          "alt": "",
+          "caption": "Cuando no se usa, está cerrada. Para abrirla, sólo se empuja suavemente y la lámpara se mantiene en equilibrio."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": "Comprender principios físicos y su uso en el diseño de producto."
+        },
+        {
+          "title": "¿Cómo?",
+          "text": "Aplicar el concepto de equilibrio en un objeto cotidiano."
+        },
+        {
+          "title": "¿Qué?",
+          "text": "Una lámpara de escritorio que se balancea."
         }
       ],
       "navigation": {
