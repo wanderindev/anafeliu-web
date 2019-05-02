@@ -22,62 +22,62 @@
     "products": [
       {
         "img": "1",
-        "url": "/organizador.html",
+        "url": "productos/organizador.html",
         "alt": ""
       },
       {
         "img": "2",
-        "url": "/amplificador.html",
+        "url": "productos/amplificador.html",
         "alt": ""
       },
       {
         "img": "3",
-        "url": "/mesa10.html",
+        "url": "productos/mesa10.html",
         "alt": ""
       },
       {
         "img": "4",
-        "url": "/scooter.html",
+        "url": "productos/scooter.html",
         "alt": ""
       },
       {
         "img": "5",
-        "url": "/tapondeldarien.html",
+        "url": "productos/tapondeldarien.html",
         "alt": ""
       },
       {
         "img": "6",
-        "url": "/lotuslamp.html",
+        "url": "productos/lotuslamp.html",
         "alt": ""
       },
       {
         "img": "7",
-        "url": "/wabisabi.html",
+        "url": "productos/wabisabi.html",
         "alt": ""
       },
       {
         "img": "8",
-        "url": "/fororomano.html",
+        "url": "productos/fororomano.html",
         "alt": ""
       },
       {
         "img": "9",
-        "url": "/kibo.html",
+        "url": "productos/kibo.html",
         "alt": ""
       },
       {
         "img": "10",
-        "url": "/futbolito.html",
+        "url": "productos/futbolito.html",
         "alt": ""
       },
       {
         "img": "11",
-        "url": "/sunrise.html",
+        "url": "productos/sunrise.html",
         "alt": ""
       },
       {
         "img": "12",
-        "url": "/dispensadores.html",
+        "url": "productos/dispensadores.html",
         "alt": ""
       }
     ]
@@ -86,7 +86,7 @@
   "productPages": [
     {
       "id": "1",
-      "url": "/organizador.html",
+      "url": "productos/organizador.html",
       "title": "Organizador de Escritorio",
       "featureImage": {
         "src": "1a.png",
@@ -141,7 +141,7 @@
     },
     {
       "id": "2",
-      "url": "/amplificador.html",
+      "url": "productos/amplificador.html",
       "title": "Amplificador",
       "featureImage": {
         "src": "2a.png",
@@ -191,7 +191,7 @@
     },
     {
       "id": "3",
-      "url": "/mesa10.html",
+      "url": "productos/mesa10.html",
       "title": "Mesa 10",
       "featureImage": {
         "src": "3a.png",
@@ -256,7 +256,7 @@
     },
     {
       "id": "4",
-      "url": "/wabisabi.html",
+      "url": "productos/wabisabi.html",
       "title": "Silla Wabi-Sabi",
       "featureImage": {
         "src": "4a.png",
@@ -311,7 +311,7 @@
     },
     {
       "id": "5",
-      "url": "/scooter.html",
+      "url": "productos/scooter.html",
       "title": "Scooter PVC",
       "featureImage": {
         "src": "5a.gif",
@@ -371,7 +371,7 @@
     },
     {
       "id": "9",
-      "url": "/kibo.html",
+      "url": "productos/kibo.html",
       "title": "Lámpara Kibo",
       "featureImage": {
         "src": "9a.png",
@@ -426,7 +426,7 @@
     },
     {
       "id": "10",
-      "url": "/futbolito.html",
+      "url": "productos/futbolito.html",
       "title": "Mesa de Futbolito",
       "featureImage": {
         "src": "10a.png",
@@ -491,7 +491,7 @@
     },
     {
       "id": "11",
-      "url": "/sunrise.html",
+      "url": "productos/sunrise.html",
       "title": "Lámpara Sunrise",
       "featureImage": {
         "src": "11a.png",
@@ -546,7 +546,7 @@
     },
     {
       "id": "12",
-      "url": "/dispensadores.html",
+      "url": "productos/dispensadores.html",
       "title": "Dispensadores de Papelería",
       "featureImage": {
         "src": "12a.png",

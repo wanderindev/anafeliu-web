@@ -26,6 +26,10 @@ let paths = {
         cssSrc: 'src/sass/*.{sass,scss}',
         jsSrc: 'src/js/*.js',
     },
+    renderProducts: {
+        input: 'src/templates/productos/*.njk',
+        output: 'dist/productos'
+    },
     scripts: {
         input: 'src/js/*',
         polyfills: '.polyfill.js',
@@ -149,7 +153,7 @@ let renderTempls = function(done) {
     let cssSources = src(paths.render.cssSrc).pipe(rename({dirname: 'css', extname: '.css'}));
     let jsSources = src(paths.render.jsSrc, {read: false});
 
-    // Render the templates
+    // Render the root templates
     src(paths.render.input)
         .pipe(data(function() {
             return JSON.parse(fs.readFileSync(paths.render.data).toString());
@@ -163,6 +167,19 @@ let renderTempls = function(done) {
         .pipe(inject(jsSources, {relative: true, ignorePath: '../src/'}))
         .pipe(dest(paths.render.output));
 
+    // Render the product templates
+    src(paths.renderProducts.input)
+        .pipe(data(function() {
+            return JSON.parse(fs.readFileSync(paths.render.data).toString());
+        }))
+        .pipe(nunjucks({
+            path: [paths.render.partials]
+        }))
+        .pipe(dest(paths.renderProducts.output))
+        .pipe(inject(cssSources, {relative: true, addPrefix: '..', ignorePath: '../../src/sass/'}))
+        .pipe(dest(paths.renderProducts.output))
+        .pipe(inject(jsSources, {relative: true, addPrefix: '..', ignorePath: '../../src/'}))
+        .pipe(dest(paths.renderProducts.output));
 
     // Signal completion
     done();
@@ -291,7 +308,7 @@ let buildImgs = function (done) {
             imagemin.jpegtran({progressive: true}),
             imagemin.optipng({optimizationLevel: 5}),
         ], {
-            verbose: true
+            verbose: false
         })))
         .pipe(dest(paths.imgs.output));
 
