@@ -338,7 +338,8 @@
         {
           "src": "5d.png",
           "alt": "",
-          "caption": "El manual de instrucciones se puede descargar de internet y explica todo el proceso gráficamente sin necesidad de leer."
+          "caption": "El manual de instrucciones se puede descargar de internet y explica todo el proceso gráficamente sin necesidad de leer.",
+          "doubleWidth": true
         },
         {
           "src": "5e.png",

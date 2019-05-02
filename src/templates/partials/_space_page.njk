@@ -17,10 +17,17 @@
     </div>
     <div class="columns is-variable is-8 is-multiline">
         {% for image in page.images %}
-            <div class="column is-half-tablet has-text-centered-mobile">
-                <img class="product-img" src="../img/{{image.src}}" alt="{{image.alt}}">
-                <p class="img-caption">{{image.caption}}</p>
-            </div>
+        {% if image.doubleWidth %}
+        <div class="column is-half-tablet has-text-centered-mobile">
+            <img class="product-img" src="../img/{{image.src}}" alt="{{image.alt}}">
+            <p class="img-caption">{{image.caption}}</p>
+        </div>
+        {% else %}
+        <div class="column is-half-tablet has-text-centered-mobile">
+            <img class="product-img" src="../img/{{image.src}}" alt="{{image.alt}}">
+            <p class="img-caption">{{image.caption}}</p>
+        </div>
+        {%  endif %}
         {% endfor %}
         {%  endif %}
         {% endfor %}
