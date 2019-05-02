@@ -30,6 +30,10 @@ let paths = {
         input: 'src/templates/productos/*.njk',
         output: 'dist/productos'
     },
+    renderSpaces: {
+        input: 'src/templates/espacios/*.njk',
+        output: 'dist/espacios'
+    },
     scripts: {
         input: 'src/js/*',
         polyfills: '.polyfill.js',
@@ -181,6 +185,20 @@ let renderTempls = function(done) {
         .pipe(inject(jsSources, {relative: true, addPrefix: '..', ignorePath: '../../src/'}))
         .pipe(dest(paths.renderProducts.output));
 
+    // Render the space templates
+    src(paths.renderSpaces.input)
+        .pipe(data(function() {
+            return JSON.parse(fs.readFileSync(paths.render.data).toString());
+        }))
+        .pipe(nunjucks({
+            path: [paths.render.partials]
+        }))
+        .pipe(dest(paths.renderSpaces.output))
+        .pipe(inject(cssSources, {relative: true, addPrefix: '..', ignorePath: '../../src/sass/'}))
+        .pipe(dest(paths.renderSpaces.output))
+        .pipe(inject(jsSources, {relative: true, addPrefix: '..', ignorePath: '../../src/'}))
+        .pipe(dest(paths.renderSpaces.output));
+
     // Signal completion
     done();
 };
@@ -303,6 +321,7 @@ let buildImgs = function (done) {
 
     // Optimize image files
     src(paths.imgs.input)
+        /*
         .pipe(cache(imagemin([
             imagemin.gifsicle({interlaced: true}),
             imagemin.jpegtran({progressive: true}),
@@ -310,6 +329,7 @@ let buildImgs = function (done) {
         ], {
             verbose: false
         })))
+        */
         .pipe(dest(paths.imgs.output));
 
     // Signal completion

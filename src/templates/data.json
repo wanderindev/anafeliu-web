@@ -80,6 +80,13 @@
         "url": "productos/dispensadores.html",
         "alt": ""
       }
+    ],
+    "spaces": [
+      {
+        "img": "302",
+        "url": "espacios/igor.html",
+        "alt": ""
+      }
     ]
   },
 
@@ -369,6 +376,63 @@
         }
       }
     },
+    {},
+    {
+      "id": "7",
+      "url": "productos/lotuslamp.html",
+      "title": "Lotus Lamp",
+      "featureImage": {
+        "src": "7a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "7b.png",
+          "alt": "",
+          "caption": "Los pétalos de la flor se abren en la mañana y se cierran al atardecer. Por esto, la flor representa el renacimiento en muchas culturas, y los egipcios la asociaban con el sol. Debido a su fuerte relación con la luz, decidí hacer una lámpara."
+        },
+        {
+          "src": "7c.png",
+          "alt": "",
+          "caption": "La iluminación proviene de diodos LED a través de un papel pergamino para generar luz indirecta y un sentimiento zen."
+        },
+        {
+          "src": "7d.png",
+          "alt": "",
+          "caption": "Los budistas asocian la flor con la pureza y el despertar espiritual, pues emergen de la mañana desde el agua turbia y se ve perfectamente limpia."
+        },
+        {
+          "src": "7e.png",
+          "alt": "",
+          "caption": "La forma fue abstraída de los pétalos cortos del centro y los largos del contorno. Cuenta con tubos internos que sirven como bisagras para aludir al movimiento de la flor."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": "Producir un objeto a partir de la forma, no la función."
+        },
+        {
+          "title": "¿Cómo?",
+          "text": "Escoger un elemento de la naturaleza y traducirlo en un objeto para el hogar."
+        },
+        {
+          "title": "¿Qué?",
+          "text": "Lámpara autoportante inspirada en la flor de loto."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "",
+          "text": ""
+        },
+        "next": {
+          "url": "",
+          "text": ""
+        }
+      }
+    },
+    {},
     {
       "id": "9",
       "url": "productos/kibo.html",
@@ -439,6 +503,11 @@
           "caption": "La estructura se hizo con tubos de hierro cuadrados."
         },
         {
+          "src": "10f.png",
+          "alt": "",
+          "caption": "Las paredes de concreto se construyeron con un molde de plywood fenólico."
+        },
+        {
           "src": "10c.png",
           "alt": "",
           "caption": "Luego de soldar los tubos, se les aplicó sellador y pintura automotriz con un compresor."
@@ -452,11 +521,6 @@
           "src": "10e.png",
           "alt": "",
           "caption": "La cancha es de ACM amarillo grafado con una ruteadora para crear las porterías."
-        },
-        {
-          "src": "10f.png",
-          "alt": "",
-          "caption": "Las paredes de concreto se construyeron con un molde de plywood fenólico."
         },
         {
           "src": "10g.png",
@@ -586,6 +650,63 @@
         {
           "title": "¿Qué?",
           "text": "Dispensadores móviles de papelería para el operario de la máquina empacadora."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "",
+          "text": ""
+        },
+        "next": {
+          "url": "",
+          "text": ""
+        }
+      }
+    }
+  ],
+  "spacePages": [
+    {
+      "id": "302",
+      "url": "espacios/igor.html",
+      "title": "Igor",
+      "featureImage": {
+        "src": "302.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "302b.png",
+          "alt": "",
+          "caption": "Mi propuesta está basada en módulos con forma de trapecio."
+        },
+        {
+          "src": "302c.png",
+          "alt": "",
+          "caption": "Se pueden crear diferentes composiciones para que los usuarios personalicen su espacio de acuerdo a cuánto producto mueven, el tipo de objetos y la estética de la marca. "
+        },
+        {
+          "src": "302d.png",
+          "alt": "",
+          "caption": "Los stands son hechos con lámina de hierro para darles un look sofisticado, esbelto y moderno."
+        },
+        {
+          "src": "302e.png",
+          "alt": "",
+          "caption": "Cada módulo tiene cierre magnético. Cuando no se usan, se saca la tablilla del medio y se desarman para un almacenaje plano eficiente."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": "Comprender las múltiples aplicaciones del diseño industrial en el mercado panameño."
+        },
+        {
+          "title": "¿Cómo?",
+          "text": "Realizar un proyecto de puestos comerciales."
+        },
+        {
+          "title": "¿Qué?",
+          "text": "Stands modulares."
         }
       ],
       "navigation": {
