@@ -87,6 +87,142 @@
         "url": "espacios/igor.html",
         "alt": ""
       }
+    ],
+    "graphics": [
+      {
+        "img": "201",
+        "url": "",
+        "alt": "",
+        "class": "is-4-tablet"
+      },
+      {
+        "img": "202",
+        "url": "",
+        "alt": "",
+        "class": "is-4-tablet"
+      },
+      {
+        "img": "203",
+        "url": "",
+        "alt": "",
+        "class": "is-4-tablet"
+      },
+      {
+        "img": "204a",
+        "url": "",
+        "alt": "",
+        "class": "is-4-tablet",
+        "style": "padding-top:134.4%"
+      },
+      {
+        "img": "205a",
+        "url": "",
+        "alt": "",
+        "class": "is-8-tablet"
+      },
+      {
+        "img": "206",
+        "url": "",
+        "alt": "",
+        "class": "is-4-tablet",
+        "style": "padding-top:150.5%"
+      },
+      {
+        "img": "207",
+        "url": "",
+        "alt": "",
+        "class": "is-4-tablet",
+        "style": "padding-top:150.5%"
+      },
+      {
+        "img": "208",
+        "url": "",
+        "alt": "",
+        "class": "is-4-tablet",
+        "style": "padding-top:150.5%"
+      },
+      {
+        "img": "209a",
+        "url": "",
+        "alt": "",
+        "class": "is-6-tablet",
+        "style": "padding-top:75%"
+      },
+      {
+        "img": "210a",
+        "url": "",
+        "alt": "",
+        "class": "is-6-tablet",
+        "style": "padding-top:75%"
+      },
+      {
+        "img": "211",
+        "url": "",
+        "alt": "",
+        "class": "is-7-tablet",
+        "style": "padding-top:50.5%"
+      },
+      {
+        "img": "212a",
+        "url": "",
+        "alt": "",
+        "class": "is-5-tablet",
+        "style": "padding-top:71%"
+      },
+      {
+        "img": "213a",
+        "url": "",
+        "alt": "",
+        "class": "is-6-tablet",
+        "style": "padding-top:56%"
+      },
+      {
+        "img": "214a",
+        "url": "",
+        "alt": "",
+        "class": "is-6-tablet",
+        "style": "padding-top:56%"
+      },
+      {
+        "img": "215a",
+        "url": "",
+        "alt": "",
+        "class": "is-3-tablet",
+        "style": "padding-top:154.32%",
+        "columnWidth": "27.5%"
+      },
+      {
+        "img": "216a",
+        "url": "",
+        "alt": "",
+        "class": "is-5-tablet",
+        "style": "padding-top:100%",
+        "columnWidth": "42.44%"
+      },
+      {
+        "img": "217a",
+        "url": "",
+        "alt": "",
+        "class": "is-4-tablet",
+        "style": "padding-top:141.24%",
+        "columnWidth": "30.05%"
+      },
+      {
+        "img": "218",
+        "url": "",
+        "alt": "",
+        "class": "is-6-tablet",
+        "style": "padding-top:120.73%",
+        "columnWidth": "46.98%"
+      },
+      {
+        "img": "219",
+        "url": "",
+        "alt": "",
+        "class": "is-6-tablet",
+        "style": "padding-top:106.96%",
+        "columnWidth": "53.02%"
+      }
     ]
   },
 
