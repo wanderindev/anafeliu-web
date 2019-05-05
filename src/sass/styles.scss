@@ -55,6 +55,31 @@ a.navbar-item.active:hover {
   background-color: #fff;
 }
 
+.column-27 {
+  width: 27.5%;
+  flex: none;
+}
+
+.column-30 {
+  width: 30.05%;
+  flex: none;
+}
+
+.column-42 {
+  width: 42.44%;
+  flex: none;
+}
+
+.column-47 {
+  width: 46.98%;
+  flex: none;
+}
+
+.column-53 {
+  width: 53.02%;
+  flex: none;
+}
+
 .image-wrapper {
   padding-bottom: 6px !important;
   padding-left: 6px !important;
@@ -370,5 +395,13 @@ a.navbar-item.active:hover {
 @media screen and (max-width: 768px) {
   .feature-img-col {
     max-width: 100%;
+  }
+
+  .column-27,
+  .column-30,
+  .column-42,
+  .column-47,
+  .column-53 {
+    width: 100%;
   }
 }

@@ -187,41 +187,36 @@
         "img": "215a",
         "url": "",
         "alt": "",
-        "class": "is-3-tablet",
-        "style": "padding-top:154.32%",
-        "columnWidth": "27.5%"
+        "class": "column-27",
+        "style": "padding-top:154.32%"
       },
       {
         "img": "216a",
         "url": "",
         "alt": "",
-        "class": "is-5-tablet",
-        "style": "padding-top:100%",
-        "columnWidth": "42.44%"
+        "class": "column-42",
+        "style": "padding-top:100%"
       },
       {
         "img": "217a",
         "url": "",
         "alt": "",
-        "class": "is-4-tablet",
-        "style": "padding-top:141.24%",
-        "columnWidth": "30.05%"
+        "class": "column-30",
+        "style": "padding-top:141.24%"
       },
       {
         "img": "218",
         "url": "",
         "alt": "",
-        "class": "is-6-tablet",
-        "style": "padding-top:120.73%",
-        "columnWidth": "46.98%"
+        "class": "column-47",
+        "style": "padding-top:120.73%"
       },
       {
         "img": "219",
         "url": "",
         "alt": "",
-        "class": "is-6-tablet",
-        "style": "padding-top:106.96%",
-        "columnWidth": "53.02%"
+        "class": "column-53",
+        "style": "padding-top:106.96%"
       }
     ]
   },
