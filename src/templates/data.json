@@ -18,7 +18,7 @@
     }
   ],
 
-  "galeries": {
+  "galleries": {
     "products": [
       {
         "img": "1",
@@ -93,130 +93,363 @@
         "img": "201",
         "url": "",
         "alt": "",
-        "class": "is-4-tablet"
+        "class": "is-4-tablet",
+        "images": [
+          "201.png"
+        ]
       },
       {
         "img": "202",
         "url": "",
         "alt": "",
-        "class": "is-4-tablet"
+        "class": "is-4-tablet",
+        "images": [
+          "202.png"
+        ]
       },
       {
         "img": "203",
         "url": "",
         "alt": "",
-        "class": "is-4-tablet"
+        "class": "is-4-tablet",
+        "images": [
+          "203.png"
+        ]
       },
       {
         "img": "204a",
         "url": "",
         "alt": "",
         "class": "is-4-tablet",
-        "style": "padding-top:134.4%"
+        "style": "padding-top:134.4%",
+        "images": [
+          "204a.png",
+          "204b.png",
+          "204c.png",
+          "204d.png"
+        ]
       },
       {
         "img": "205a",
         "url": "",
         "alt": "",
-        "class": "is-8-tablet"
+        "class": "is-8-tablet",
+        "images": [
+          "205a.png",
+          "205b.png"
+        ]
       },
       {
         "img": "206",
         "url": "",
         "alt": "",
         "class": "is-4-tablet",
-        "style": "padding-top:150.5%"
+        "style": "padding-top:150.5%",
+        "images": [
+          "206.png"
+        ]
       },
       {
         "img": "207",
         "url": "",
         "alt": "",
         "class": "is-4-tablet",
-        "style": "padding-top:150.5%"
+        "style": "padding-top:150.5%",
+        "images": [
+          "207.png"
+        ]
       },
       {
         "img": "208",
         "url": "",
         "alt": "",
         "class": "is-4-tablet",
-        "style": "padding-top:150.5%"
+        "style": "padding-top:150.5%",
+        "images": [
+          "208.png"
+        ]
       },
       {
         "img": "209a",
         "url": "",
         "alt": "",
         "class": "is-6-tablet",
-        "style": "padding-top:75%"
+        "style": "padding-top:75%",
+        "images": [
+          "209a.png",
+          "209b.png",
+          "209c.png",
+          "209d.png",
+          "209e.png",
+          "209f.png",
+          "209g.png",
+          "209h.png",
+          "209i.png",
+          "209j.png",
+          "209k.png",
+          "209l.png",
+          "209m.png",
+          "209n.png",
+          "209o.png",
+          "209p.png",
+          "209q.png",
+          "209r.png",
+          "209s.png",
+          "209t.png",
+          "209u.png",
+          "209v.png",
+          "209w.png",
+          "209x.png",
+          "209y.png",
+          "209z.png",
+          "209za.png",
+          "209zb.png",
+          "209zc.png",
+          "209zd.png"
+        ]
       },
       {
         "img": "210a",
         "url": "",
         "alt": "",
         "class": "is-6-tablet",
-        "style": "padding-top:75%"
+        "style": "padding-top:75%",
+        "images": [
+          "210a.png",
+          "210b.png",
+          "210c.png",
+          "210d.png",
+          "210e.png",
+          "210f.png",
+          "210g.png",
+          "210h.png",
+          "210i.png",
+          "210j.png",
+          "210k.png",
+          "210l.png",
+          "210m.png",
+          "210n.png",
+          "210o.png",
+          "210p.png",
+          "210q.png",
+          "210r.png",
+          "210s.png",
+          "210t.png",
+          "210u.png",
+          "210v.png",
+          "210w.png",
+          "210x.png",
+          "210y.png",
+          "210z.png",
+          "210za.png",
+          "210zb.png",
+          "210zc.png",
+          "210zd.png"
+        ]
       },
       {
         "img": "211",
         "url": "",
         "alt": "",
         "class": "is-7-tablet",
-        "style": "padding-top:50.5%"
+        "style": "padding-top:50.5%",
+        "images": [
+          "211.png"
+        ]
       },
       {
         "img": "212a",
         "url": "",
         "alt": "",
         "class": "is-5-tablet",
-        "style": "padding-top:71%"
+        "style": "padding-top:71%",
+        "images": [
+          "212a.png",
+          "212b.png",
+          "212c.png",
+          "212d.png",
+          "212e.png",
+          "212f.png",
+          "212g.png",
+          "212h.png",
+          "212i.png",
+          "212j.png",
+          "212k.png",
+          "212l.png",
+          "212m.png",
+          "212n.png",
+          "212o.png",
+          "212p.png"
+        ]
       },
       {
         "img": "213a",
         "url": "",
         "alt": "",
         "class": "is-6-tablet",
-        "style": "padding-top:56%"
+        "style": "padding-top:56%",
+        "images": [
+          "213a.png",
+          "213b.png",
+          "213c.png",
+          "213d.png",
+          "213e.png",
+          "213f.png",
+          "213g.png",
+          "213h.png",
+          "213i.png",
+          "213j.png",
+          "213k.png",
+          "213l.png",
+          "213m.png",
+          "213n.png",
+          "213o.png",
+          "213p.png",
+          "213q.png",
+          "213r.png",
+          "213s.png"
+        ]
       },
       {
         "img": "214a",
         "url": "",
         "alt": "",
         "class": "is-6-tablet",
-        "style": "padding-top:56%"
+        "style": "padding-top:56%",
+        "images": [
+          "203a.png",
+          "203b.png",
+          "203c.png",
+          "203d.png",
+          "203e.png",
+          "203f.png",
+          "203g.png",
+          "203h.png",
+          "203i.png",
+          "203j.png",
+          "203k.png",
+          "203l.png",
+          "203m.png",
+          "203n.png",
+          "203o.png",
+          "203p.png",
+          "203q.png",
+          "203r.png",
+          "203s.png",
+          "203t.png",
+          "203u.png",
+          "203v.png",
+          "203w.png",
+          "203x.png",
+          "203y.png",
+          "203z.png",
+          "203za.png",
+          "203zb.png",
+          "203zc.png",
+          "203zd.png",
+          "203ze.png",
+          "203zf.png",
+          "203zg.png",
+          "203zh.png",
+          "203zi.png",
+          "203zj.png",
+          "203zk.png",
+          "203zl.png",
+          "203zm.png",
+          "203zn.png",
+          "203zo.png",
+          "203zp.png",
+          "203zq.png",
+          "203zr.png",
+          "203zs.png",
+          "203zt.png",
+          "203zu.png",
+          "203zv.png",
+          "203zw.png",
+          "203zx.png",
+          "203zy.png",
+          "203zz.png",
+          "203zza.png",
+          "203zzb.png",
+          "203zzc.png",
+          "203zzd.png",
+          "203zze.png",
+          "203zzf.png",
+          "203zzg.png",
+          "203zzh.png",
+          "203zzi.png",
+          "203zzj.png"
+        ]
       },
       {
         "img": "215a",
         "url": "",
         "alt": "",
         "class": "column-27",
-        "style": "padding-top:154.32%"
+        "style": "padding-top:154.32%",
+        "images": [
+          "215a.png",
+          "215b.png",
+          "215c.png",
+          "215d.png",
+          "215e.png"
+        ]
       },
       {
         "img": "216a",
         "url": "",
         "alt": "",
         "class": "column-42",
-        "style": "padding-top:100%"
+        "style": "padding-top:100%",
+        "images": [
+          "216a.png",
+          "216b.png",
+          "216c.png",
+          "216d.png",
+          "216e.png",
+          "216f.png",
+          "216g.png",
+          "216h.png",
+          "216i.png",
+          "216j.png",
+          "216k.png",
+          "216l.png"
+        ]
       },
       {
         "img": "217a",
         "url": "",
         "alt": "",
         "class": "column-30",
-        "style": "padding-top:141.24%"
+        "style": "padding-top:141.24%",
+        "images": [
+          "217a.png",
+          "217b.png",
+          "217c.png",
+          "217d.png",
+          "217e.png",
+          "217f.png"
+        ]
       },
       {
         "img": "218",
         "url": "",
         "alt": "",
         "class": "column-47",
-        "style": "padding-top:120.73%"
+        "style": "padding-top:120.73%",
+        "images": [
+          "218.png"
+        ]
       },
       {
         "img": "219",
         "url": "",
         "alt": "",
         "class": "column-53",
-        "style": "padding-top:106.96%"
+        "style": "padding-top:106.96%",
+        "images": [
+          "219.png"
+        ]
       }
     ]
   },

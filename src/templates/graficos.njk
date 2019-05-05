@@ -1,16 +1,26 @@
 {% set page = 'Gráficos' %}
 {% set pathToRoot = '' %}
 {% extends "_base.njk" %}
+{%  block styles %}
+    <link rel="stylesheet" type="text/css"
+          href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+{% endblock %}
 {% block content %}
     <div class="container">
         <div class="columns is-multiline">
-            {% for item in galeries.graphics %}
+            {% for item in galleries.graphics %}
                 <div class="column {{item.class}}">
-                    <a class="image-trigger image-{{item.img}}" href="{{item.url}}" style="{{item.style}};">
+                    <a class="image-trigger image-{{item.img}}"
+                       style="{{item.style}};"
+                       onclick="app.openFB({{loop.index}})">
                         <img class="thumb-img" src="img/{{item.img}}.png" alt="{{item.alt}}">
                     </a>
                 </div>
             {% endfor %}
         </div>
     </div>
+{% endblock %}
+{%  block scripts %}
+<!-- Fancybox -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 {% endblock %}
