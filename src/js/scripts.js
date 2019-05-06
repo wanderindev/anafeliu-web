@@ -49,16 +49,23 @@
         });
 
         app.openFB = function(index){
-            let imgs = app.siteData["galleries"]["graphics"][index - 1]["images"];
+            let imgs = app.siteData.galleries.graphics[index - 1].images;
+            let iframe = app.siteData.galleries.graphics[index - 1].iframe;
             let fbItems = [];
 
-            // Builds a list of images to be displayed.
-            imgs.forEach(function(img) {
+            if (imgs) {
+                imgs.forEach(function(img) {
+                    fbItems.push({
+                        src: "img/" + img,
+                        type: "image"
+                    });
+                });
+            } else {
                 fbItems.push({
-                    src: "img/" + img,
-                    type: "image"
-                })
-            });
+                    src: iframe,
+                    type: "iframe"
+                });
+            }
 
             console.log(fbItems);
             $.fancybox.open(fbItems);

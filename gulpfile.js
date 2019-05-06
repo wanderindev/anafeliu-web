@@ -122,7 +122,7 @@ let imagemin = require('gulp-imagemin');
 let svgmin = require('gulp-svgmin');
 
 // BrowserSync
-let browserSync = require('browser-sync');
+let browserSync = require('browser-sync').create();
 
 /**
  * Gulp Tasks
@@ -376,8 +376,13 @@ let startServer = function (done) {
 
     // Initialize BrowserSync
     browserSync.init({
+        cors: true,
         server: {
-            baseDir: paths.reload
+            baseDir: paths.reload,
+            middleware: function (req, res, next) {
+                res.setHeader('Access-Control-Allow-Origin', '*');
+                next();
+            }
         }
     });
 
