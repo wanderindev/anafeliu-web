@@ -101,12 +101,13 @@ let nunjucks = require('gulp-nunjucks-render');
 let data = require('gulp-data');
 let fs = require('fs');
 let inject = require('gulp-inject');
+let htmlmin = require('gulp-htmlmin');
 
 // Scripts
 let jshint = require('gulp-jshint');
 let stylish = require('jshint-stylish');
 let concat = require('gulp-concat');
-//let uglify = require('gulp-uglify');
+let uglify = require('gulp-uglify-es').default;
 let optimizejs = require('gulp-optimize-js');
 //let babel = require('gulp-babel');
 
@@ -116,7 +117,7 @@ let prefix = require('gulp-autoprefixer');
 let minify = require('gulp-cssnano');
 
 // Imgs
-let imagemin = require('gulp-imagemin');
+//let imagemin = require('gulp-imagemin');
 
 // SVGs
 let svgmin = require('gulp-svgmin');
@@ -154,8 +155,8 @@ let renderTempls = function(done) {
     if (!settings.render) return done();
 
     // Define css and js sources to inject into html files.
-    let cssSources = src(paths.render.cssSrc).pipe(rename({dirname: 'css', extname: '.css'}));
-    let jsSources = src(paths.render.jsSrc, {read: false});
+    let cssSources = src(paths.render.cssSrc).pipe(rename({dirname: 'css', extname: '.min.css'}));
+    let jsSources = src(paths.render.jsSrc, {read: false}).pipe(rename({extname: '.min.js'}));
 
     // Render the root templates
     src(paths.render.input)
@@ -169,6 +170,7 @@ let renderTempls = function(done) {
         .pipe(inject(cssSources, {relative: true, ignorePath: '../src/sass/'}))
         .pipe(dest(paths.render.output))
         .pipe(inject(jsSources, {relative: true, ignorePath: '../src/'}))
+        .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(dest(paths.render.output));
 
     // Render the product templates
@@ -183,6 +185,7 @@ let renderTempls = function(done) {
         .pipe(inject(cssSources, {relative: true, addPrefix: '..', ignorePath: '../../src/sass/'}))
         .pipe(dest(paths.renderProducts.output))
         .pipe(inject(jsSources, {relative: true, addPrefix: '..', ignorePath: '../../src/'}))
+        .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(dest(paths.renderProducts.output));
 
     // Render the space templates
@@ -197,6 +200,7 @@ let renderTempls = function(done) {
         .pipe(inject(cssSources, {relative: true, addPrefix: '..', ignorePath: '../../src/sass/'}))
         .pipe(dest(paths.renderSpaces.output))
         .pipe(inject(jsSources, {relative: true, addPrefix: '..', ignorePath: '../../src/'}))
+        .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(dest(paths.renderSpaces.output));
 
     // Signal completion
@@ -210,7 +214,7 @@ let jsTasks = lazypipe()
     .pipe(optimizejs)
     .pipe(dest, paths.scripts.output)
     .pipe(rename, {suffix: '.min'})
-    //.pipe(uglify)
+    .pipe(uglify)
     .pipe(optimizejs)
     .pipe(header, banner.min, {package: _package})
     .pipe(dest, paths.scripts.output);
@@ -378,11 +382,7 @@ let startServer = function (done) {
     browserSync.init({
         cors: true,
         server: {
-            baseDir: paths.reload,
-            middleware: function (req, res, next) {
-                res.setHeader('Access-Control-Allow-Origin', '*');
-                next();
-            }
+            baseDir: paths.reload
         }
     });
 
