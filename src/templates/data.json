@@ -32,7 +32,7 @@
       },
       {
         "img": "3",
-        "url": "productos/mesa10.html",
+        "url": "productos/mesa-10.html",
         "alt": ""
       },
       {
@@ -42,22 +42,22 @@
       },
       {
         "img": "5",
-        "url": "productos/tapondeldarien.html",
+        "url": "productos/tapon-del-darien.html",
         "alt": ""
       },
       {
         "img": "6",
-        "url": "productos/lotuslamp.html",
+        "url": "productos/lotus-lamp.html",
         "alt": ""
       },
       {
         "img": "7",
-        "url": "productos/wabisabi.html",
+        "url": "productos/wabi-sabi.html",
         "alt": ""
       },
       {
         "img": "8",
-        "url": "productos/fororomano.html",
+        "url": "productos/foro-romano.html",
         "alt": ""
       },
       {
@@ -78,13 +78,6 @@
       {
         "img": "12",
         "url": "productos/dispensadores.html",
-        "alt": ""
-      }
-    ],
-    "spaces": [
-      {
-        "img": "302",
-        "url": "espacios/igor.html",
         "alt": ""
       }
     ],
@@ -306,6 +299,23 @@
           "219.png"
         ]
       }
+    ],
+    "spaces": [
+      {
+        "img": "301",
+        "url": "espacios/sabana.html",
+        "alt": ""
+      },
+      {
+        "img": "302",
+        "url": "espacios/igor.html",
+        "alt": ""
+      },
+      {
+        "img": "303a",
+        "url": "espacios/mobiliario-urbano.html",
+        "alt": ""
+      }
     ]
   },
 
@@ -360,8 +370,8 @@
           "text": ""
         },
         "next": {
-          "url": "",
-          "text": ""
+          "url": "amplificador.html",
+          "text": "Amplificador"
         }
       }
     },
@@ -406,18 +416,18 @@
       ],
       "navigation": {
         "prev": {
-          "url": "",
-          "text": ""
+          "url": "organizador.html",
+          "text": "Organizador de Escritorio"
         },
         "next": {
-          "url": "",
-          "text": ""
+          "url": "mesa-10.html",
+          "text": "Mesa 10"
         }
       }
     },
     {
       "id": "3",
-      "url": "productos/mesa10.html",
+      "url": "productos/mesa-10.html",
       "title": "Mesa 10",
       "featureImage": {
         "src": "3a.png",
@@ -471,18 +481,18 @@
       ],
       "navigation": {
         "prev": {
-          "url": "",
-          "text": ""
+          "url": "amplificador.html",
+          "text": "Amplificador"
         },
         "next": {
-          "url": "",
-          "text": ""
+          "url": "wabi-sabi.html",
+          "text": "Silla Wabi-Sabi"
         }
       }
     },
     {
       "id": "4",
-      "url": "productos/wabisabi.html",
+      "url": "productos/wabi-sabi.html",
       "title": "Silla Wabi-Sabi",
       "featureImage": {
         "src": "4a.png",
@@ -526,12 +536,12 @@
       ],
       "navigation": {
         "prev": {
-          "url": "",
-          "text": ""
+          "url": "mesa-10.html",
+          "text": "Mesa 10"
         },
         "next": {
-          "url": "",
-          "text": ""
+          "url": "scooter.html",
+          "text": "Scooter PVC"
         }
       }
     },
@@ -587,19 +597,73 @@
       ],
       "navigation": {
         "prev": {
-          "url": "",
-          "text": ""
+          "url": "wabi-sabi.html",
+          "text": "Silla Wabi-Sabi"
         },
         "next": {
-          "url": "",
-          "text": ""
+          "url": "tapon-del-darien.html",
+          "text": "Tapón del Darién"
         }
       }
     },
-    {},
+    {
+      "id": "6",
+      "url": "productos/tapon-del-darien.html",
+      "title": "El Tapón del Darién",
+      "featureImage": {
+        "src": "6.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "src": "",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "src": "",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "src": "",
+          "alt": "",
+          "caption": ""
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": ""
+        },
+        {
+          "title": "¿Cómo?",
+          "text": ""
+        },
+        {
+          "title": "¿Qué?",
+          "text": ""
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "scooter.html",
+          "text": "Scooter PVC"
+        },
+        "next": {
+          "url": "lotus-lamp.html",
+          "text": "Lotus Lamp"
+        }
+      }
+    },
     {
       "id": "7",
-      "url": "productos/lotuslamp.html",
+      "url": "productos/lotus-lamp.html",
       "title": "Lotus Lamp",
       "featureImage": {
         "src": "7a.png",
@@ -643,16 +707,70 @@
       ],
       "navigation": {
         "prev": {
-          "url": "",
-          "text": ""
+          "url": "tapon-del-darien.html",
+          "text": "Tapón del Darién"
         },
         "next": {
-          "url": "",
-          "text": ""
+          "url": "foro-romano.html",
+          "text": "Foro Romano"
         }
       }
     },
-    {},
+    {
+      "id": "8",
+      "url": "productos/foro-romano.html",
+      "title": "Foro Romano",
+      "featureImage": {
+        "src": "8.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "src": "",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "src": "",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "src": "",
+          "alt": "",
+          "caption": ""
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": ""
+        },
+        {
+          "title": "¿Cómo?",
+          "text": ""
+        },
+        {
+          "title": "¿Qué?",
+          "text": ""
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "lotus-lamp.html",
+          "text": "Lotus Lamp"
+        },
+        "next": {
+          "url": "kibo.html",
+          "text": "Lámpara Kibo"
+        }
+      }
+    },
     {
       "id": "9",
       "url": "productos/kibo.html",
@@ -699,12 +817,12 @@
       ],
       "navigation": {
         "prev": {
-          "url": "",
-          "text": ""
+          "url": "foro-romano.html",
+          "text": "Foro Romano"
         },
         "next": {
-          "url": "",
-          "text": ""
+          "url": "futbolito.html",
+          "text": "Mesa de Futbolito"
         }
       }
     },
@@ -764,12 +882,12 @@
       ],
       "navigation": {
         "prev": {
-          "url": "",
-          "text": ""
+          "url": "kibo.html",
+          "text": "Lámpara Kibo"
         },
         "next": {
-          "url": "",
-          "text": ""
+          "url": "sunrise.html",
+          "text": "Lámpara Sunrise"
         }
       }
     },
@@ -819,12 +937,12 @@
       ],
       "navigation": {
         "prev": {
-          "url": "",
-          "text": ""
+          "url": "futbolito.html",
+          "text": "Mesa de Futbolito"
         },
         "next": {
-          "url": "",
-          "text": ""
+          "url": "dispensadores.html",
+          "text": "Dispensadores de Papelería"
         }
       }
     },
@@ -874,8 +992,8 @@
       ],
       "navigation": {
         "prev": {
-          "url": "",
-          "text": ""
+          "url": "sunrise.html",
+          "text": "Lámpara Sunrise"
         },
         "next": {
           "url": "",
@@ -885,6 +1003,71 @@
     }
   ],
   "spacePages": [
+    {
+      "id": "301",
+      "url": "espacios/sabana.html",
+      "title": "Panel Acústico Sabana y Distribución de Oficina",
+      "featureImage": {
+        "src": "301.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "301b.png",
+          "alt": "",
+          "caption": "Las salas de reunión las coloqué en la entrada, donde no se necesita un pase de seguridad. Las zonas de trabajo las ubiqué en el centro de la oficina y las zonas lúdicas, en los extremos."
+        },
+        {
+          "src": "301c.png",
+          "alt": "",
+          "caption": "Una de las tendencias en diseño de interiores e innovación empresarial son las zonas lúdicas de descanso y recreación. Coloqué áreas apartadas destinadas a este propósito para incrementar la eficiencia y bienestar mental del personal. "
+        },
+        {
+          "src": "301d.png",
+          "alt": "",
+          "caption": "También diseñé un escritorio con estética industrial minimalista. Le puse un panel de privacidad en un color contrastante para que el usuario se sienta más relajado, particularmente las mujeres en falda o vestido. El panel se extiende para que los usuarios guarden sus maletines o carteras fuera de vista y que la oficina se vea ordenada."
+        },
+        {
+          "src": "301e.png",
+          "alt": "",
+          "caption": "El panel de privacidad sube para que las personas bajitas puedan apoyar sus pies cómodamente. Integré la conectividad en los puestos de trabajo mediante tubería de metal, continuando con la estética industrial. Se adapta fácilmente a un cambio en la distribución de los escritorios por sus piezas modulares."
+        },
+        {
+          "src": "301f.png",
+          "alt": "",
+          "caption": "Además diseñé un panel acústico hecho con espuma de poliuretano, recubierto con textil y unido con bisagras para lograr flexibilidad en la forma. Éste absorbe el sonido para crear un ambiente de oficina más tranquilo y profesional."
+        },
+        {
+          "src": "301g.png",
+          "alt": "",
+          "caption": "La panelería tienen alturas intercaladas para crear privacidad pero tampoco encerrar al usuario. Esto también crea dinamismo visual. Está inspirado en un león escondido en la alta hierba de la sabana, he de aquí su nombre."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": "Fusionar el diseño industrial con el diseño de interiores."
+        },
+        {
+          "title": "¿Cómo?",
+          "text": "Diseñar un divisor de áreas, un escritorio, y la distribución de elementos en un espacio."
+        },
+        {
+          "title": "¿Qué?",
+          "text": "Panel acústico para zonas lúdicas, escritorio minimalista con conectividad, y el flujo de personas y departamentos en las oficinas de Recamier Colombia."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "",
+          "text": ""
+        },
+        "next": {
+          "url": "",
+          "text": ""
+        }
+      }
+    },
     {
       "id": "302",
       "url": "espacios/igor.html",
@@ -927,6 +1110,71 @@
         {
           "title": "¿Qué?",
           "text": "Stands modulares."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "",
+          "text": ""
+        },
+        "next": {
+          "url": "",
+          "text": ""
+        }
+      }
+    },
+    {
+      "id": "303",
+      "url": "espacios/mobiliario-urbano.html",
+      "title": "Mobiliario Urbano",
+      "featureImage": {
+        "src": "303a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "303b.png",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "src": "303c.png",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "src": "303d.png",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "src": "303e.png",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "src": "303f.png",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "src": "303g.png",
+          "alt": "",
+          "caption": ""
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": ""
+        },
+        {
+          "title": "¿Cómo?",
+          "text": ""
+        },
+        {
+          "title": "¿Qué?",
+          "text": ""
         }
       ],
       "navigation": {
