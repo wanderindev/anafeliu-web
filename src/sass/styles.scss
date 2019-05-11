@@ -257,8 +257,18 @@ a.navbar-item.active:hover {
   background-position: 50% 50%;
 }
 
+.image-301 {
+  background-image: url('/img/301.png');
+  background-position: 50% 35%;
+}
+
 .image-302 {
   background-image: url('/img/302.png');
+  background-position: 50% 35%;
+}
+
+.image-303a {
+  background-image: url('/img/303a.png');
   background-position: 50% 35%;
 }
 
@@ -299,6 +309,25 @@ a.navbar-item.active:hover {
   font-size: .85rem;
   color: #555;
   margin-bottom: 2rem;
+}
+
+.product-nav {
+  color: #777;
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+
+.product-nav .icon {
+  color: #444;
+  font-weight: 300;
+}
+
+.product-nav .icon.left {
+  padding-right: 1.5rem;
+}
+
+.product-nav .icon.right {
+  padding-left: 1.5rem;
 }
 
 @media screen and (max-width: 1023px) and (min-width: 769px) {
