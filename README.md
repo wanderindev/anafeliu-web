@@ -22,14 +22,30 @@
 ## Install
 
 ```sh
+git clone https://github.com/wanderindev/anafeliu-web.git .
+cd anafeliu-web
 npm install
 ```
 
 ## Usage
-
+During develpment use:
 ```sh
 gulp watch
 ```
+
+For deployment:
+```sh
+gulp
+docker build -t wanderindev/anafeliu-web .
+docker push wanderindev/anafeliu-web
+```
+Then, from the root of do-kubernetes project:
+```sh
+kubectl delete deployment anafeliu-web
+kubectl apply -f ./sites/anafeliu-web.yml
+```
+For more information on deploying to a Kubernetes cluster, visit 
+my [do-kubernetes](https://github.com/wanderindev/do-kubernetes) repository.
 
 ## Author
 
