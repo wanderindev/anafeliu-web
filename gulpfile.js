@@ -117,7 +117,7 @@ let prefix = require('gulp-autoprefixer');
 let minify = require('gulp-cssnano');
 
 // Imgs
-//let imagemin = require('gulp-imagemin');
+// let imagemin = require('gulp-imagemin');
 
 // SVGs
 let svgmin = require('gulp-svgmin');

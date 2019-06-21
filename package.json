@@ -18,7 +18,7 @@
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
     "@fancyapps/fancybox": "^3.5.7",
-    "browser-sync": "^2.26.5",
+    "browser-sync": "^2.26.7",
     "del": "3.0.0",
     "gulp": "4.0.0",
     "gulp-autoprefixer": "6.0.0",
