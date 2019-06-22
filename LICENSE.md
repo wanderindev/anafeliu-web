@@ -1,4 +1,4 @@
-Copyright (c) 2019 Javier Feliu and Ana Feliu
+Copyright (c) 2019 Ana Feliu and Javier Feliu
 
 All of the images in this project are the property of Ana Feliu and are copyrighted.  Ana 
 Feliu holds all the rights for those images.   Ana Feliu must authorize any use 
