@@ -1,6 +1,9 @@
-Copyright (c) 2019 Javier Feliu
+Copyright (c) 2019 Javier Feliu and Ana Feliu
 
-Copyright (c) Go Make Things, LLC
+All of the images in this project are the property of Ana Feliu and are copyrighted.  Ana 
+Feliu holds all the rights for those images.   Ana Feliu must authorize any use 
+of those images outside of this project.  Visit [anafeliu.com](https://anafeliu.com) 
+to contact Ana Feliu.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

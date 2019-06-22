@@ -60,7 +60,8 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2019 [Javier Feliu](https://github.com/wanderindev).<br />
+Copyright © 2019 [Javier Feliu](https://github.com/wanderindev) and [Ana Feliu](https://anafeliu.com).<br />
+
 This project is [MIT](https://github.com/wanderindev/anafeliu-web/blob/master/LICENSE) licensed.
 
 ***
