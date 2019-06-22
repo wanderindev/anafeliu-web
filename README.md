@@ -17,7 +17,7 @@
 
 > Website for anafeliu.com
 
-### 🏠 [Homepage](https://github.com/wanderindev/anafeliu-web#readme)
+### 🏠 [Homepage](https://anafeliu.com)
 
 ## Install
 
