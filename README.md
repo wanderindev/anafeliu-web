@@ -25,7 +25,7 @@
 ## Install
 
 ```sh
-git clone https://github.com/wanderindev/anafeliu-web.git .
+git clone https://github.com/wanderindev/anafeliu-web.git
 cd anafeliu-web
 npm install
 ```
