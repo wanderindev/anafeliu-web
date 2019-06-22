@@ -48,7 +48,7 @@ kubectl delete deployment anafeliu-web
 kubectl apply -f ./sites/anafeliu-web.yml
 ```
 For more information on deploying to a Kubernetes cluster, visit 
-my [do-kubernetes](https://github.com/wanderindev/do-kubernetes) repository.
+my [do-managed-kubernetes](https://github.com/wanderindev/do-managed-kubernetes) repository.
 
 ## Author
 
