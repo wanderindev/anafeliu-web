@@ -62,7 +62,7 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2019 [Javier Feliu](https://github.com/wanderindev) and [Ana Feliu](https://anafeliu.com).<br />
 
-This project is [MIT](https://github.com/wanderindev/anafeliu-web/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/wanderindev/anafeliu-web/blob/master/LICENSE.md) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
