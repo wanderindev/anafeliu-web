@@ -13,6 +13,9 @@
   <a href="https://twitter.com/JavierFeliuA">
     <img alt="Twitter: JavierFeliuA" src="https://img.shields.io/twitter/follow/JavierFeliuA.svg?style=social" target="_blank" />
   </a>
+  <a href="https://twitter.com/aifeliu">
+      <img alt="Twitter: aifeliu" src="https://img.shields.io/twitter/follow/aifeliu.svg?style=social" target="_blank" />
+  </a>
 </p>
 
 > Website for anafeliu.com
