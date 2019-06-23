@@ -1,0 +1,6 @@
+src/sass/base/* linguist-vendored=true
+src/sass/components/* linguist-vendored=true
+src/sass/elements/* linguist-vendored=true
+src/sass/grid/* linguist-vendored=true
+src/sass/layout/* linguist-vendored=true
+src/sass/utilities/* linguist-vendored=true
