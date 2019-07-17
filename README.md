@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to anafeliu-web 👋</h1>
 <p>
   <img src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/wanderindev/anafeliu-web#readme">
+  <a href="https://github.com/wanderindev/anafeliu-web/blob/master/README.md">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
   </a>
   <a href="https://github.com/wanderindev/anafeliu-web/graphs/commit-activity">

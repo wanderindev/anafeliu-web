@@ -1,7 +1,29 @@
 <div class="container">
+    {% for page in spacePages %}
+    {% if page.id == pageId %}
+    <nav class="level is-mobile">
+        <div class="level-left">
+            {% if page.navigation.prev.url %}
+                <a class="level-item product-nav" href="{{page.navigation.prev.url}}">
+                <span class="icon left">
+                  <i class="fas fa-3x fa-chevron-left"></i>
+                </span>
+                    {{page.navigation.prev.text}}
+                </a>
+            {% endif %}
+        </div>
+        <div class="level-right">
+            {% if page.navigation.next.url %}
+                <a class="level-item product-nav" href="{{page.navigation.next.url}}">
+                    {{page.navigation.next.text}}
+                    <span class="icon right">
+                  <i class="fas fa-3x fa-chevron-right"></i>
+                </span>
+                </a>
+            {% endif %}
+        </div>
+    </nav>
     <div class="columns is-variable is-8 is-multiline">
-        {% for page in spacePages %}
-        {% if page.id == pageId %}
         <div class="column is-full has-text-centered">
             <h1 class="page-title">{{page.title}}</h1>
         </div>
@@ -17,19 +39,19 @@
     </div>
     <div class="columns is-variable is-8 is-multiline">
         {% for image in page.images %}
-        {% if image.doubleWidth %}
-        <div class="column is-half-tablet has-text-centered-mobile">
-            <img class="product-img" src="../img/{{image.src}}" alt="{{image.alt}}">
-            <p class="img-caption">{{image.caption}}</p>
-        </div>
-        {% else %}
-        <div class="column is-half-tablet has-text-centered-mobile">
-            <img class="product-img" src="../img/{{image.src}}" alt="{{image.alt}}">
-            <p class="img-caption">{{image.caption}}</p>
-        </div>
-        {%  endif %}
-        {% endfor %}
-        {%  endif %}
+            {% if image.doubleWidth %}
+                <div class="column is-half-tablet has-text-centered-mobile">
+                    <img class="product-img" src="../img/{{image.src}}" alt="{{image.alt}}">
+                    <p class="img-caption">{{image.caption}}</p>
+                </div>
+            {% else %}
+                <div class="column is-half-tablet has-text-centered-mobile">
+                    <img class="product-img" src="../img/{{image.src}}" alt="{{image.alt}}">
+                    <p class="img-caption">{{image.caption}}</p>
+                </div>
+            {%  endif %}
         {% endfor %}
     </div>
+    {%  endif %}
+    {% endfor %}
 </div>

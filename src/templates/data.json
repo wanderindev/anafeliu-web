@@ -312,8 +312,13 @@
         "alt": ""
       },
       {
-        "img": "303a",
+        "img": "303",
         "url": "espacios/mobiliario-urbano.html",
+        "alt": ""
+      },
+      {
+        "img": "304",
+        "url": "espacios/model-a.html",
         "alt": ""
       }
     ]
@@ -726,22 +731,42 @@
       },
       "images": [
         {
-          "src": "",
+          "src": "8b.png",
+          "alt": "",
+          "caption": "El tablero es un pentágono con las áreas donde se desarrollan las partidas de los distintos jugadores. Dependiendo de su personaje, los jugadores deben conseguir cierta cantidad de recursos para construir su legado. Los cinco materiales son madera, carbón, mármol, piedra y artistas. Las fichas de los recursos se colocan en las puntas del tablero."
+        },
+        {
+          "src": "8c",
           "alt": "",
           "caption": ""
         },
         {
-          "src": "",
+          "src": "8d.png",
           "alt": "",
-          "caption": ""
+          "caption": "Uno de los emperadores es Augusto, quién subió al poder en el 27 a.C. Su legado es el panteón."
         },
         {
-          "src": "",
+          "src": "8e.png",
           "alt": "",
-          "caption": ""
+          "caption": "Julio César iba a convertirse en el primer emperador de Roma pero lo asesinaron en el Senado antes de que adquiriera el título. Sin embargo, debido a él fue que emperadores posteriores adoptaron el nombre César y se convirtió en un título. Su legado fueron las múltiples victorias militares que resultaron en el anexo de territorios para la República."
         },
         {
-          "src": "",
+          "src": "8f.png",
+          "alt": "",
+          "caption": "Vespesiano comenzó su imperio en el 69 d.C. y su legado fue el Coliseo, o Anfiteatro Flavio."
+        },
+        {
+          "src": "8g.png",
+          "alt": "",
+          "caption": "Caracalla es conocido por sus famosas Termas, unos baños públicos enormes extremadamente ostentosos."
+        },
+        {
+          "src": "8h.png",
+          "alt": "",
+          "caption": "Al infame Nerón se le atribuye el incendio de Roma del año 64 d.C. como excusa para construirse un nuevo palacio que ocupaba 50 hectáreas: el Domus Aurea, o Casa de Oro."
+        },
+        {
+          "src": "8i.png",
           "alt": "",
           "caption": ""
         }
@@ -749,15 +774,15 @@
       "descriptions": [
         {
           "title": "¿Por Qué?",
-          "text": ""
+          "text": "Maximizar la retención de información de una manera divertida."
         },
         {
           "title": "¿Cómo?",
-          "text": ""
+          "text": "Implementar la gamificación para aprender sobre historia."
         },
         {
           "title": "¿Qué?",
-          "text": ""
+          "text": "Foro Romano, un juego de mesa donde cada jugador elige un emperador y trata de construir un impresionante legado en la larga historia de Roma."
         }
       ],
       "navigation": {
@@ -913,12 +938,20 @@
         {
           "src": "11d.png",
           "alt": "",
-          "caption": "El logo del producto es una persona realizando la posición de yoga del saludo al sol."
+          "caption": "Cuando no se usa, está cerrada. Para abrirla, sólo se empuja suavemente y la lámpara se mantiene en equilibrio.",
+          "oneThird": true
         },
         {
           "src": "11e.png",
           "alt": "",
-          "caption": "Cuando no se usa, está cerrada. Para abrirla, sólo se empuja suavemente y la lámpara se mantiene en equilibrio."
+          "caption": "La lámpara incita el juego y la curiosidad.",
+          "oneThird": true
+        },
+        {
+          "src": "11f.png",
+          "alt": "",
+          "caption": "El logo del producto es una persona realizando la posición de yoga del saludo al sol.",
+          "oneThird": true
         }
       ],
       "descriptions": [
@@ -1063,8 +1096,8 @@
           "text": ""
         },
         "next": {
-          "url": "",
-          "text": ""
+          "url": "igor.html",
+          "text": "Igor"
         }
       }
     },
@@ -1114,12 +1147,12 @@
       ],
       "navigation": {
         "prev": {
-          "url": "",
-          "text": ""
+          "url": "sabana.html",
+          "text": "Panel Acústico Sabana y Distribución de Oficina"
         },
         "next": {
-          "url": "",
-          "text": ""
+          "url": "mobiliario-urbano.html",
+          "text": "Mobiliario Urbano"
         }
       }
     },
@@ -1135,52 +1168,117 @@
         {
           "src": "303b.png",
           "alt": "",
-          "caption": ""
+          "caption": "El mobiliario urbano se fabrica en concreto a partir de 4 moldes metálicos. Los módulos más complejos se pueden subdividir para crear piezas más pequeñas. Las formas orgánicas representan el cambio, la transformación, el ritmo y la repetición."
         },
         {
           "src": "303c.png",
           "alt": "",
-          "caption": ""
+          "caption": "A la mezcla de concreto se le puede agregar pigmento de color para crear instalaciones alegres. En este tipo de acabado el resultado es visualmente atractivo y no se pierde el color, aún si se desgasta el material."
         },
         {
           "src": "303d.png",
           "alt": "",
-          "caption": ""
+          "caption": "Se acomodan las instalaciones a partir de las necesidades de los usuarios en las distintas zonas académicas, de investigación y de vivienda. Las variación en alturas y curvas están pensadas para brindarle al usuario una amplia variedad de uso, con una distancia rodilla-poplíteo es de 60 cm. Se pueden sentar, acostar o apoyar de cualquier manera, pues la posición correcta es aquella en la cuál nos sintamos más cómodos."
         },
         {
           "src": "303e.png",
           "alt": "",
-          "caption": ""
+          "caption": "Debido a la versatilidad de la forma, los módulos se pueden voltear o girar para crear diferentes instalaciones. Aquí por ejemplo, se acomodan las piezas para crear un volumen cerrado con divisiones internas que luego se pueden llenar de tierra y crear un jardín aromático o una huerta comunal."
         },
         {
           "src": "303f.png",
           "alt": "",
-          "caption": ""
+          "caption": "Las piezas también se pueden colocar separadas para crear un laberinto e incentivar el juego en el día a día, o incluso una pista de obstáculos para mascotas."
         },
         {
           "src": "303g.png",
           "alt": "",
-          "caption": ""
+          "caption": "Finalmente, las piezas también se pueden acomodar de una manera más abstracta y crear esculturas urbanas o fuentes."
         }
       ],
       "descriptions": [
         {
           "title": "¿Por Qué?",
-          "text": ""
+          "text": "Contemplar la ciudad como un escenario para las personas y sus necesidades."
         },
         {
           "title": "¿Cómo?",
-          "text": ""
+          "text": "Analizar lo que hace falta en Ciudad del Saber, Panamá y brindar una solución."
         },
         {
           "title": "¿Qué?",
-          "text": ""
+          "text": "Sistema de mobiliario urbano que consiste en 13 piezas individuales en tres instalaciones, una en cada zona de Ciudad del Saber, Panamá."
         }
       ],
       "navigation": {
         "prev": {
+          "url": "igor.html",
+          "text": "Igor"
+        },
+        "next": {
           "url": "",
           "text": ""
+        }
+      }
+    },
+    {
+      "id": "304",
+      "url": "espacios/mobiliario-urbano.html",
+      "title": "Mobiliario Urbano",
+      "featureImage": {
+        "src": "304a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "304b.png",
+          "alt": "",
+          "caption": "Vista exterior lateral hacia la vereda. Tiene cintas de luz que forman una cruz sutil y una pantalla con el teléfono de emergencias, la palabra ambulancia y la estrella de la vida. Tiene luces perimetrales en la parte superior, la puerta que abre hacia la vereda y la cámara para el retrovisor."
+        },
+        {
+          "src": "304c.png",
+          "alt": "",
+          "caption": "Vistas exteriores delanteras y traseras. Adelante hay una gran ventana para el conductor, la estrella de la vida y la palabra ambulancia al revés. La sirena ocupa todo el techo para llamar la atención en ciudades llenas de pantallas y distracciones. La puerta trasera ocupa toda la pared y gira hacia arriba para poder entrar y salir con comodidad. Sin embargo, también tiene una puerta de emergencia más pequeñas en caso de un accidente. Tiene luces perimetrales arriba, un escalón para subir y el nombre Model-A, pues el vehículo está inspirado en Tesla."
+        },
+        {
+          "src": "304d.png",
+          "alt": "",
+          "caption": "Vista interior lateral hacia la vereda. Los 4 maletines reglamentarios de emergencias están colgados de la pared y forman una cruz de color rojo. Las manijas están flush: cuando se quieren sacar, se empujan y, con un resorte, las manijas salen para poder halar el maletín. Hay una gran ventana para mayor visibilidad a la altura del conductor. El tanque de oxígeno de mano está en un compartimiento al lado de la puerta para que el médico lo saque mientras baja. Hay dos sillas con asiento retractable y cinturones de seguridad con cuatro puntos. Una silla es para el médico cuando trabaja en el área del pecho del paciente, y la otra es para un posible acompañante. Abajo y arriba de las sillas hay almacenaje, barras de seguridad para sujetarse y una ventana para que entre luz natural. Finalmente, hay dos tanques de oxígeno de tamaño completo."
+        },
+        {
+          "src": "304e.png",
+          "alt": "",
+          "caption": "Vista interior lateral del lado del conductor. El conductor tiene su panel del timón, el cual se extiende a lo ancho del vehículo para almacenar la silla de ruedas. Hay otra silla para el médico cuando trabaja en el área de la cabeza del paciente y en la pared hay un panel táctil con la información del paciente: tipo de sangre, latidos por minuto, scan del cuerpo en tiempo real, etc. Abajo del panel está el basurero para los desechos médicos. Luego, se encuentra la camilla, el equipo médico colgado en la pared y almacenamiento en la parte superior."
+        },
+        {
+          "src": "304f.png",
+          "alt": "",
+          "caption": "Vista de planta. Los escalones y el piso tienen una textura antideslizante que cumple con el lenguaje estético del resto del vehículo. La puerta hacia la vereda mide 700 mm de ancho, la longitud total del vehículo es de 4000 mm, y el ancho total es de 1500 mm."
+        },
+        {
+          "src": "304g.png",
+          "alt": "",
+          "caption": "Vista interior del techo. Desde la puerta trasera salen unas cintas de luz para que el médico tenga toda la iluminación que necesita para trabajar con precisión. En la parte trasera también hay una barra de seguridad para cuando las personas suben al vehículo. En el centro hay una claraboya para salidas de emergencia. Se giran las dos manijas laterales para destrancar la claraboya y se empuja hacia afuera con las agarraderas del centro. Además hay dos bolsas de polvo que se expande con el calor y sirven de extintores, un extractor, y una barra de seguridad para cuando el conductor se sube al vehículo. Finalmente, hay una cinta de luz para iluminar el área del conductor cuando lo requiera y al momento de sacar la silla de ruedas."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": "Comprender la ergonomía y distribución en un vehículo de emergencias, practicando el dibujo técnico a mano alzada."
+        },
+        {
+          "title": "¿Cómo?",
+          "text": "Diseñar el exterior e interior de una ambulancia."
+        },
+        {
+          "title": "¿Qué?",
+          "text": "Model-A: una ambulancia para el futuro inspirada en Tesla."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "mobiliario-urbano.html",
+          "text": "Mobiliario Urbano"
         },
         "next": {
           "url": "",

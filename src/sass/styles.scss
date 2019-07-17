@@ -1,3 +1,7 @@
+.container {
+  max-width: 1215px;
+}
+
 .header-logo {
   color: #000;
   font-weight: 900;
@@ -39,7 +43,7 @@ a.navbar-item.active {
 }
 
 a.navbar-item.active:hover {
-  cursor: default;
+  /*cursor: default;*/
 }
 
 .navbar-burger {
@@ -267,8 +271,13 @@ a.navbar-item.active:hover {
   background-position: 50% 35%;
 }
 
-.image-303a {
-  background-image: url('/img/303a.png');
+.image-303 {
+  background-image: url('/img/303.png');
+  background-position: 50% 35%;
+}
+
+.image-304 {
+  background-image: url('/img/304.png');
   background-position: 50% 35%;
 }
 
@@ -382,7 +391,7 @@ a.navbar-item.active:hover {
     display: block;
     box-shadow: none;
     position: fixed;
-    top: 40px;
+    top: 50px;
     left: 1100px;
     width:100%;
     z-index: 50;

@@ -44,6 +44,11 @@
             <img class="product-img" src="../img/{{image.src}}" alt="{{image.alt}}">
             <p class="img-caption">{{image.caption}}</p>
         </div>
+        {% elif image.oneThird %}
+        <div class="column is-one-third-tablet has-text-centered-mobile">
+            <img class="product-img" src="../img/{{image.src}}" alt="{{image.alt}}">
+            <p class="img-caption">{{image.caption}}</p>
+        </div>
         {% else %}
         <div class="column is-half-tablet has-text-centered-mobile">
             <img class="product-img" src="../img/{{image.src}}" alt="{{image.alt}}">
