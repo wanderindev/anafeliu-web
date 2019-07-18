@@ -27,9 +27,19 @@
         <div class="column is-full has-text-centered">
             <h1 class="page-title">{{page.title}}</h1>
         </div>
+        {% if page.featureImage.video %}
+        <div class="feature-img-col column is-narrow-tablet">
+            <div class="video-container">
+                <iframe width="640" height="360" src="{{page.featureImage.src}}" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+        {% else %}
         <div class="feature-img-col column is-narrow-tablet">
             <img class="feature-img" src="../img/{{page.featureImage.src}}" alt="{{page.featureImage.alt}}">
         </div>
+        {%  endif %}
         <div class="descr column has-text-centered-mobile">
             {% for description in page.descriptions %}
             <h3 class="descr-title">{{description.title}}</h3>

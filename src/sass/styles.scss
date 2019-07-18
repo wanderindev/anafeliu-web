@@ -84,6 +84,28 @@ a.navbar-item.active:hover {
   flex: none;
 }
 
+.feature-img-col {
+  min-width: 45%;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .image-wrapper {
   padding-bottom: 6px !important;
   padding-left: 6px !important;
@@ -348,6 +370,10 @@ a.navbar-item.active:hover {
     margin-bottom: 1.45rem;
     font-size: .93rem;
   }
+
+  .feature-img-col {
+    min-width: 55%;
+  }
 }
 
 @media screen and (max-width: 1087px) {
@@ -427,6 +453,7 @@ a.navbar-item.active:hover {
 
   .feature-img-col {
     max-width: 58%;
+    min-width: 58%;
   }
 }
 

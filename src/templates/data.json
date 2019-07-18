@@ -921,8 +921,9 @@
       "url": "productos/sunrise.html",
       "title": "Lámpara Sunrise",
       "featureImage": {
-        "src": "11a.png",
-        "alt": ""
+        "src": "https://youtube.com/embed/FyY5EbU3IME?rel=0",
+        "alt": "",
+        "video": true
       },
       "images": [
         {
