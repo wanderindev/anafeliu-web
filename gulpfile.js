@@ -34,6 +34,10 @@ let paths = {
         input: 'src/templates/espacios/*.njk',
         output: 'dist/espacios'
     },
+    renderEssays: {
+        input: 'src/templates/ensayos/*.njk',
+        output: 'dist/ensayos'
+    },
     scripts: {
         input: 'src/js/*',
         polyfills: '.polyfill.js',
@@ -202,6 +206,21 @@ let renderTempls = function(done) {
         .pipe(inject(jsSources, {relative: true, addPrefix: '..', ignorePath: '../../src/'}))
         .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(dest(paths.renderSpaces.output));
+
+    // Render the space templates
+    src(paths.renderEssays.input)
+        .pipe(data(function() {
+            return JSON.parse(fs.readFileSync(paths.render.data).toString());
+        }))
+        .pipe(nunjucks({
+            path: [paths.render.partials]
+        }))
+        .pipe(dest(paths.renderEssays.output))
+        .pipe(inject(cssSources, {relative: true, addPrefix: '..', ignorePath: '../../src/sass/'}))
+        .pipe(dest(paths.renderEssays.output))
+        .pipe(inject(jsSources, {relative: true, addPrefix: '..', ignorePath: '../../src/'}))
+        .pipe(htmlmin({collapseWhitespace: true}))
+        .pipe(dest(paths.renderEssays.output));
 
     // Signal completion
     done();

@@ -361,6 +361,66 @@ a.navbar-item.active:hover {
   padding-left: 1.5rem;
 }
 
+.essay-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.essay-subtitle {
+  margin-bottom: 24px;
+}
+
+.content p {
+  text-indent: 20px;
+}
+
+.content blockquote {
+  margin: 24px 36px;
+  background-color: #fff;
+}
+
+.message.pastel-blue,
+.message.pastel-green,
+.message.pastel-purple,
+.message.pastel-orange,
+.message.pastel-yellow,
+.message.pastel-pink{
+  background-color: #fff;
+  margin-bottom: 24px;
+}
+
+.message-body {
+  border-width: 0 0 0 28px;
+  border-radius: 0;
+  padding-top: .75em;
+  padding-bottom: .85em;
+
+}
+
+.message.pastel-blue .message-body {
+  border-color: #dbfbfe;
+}
+
+.message.pastel-green .message-body {
+  border-color: #f0f6e5;
+}
+
+.message.pastel-purple .message-body {
+  border-color: #deddec;
+}
+
+.message.pastel-orange .message-body {
+  border-color: #fae2c9;
+}
+
+.message.pastel-yellow .message-body {
+  border-color: #fdfad9;
+}
+
+.message.pastel-pink .message-body {
+  border-color: #fce4e9;
+}
+
 @media screen and (max-width: 1023px) and (min-width: 769px) {
   .descr-title {
     margin-bottom: .37rem;
@@ -460,6 +520,11 @@ a.navbar-item.active:hover {
 @media screen and (max-width: 768px) {
   .feature-img-col {
     max-width: 100%;
+  }
+
+  .content blockquote {
+    margin: 10px 36px;
+    background-color: #fff;
   }
 
   .column-27,

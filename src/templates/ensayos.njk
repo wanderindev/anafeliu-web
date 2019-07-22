@@ -1,0 +1,21 @@
+{% set page = 'Ensayos' %}
+{% set pathToRoot = '' %}
+{% extends "_base.njk" %}
+{% block content %}
+    <div class="container">
+        <div class="columns is-multiline">
+            {% for item in galleries.essays %}
+            <div class="column is-full">
+                <a href="{{ item.url }}">
+                    <article class="message {{ item.class }}">
+                        <div class="message-body">
+                            <span class="essay-title">{{ item.title }}</span><br />
+                            {{ item.desc }}
+                        </div>
+                    </article>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

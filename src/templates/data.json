@@ -13,6 +13,10 @@
       "name": "Gráficos"
     },
     {
+      "url": "/ensayos.html",
+      "name": "Ensayos"
+    },
+    {
       "url": "/acerca.html",
       "name": "Sobre mí"
     }
@@ -320,6 +324,44 @@
         "img": "304",
         "url": "espacios/model-a.html",
         "alt": ""
+      }
+    ],
+    "essays": [
+      {
+        "class": "pastel-blue",
+        "title": "40 Cosas Sobre Mí",
+        "desc": "Lo que me interesa y cómo paso mi tiempo libre.",
+        "url": "ensayos/40-cosas-sobre-mi.html"
+      },
+      {
+        "class": "pastel-green",
+        "title": "Marimekko, Maija Isola y Vuokko Eskolin-Nurmesniemi",
+        "desc": "Textiles como medio para la liberación femenina.",
+        "url": "ensayos/marimekko-maija-isola-y-vuokko-eskolin-nurmesniemi.html"
+      },
+      {
+        "class": "pastel-purple",
+        "title": "La Accesibilidad y el Diseño en Panamá",
+        "desc": "¿Qué existe, qué falta y qué podemos hacer?",
+        "url": "ensayos/accesibilidad-y-diseno-en-panama.html"
+      },
+      {
+        "class": "pastel-orange",
+        "title": "Efectos de la Tercera Revolución Industrial en la Disciplina del Diseño",
+        "desc": "Cómo el internet de las cosas está cambiando la industria.",
+        "url": "ensayos/tercera-revolucion-industrial-y-el-diseno.html"
+      },
+      {
+        "class": "pastel-yellow",
+        "title": "Calvin and Hobbes: A Lasting Legacy",
+        "desc": "Analyzing the impact of a comic and what it takes to make history.",
+        "url": "ensayos/calvin-and-hobbes-legacy.html"
+      },
+      {
+        "class": "pastel-pink",
+        "title": "The Use of Ethnic Humor and its Evolving Perception in Modern Society",
+        "desc": "What works and what doesn't in the age of political correctness.",
+        "url": "ensayos/ethnic-humor-in-modern-society.html"
       }
     ]
   },
@@ -1217,8 +1259,8 @@
           "text": "Igor"
         },
         "next": {
-          "url": "",
-          "text": ""
+          "url": "mobiliario-urbano.html",
+          "text": "Mobiliario Urbano"
         }
       }
     },
