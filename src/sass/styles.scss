@@ -340,6 +340,7 @@ a.navbar-item.active:hover {
   font-size: .85rem;
   color: #555;
   margin-bottom: 2rem;
+  text-indent: 0;
 }
 
 .product-nav {
@@ -368,6 +369,7 @@ a.navbar-item.active:hover {
 
 .essay-subtitle {
   margin-bottom: 24px;
+  font-style: italic;
 }
 
 .essay-bibliography-title {
@@ -375,6 +377,38 @@ a.navbar-item.active:hover {
   text-decoration: underline;
   margin-top: 24px;
   margin-bottom: 16px;
+}
+
+figure.essay-img-wrapper {
+  float: left;
+  width: 28%;
+  margin: 1em!important;
+}
+
+figure.essay-img-wrapper-left {
+  float: left;
+  margin: 1em 2em 0.5em 1em!important;
+}
+
+figure.essay-img-wrapper-right {
+  float: right;
+  margin: 1em 1em 0.5em 2em!important;
+}
+
+.essay-img {
+  width: 300px;
+  border: 1px solid #ddd;
+}
+
+figure.essay-img-wrapper .essay-img {
+  height: 136px;
+  width:100%;
+}
+
+.essay-caption {
+  text-indent: 0!important;
+  font-size: .85rem;
+  color: #555;
 }
 
 .content p {
@@ -428,6 +462,16 @@ a.navbar-item.active:hover {
   border-color: #fce4e9;
 }
 
+@media screen and (max-width: 1279px) {
+  figure.essay-img-wrapper {
+    width: 26%;
+  }
+
+  figure.essay-img-wrapper .essay-img {
+    height: 100px;
+  }
+}
+
 @media screen and (max-width: 1023px) and (min-width: 769px) {
   .descr-title {
     margin-bottom: .37rem;
@@ -440,6 +484,10 @@ a.navbar-item.active:hover {
 
   .feature-img-col {
     min-width: 55%;
+  }
+
+  .essay-img {
+    width: 230px;
   }
 }
 
@@ -522,6 +570,16 @@ a.navbar-item.active:hover {
     max-width: 58%;
     min-width: 58%;
   }
+
+  figure.essay-img-wrapper {
+    width: 100%;
+    margin: 1.5em 0 1em 0!important;
+  }
+
+  figure.essay-img-wrapper .essay-img {
+    height: auto;
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -540,5 +598,15 @@ a.navbar-item.active:hover {
   .column-47,
   .column-53 {
     width: 100%;
+  }
+
+  figure.essay-img-wrapper-left,
+  figure.essay-img-wrapper-right {
+    width: 100%;
+    margin: 1.5em 0 1em 0!important;
+  }
+
+  .essay-img {
+    width: 300px;
   }
 }
