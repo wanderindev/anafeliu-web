@@ -118,7 +118,7 @@
         "url": "",
         "alt": "",
         "class": "is-4-tablet",
-        "style": "padding-top:134.4%",
+        "style": "padding-top:134.4%;",
         "images": [
           "204a.png",
           "204b.png",
@@ -141,7 +141,7 @@
         "url": "",
         "alt": "",
         "class": "is-4-tablet",
-        "style": "padding-top:150.5%",
+        "style": "padding-top:150.5%;",
         "images": [
           "206a.png"
         ]
@@ -151,7 +151,7 @@
         "url": "",
         "alt": "",
         "class": "is-4-tablet",
-        "style": "padding-top:150.5%",
+        "style": "padding-top:150.5%;",
         "images": [
           "207a.png"
         ]
@@ -161,7 +161,7 @@
         "url": "",
         "alt": "",
         "class": "is-4-tablet",
-        "style": "padding-top:150.5%",
+        "style": "padding-top:150.5%;",
         "images": [
           "208a.png"
         ]
@@ -171,7 +171,7 @@
         "url": "",
         "alt": "",
         "class": "is-6-tablet",
-        "style": "padding-top:75%",
+        "style": "padding-top:75%;",
         "iframe": "https://docs.google.com/presentation/d/e/2PACX-1vS6DhNzCHm_X2bIuOngYzvSx3VvhcIUUniCBiTcjDIKyJ9zh1bDW9_HgmF48EnUNW7UowueI02-2i7n/embed?start=false&loop=false&delayms=3000"
       },
       {
@@ -179,7 +179,7 @@
         "url": "",
         "alt": "",
         "class": "is-6-tablet",
-        "style": "padding-top:75%",
+        "style": "padding-top:75%;",
         "iframe": "https://docs.google.com/presentation/d/e/2PACX-1vSQC1zr14uqEVVGisEZAGy-LPFBqfSweaJt4V1ZSg2Bm83LJ5iyC9FSoepERWsHHTvgEJfNc-UtS7Tv/embed?start=false&loop=false&delayms=3000"
       },
       {
@@ -187,7 +187,7 @@
         "url": "",
         "alt": "",
         "class": "is-7-tablet",
-        "style": "padding-top:50.5%",
+        "style": "padding-top:50.5%;",
         "images": [
           "211.png"
         ]
@@ -197,7 +197,7 @@
         "url": "",
         "alt": "",
         "class": "is-5-tablet",
-        "style": "padding-top:71%",
+        "style": "padding-top:71%;",
         "images": [
           "212a.png",
           "212b.png",
@@ -222,7 +222,7 @@
         "url": "",
         "alt": "",
         "class": "is-6-tablet",
-        "style": "padding-top:56%",
+        "style": "padding-top:56%;",
         "iframe": "https://docs.google.com/presentation/d/e/2PACX-1vSfZlbUhm84pUPBG9pX-vLq5I-YIPYoF_NJrldL4skQQg04SeO2WxUvPksALwMkbg2n8-CrINCe9Rm1/embed?start=false&loop=false&delayms=3000"
       },
       {
@@ -230,7 +230,7 @@
         "url": "",
         "alt": "",
         "class": "is-6-tablet",
-        "style": "padding-top:56%",
+        "style": "padding-top:56%;",
         "iframe": "https://docs.google.com/presentation/d/e/2PACX-1vRYWDtVhY1sr9xXc5T478IzD1esAojhbm2qMssLrpOTT8vGl5P5n1toYHTsTaipDTlw63t58EargDQ_/embed?start=false&loop=false&delayms=3000"
       },
       {
@@ -238,7 +238,7 @@
         "url": "",
         "alt": "",
         "class": "column-27",
-        "style": "padding-top:154.32%; border:1px black solid",
+        "style": "padding-top:154.32%; border:1px #eee solid;",
         "images": [
           "215a.png",
           "215b.png",
@@ -252,7 +252,7 @@
         "url": "",
         "alt": "",
         "class": "column-42",
-        "style": "padding-top:99.5%; border:1px black solid",
+        "style": "padding-top:99.5%; border:1px #eee solid;",
         "images": [
           "216a.png",
           "216b.png",
@@ -273,7 +273,7 @@
         "url": "",
         "alt": "",
         "class": "column-30",
-        "style": "padding-top:141.24%",
+        "style": "padding-top:141.24%;",
         "images": [
           "217a.png",
           "217b.png",
@@ -288,7 +288,7 @@
         "url": "",
         "alt": "",
         "class": "column-47",
-        "style": "padding-top:120.73%",
+        "style": "padding-top:120.73%;",
         "images": [
           "218.png"
         ]
@@ -298,16 +298,116 @@
         "url": "",
         "alt": "",
         "class": "column-53",
-        "style": "padding-top:106.96%",
+        "style": "padding-top:106.96%;",
         "images": [
           "219.png"
+        ]
+      },
+      {
+        "img": "220",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%; border:1px #eee solid;",
+        "images": [
+          "220.png"
+        ]
+      },
+      {
+        "img": "221",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%; border:1px #eee solid;",
+        "images": [
+          "221.png"
+        ]
+      },
+      {
+        "img": "222",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%;",
+        "images": [
+          "222.png"
+        ]
+      },
+      {
+        "img": "223",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%; border:1px #eee solid;",
+        "images": [
+          "223.png"
+        ]
+      },
+      {
+        "img": "224",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%;",
+        "images": [
+          "224.png"
+        ]
+      },
+      {
+        "img": "225",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%;",
+        "images": [
+          "225.png"
+        ]
+      },
+      {
+        "img": "226",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%;",
+        "images": [
+          "226.png"
+        ]
+      },
+      {
+        "img": "227",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%;",
+        "images": [
+          "227.png"
+        ]
+      },
+      {
+        "img": "228",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%;",
+        "images": [
+          "228.png"
+        ]
+      },
+      {
+        "img": "229",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%;",
+        "images": [
+          "229.png"
         ]
       }
     ],
     "spaces": [
       {
         "img": "301",
-        "url": "espacios/sabana.html",
+        "url": "espacios/sistemas-de-oficina.html",
         "alt": ""
       },
       {
@@ -981,20 +1081,12 @@
         {
           "src": "11d.png",
           "alt": "",
-          "caption": "Cuando no se usa, está cerrada. Para abrirla, sólo se empuja suavemente y la lámpara se mantiene en equilibrio.",
-          "oneThird": true
-        },
-        {
-          "src": "11e.png",
-          "alt": "",
-          "caption": "La lámpara incita el juego y la curiosidad.",
-          "oneThird": true
+          "caption": "Cuando no se usa, está cerrada. Para abrirla, sólo se empuja suavemente y la lámpara se mantiene en equilibrio. Incita el juego y la curiosidad."
         },
         {
           "src": "11f.png",
           "alt": "",
-          "caption": "El logo del producto es una persona realizando la posición de yoga del saludo al sol.",
-          "oneThird": true
+          "caption": "La lámpara incita el juego y la curiosidad."
         }
       ],
       "descriptions": [
@@ -1081,8 +1173,8 @@
   "spacePages": [
     {
       "id": "301",
-      "url": "espacios/sabana.html",
-      "title": "Panel Acústico Sabana y Distribución de Oficina",
+      "url": "espacios/sistemas-de-oficina.html",
+      "title": "Sistemas de Oficina",
       "featureImage": {
         "src": "301.png",
         "alt": ""
@@ -1190,8 +1282,8 @@
       ],
       "navigation": {
         "prev": {
-          "url": "sabana.html",
-          "text": "Panel Acústico Sabana y Distribución de Oficina"
+          "url": "sistemas-de-oficina.html",
+          "text": "Sistemas de Oficina"
         },
         "next": {
           "url": "mobiliario-urbano.html",
@@ -1259,15 +1351,15 @@
           "text": "Igor"
         },
         "next": {
-          "url": "mobiliario-urbano.html",
-          "text": "Mobiliario Urbano"
+          "url": "model-a.html",
+          "text": "Model A"
         }
       }
     },
     {
       "id": "304",
-      "url": "espacios/mobiliario-urbano.html",
-      "title": "Mobiliario Urbano",
+      "url": "espacios/model-a.html",
+      "title": "Model A",
       "featureImage": {
         "src": "304a.png",
         "alt": ""

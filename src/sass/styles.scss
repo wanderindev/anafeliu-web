@@ -283,6 +283,56 @@ a.navbar-item.active:hover {
   background-position: 50% 50%;
 }
 
+.image-220 {
+  background-image: url('/img/220.png');
+  background-position: 50% 50%;
+}
+
+.image-221 {
+  background-image: url('/img/221.png');
+  background-position: 50% 50%;
+}
+
+.image-222 {
+  background-image: url('/img/222.png');
+  background-position: 50% 50%;
+}
+
+.image-223 {
+  background-image: url('/img/223.png');
+  background-position: 50% 50%;
+}
+
+.image-224 {
+  background-image: url('/img/224.png');
+  background-position: 50% 50%;
+}
+
+.image-225 {
+  background-image: url('/img/225.png');
+  background-position: 50% 50%;
+}
+
+.image-226 {
+  background-image: url('/img/226.png');
+  background-position: 50% 50%;
+}
+
+.image-227 {
+  background-image: url('/img/227.png');
+  background-position: 50% 50%;
+}
+
+.image-228 {
+  background-image: url('/img/228.png');
+  background-position: 50% 50%;
+}
+
+.image-229 {
+  background-image: url('/img/229.png');
+  background-position: 50% 50%;
+}
+
 .image-301 {
   background-image: url('/img/301.png');
   background-position: 50% 35%;
@@ -377,6 +427,9 @@ a.navbar-item.active:hover {
   text-decoration: underline;
   margin-top: 24px;
   margin-bottom: 16px;
+  padding-top: 24px;
+  border-width: 4px;
+  border-top-style: solid;
 }
 
 figure.essay-img-wrapper {
@@ -438,26 +491,32 @@ figure.essay-img-wrapper .essay-img {
 
 }
 
+.pastel-blue,
 .message.pastel-blue .message-body {
   border-color: #dbfbfe;
 }
 
+.pastel-green,
 .message.pastel-green .message-body {
   border-color: #f0f6e5;
 }
 
+.pastel-purple,
 .message.pastel-purple .message-body {
   border-color: #deddec;
 }
 
+.pastel-orange,
 .message.pastel-orange .message-body {
   border-color: #fae2c9;
 }
 
+.pastel-yellow,
 .message.pastel-yellow .message-body {
   border-color: #fdfad9;
 }
 
+.pastel-pink,
 .message.pastel-pink .message-body {
   border-color: #fce4e9;
 }
