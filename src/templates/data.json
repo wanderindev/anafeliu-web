@@ -45,11 +45,6 @@
         "alt": ""
       },
       {
-        "img": "5",
-        "url": "productos/tapon-del-darien.html",
-        "alt": ""
-      },
-      {
         "img": "6",
         "url": "productos/lotus-lamp.html",
         "alt": ""
@@ -82,6 +77,11 @@
       {
         "img": "12",
         "url": "productos/dispensadores.html",
+        "alt": ""
+      },
+      {
+        "img": "13",
+        "url": "productos/aromatico.html",
         "alt": ""
       }
     ],
@@ -748,8 +748,8 @@
           "text": "Silla Wabi-Sabi"
         },
         "next": {
-          "url": "tapon-del-darien.html",
-          "text": "Tapón del Darién"
+          "url": "lotus-lamp.html",
+          "text": "Lotus Lamp"
         }
       }
     },
@@ -854,8 +854,8 @@
       ],
       "navigation": {
         "prev": {
-          "url": "tapon-del-darien.html",
-          "text": "Tapón del Darién"
+          "url": "scooter.html",
+          "text": "Scooter PVC"
         },
         "next": {
           "url": "foro-romano.html",
@@ -868,7 +868,7 @@
       "url": "productos/foro-romano.html",
       "title": "Foro Romano",
       "featureImage": {
-        "src": "8.png",
+        "src": "8a.png",
         "alt": ""
       },
       "images": [
@@ -878,19 +878,19 @@
           "caption": "El tablero es un pentágono con las áreas donde se desarrollan las partidas de los distintos jugadores. Dependiendo de su personaje, los jugadores deben conseguir cierta cantidad de recursos para construir su legado. Los cinco materiales son madera, carbón, mármol, piedra y artistas. Las fichas de los recursos se colocan en las puntas del tablero."
         },
         {
-          "src": "8c",
+          "src": "8c.png",
           "alt": "",
-          "caption": ""
+          "caption": "Cada jugador cuenta con fichas de trabajadores. Dependiendo del dado, los jugadores colocan a sus trabajadores en los recursos para acumularlos. Cada proyecto de legado tiene tres fases de construcción y cada fase requiere cierta cantidad de recursos. Por ejemplo, el tablero personal del emperador Vespasiano indica que para la primera fase necesita 5 fichas de madera y 4 de roca; para la segunda, 2 de carbón y 7 de mármol; y para la tercera, 9 artistas."
         },
         {
           "src": "8d.png",
           "alt": "",
-          "caption": "Uno de los emperadores es Augusto, quién subió al poder en el 27 a.C. Su legado es el panteón."
+          "caption": "Al finalizar cada ronda, comienza el turno del Foro Romano. Aquí, los jugadores pueden comerciar con otros jugadores e intercambiar materiales o trabajadores. En su turno, un jugador le puede declarar la guerra a otro jugador. Cada jugador lanza su moneda de emperador y gana la batalla el primero cuya moneda caiga del lado de la cara. Uno de los emperadores es Augusto, quién subió al poder en el 27 a.C. Su legado es el panteón.\n"
         },
         {
           "src": "8e.png",
           "alt": "",
-          "caption": "Julio César iba a convertirse en el primer emperador de Roma pero lo asesinaron en el Senado antes de que adquiriera el título. Sin embargo, debido a él fue que emperadores posteriores adoptaron el nombre César y se convirtió en un título. Su legado fueron las múltiples victorias militares que resultaron en el anexo de territorios para la República."
+          "caption": "Julio César iba a convertirse en el primer emperador de Roma pero lo asesinaron en el Senado antes de que adquiriera el título. Sin embargo, emperadores posteriores adoptaron el nombre César en su honor y pasó a convertirse en un título. Su legado fueron las múltiples victorias militares que resultaron en el anexo de territorios para la República."
         },
         {
           "src": "8f.png",
@@ -910,7 +910,7 @@
         {
           "src": "8i.png",
           "alt": "",
-          "caption": ""
+          "caption": "Portada del juego con los cinco emperadores y el título sobre el fondo de la ciudad romana."
         }
       ],
       "descriptions": [
@@ -1164,6 +1164,47 @@
           "text": "Lámpara Sunrise"
         },
         "next": {
+          "url": "aromatico.html",
+          "text": "Aromático"
+        }
+      }
+    },
+    {
+      "id": "13",
+      "url": "productos/aromatico.html",
+      "title": "Aromático",
+      "featureImage": {
+        "src": "13a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "https://anafeliu14.wixsite.com/aromatico",
+          "alt": "",
+          "caption": "Sitio web de aromático. Explica la misión, el proyecto y la interfaz para añadir elementos para las experiencias.",
+          "iframe": true
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": "Innovar en todas las fases de un proyecto."
+        },
+        {
+          "title": "¿Cómo?",
+          "text": "Aplicar la gestión empresarial en un proyecto de innovación a través de la comida."
+        },
+        {
+          "title": "¿Qué?",
+          "text": "Aromático, una firma de diseño estratégico que entrega a domicilio todo lo necesario para generar una experiencia inolvidable a partir de las necesidades de los usuarios. No vendemos una comida, sino una cita romántica; no vendemos pasteles, sino una fiesta de cumpleaños."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "dispensadores.html",
+          "text": "Dispensadores de Papelería"
+        },
+        "next": {
           "url": "",
           "text": ""
         }
@@ -1352,14 +1393,14 @@
         },
         "next": {
           "url": "model-a.html",
-          "text": "Model A"
+          "text": "Model-A"
         }
       }
     },
     {
       "id": "304",
       "url": "espacios/model-a.html",
-      "title": "Model A",
+      "title": "Model-A",
       "featureImage": {
         "src": "304a.png",
         "alt": ""

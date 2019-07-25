@@ -48,6 +48,20 @@
             app.siteData = data;
         });
 
+        // Sets back to top button behavior.
+        $(window).scroll(function(){
+            if ($(this).scrollTop() > 400) {
+                $('.top-scroller').fadeIn();
+            } else {
+                $('.top-scroller').fadeOut();
+            }
+        });
+
+        $('.top-scroller').click(function(){
+            $('html, body').animate({scrollTop : 0},1000);
+            return false;
+        });
+
         app.openFB = function(index){
             let imgs = app.siteData.galleries.graphics[index - 1].images;
             let iframe = app.siteData.galleries.graphics[index - 1].iframe;
