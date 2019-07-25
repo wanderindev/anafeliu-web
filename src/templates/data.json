@@ -412,7 +412,7 @@
       },
       {
         "img": "302",
-        "url": "espacios/igor.html",
+        "url": "espacios/estanterias-modulares.html",
         "alt": ""
       },
       {
@@ -1272,15 +1272,15 @@
           "text": ""
         },
         "next": {
-          "url": "igor.html",
-          "text": "Igor"
+          "url": "estanterias-modulares.html",
+          "text": "Estanterías Modulares"
         }
       }
     },
     {
       "id": "302",
-      "url": "espacios/igor.html",
-      "title": "Igor",
+      "url": "espacios/estanterias-modulares.html",
+      "title": "Estanterías Modulares",
       "featureImage": {
         "src": "302.png",
         "alt": ""
@@ -1299,12 +1299,12 @@
         {
           "src": "302d.png",
           "alt": "",
-          "caption": "Los stands son hechos con lámina de hierro para darles un look sofisticado, esbelto y moderno."
+          "caption": "Las estanterías se fabrican con lámina de hierro para darles una apariencia sofisticada, esbelta y moderna."
         },
         {
           "src": "302e.png",
           "alt": "",
-          "caption": "Cada módulo tiene cierre magnético. Cuando no se usan, se saca la tablilla del medio y se desarman para un almacenaje plano eficiente."
+          "caption": "Cada módulo tiene uniones magnéticas. Cuando no se usan, se saca la tablilla del medio y se desarman para un almacenaje plano eficiente."
         }
       ],
       "descriptions": [
@@ -1388,8 +1388,8 @@
       ],
       "navigation": {
         "prev": {
-          "url": "igor.html",
-          "text": "Igor"
+          "url": "estanterias-modulares.html",
+          "text": "Estanterías Modulares"
         },
         "next": {
           "url": "model-a.html",
