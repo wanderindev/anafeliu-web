@@ -59,10 +59,8 @@
             <img class="product-img" src="../img/{{image.src}}" alt="{{image.alt}}">
             <p class="img-caption">{{image.caption}}</p>
         </div>
-        {% elif image.iframe%}
-        <div class="column is-full-tablet has-text-centered-mobile">
-            <iframe src="{{image.src}}"></iframe>
-        </div>
+        {% elif image.web %}
+
         {% else %}
         <div class="column is-half-tablet has-text-centered-mobile">
             <img class="product-img" src="../img/{{image.src}}" alt="{{image.alt}}">

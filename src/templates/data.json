@@ -1179,10 +1179,10 @@
       },
       "images": [
         {
-          "src": "https://anafeliu14.wixsite.com/aromatico",
+          "src": "13b.jpg",
           "alt": "",
           "caption": "Sitio web de aromático. Explica la misión, el proyecto y la interfaz para añadir elementos para las experiencias.",
-          "iframe": true
+          "web": true
         }
       ],
       "descriptions": [

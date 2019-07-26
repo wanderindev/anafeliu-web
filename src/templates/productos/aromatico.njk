@@ -1,7 +1,24 @@
 {% set page = 'Productos' %}
+{% set title = 'Aromático' %}
 {% set pathToRoot = '..' %}
 {% set pageId = '13' %}
 {% extends "_base.njk" %}
 {% block content %}
     {% include '_product_page.njk' %}
+{% endblock %}
+{%  block web %}
+    <section class="section">
+        <div class="container">
+            <div class="columns is-variable is-8 is-multiline">
+                <div class="column is-full has-text-centered">
+                    <img class="product-img" src="../img/13b.jpg" alt="{{image.alt}}">
+                </div>
+                <div class="column is-full has-text-centered">
+                    <p class="img-caption">
+                        <a href="aromatico-web.html">Sitio web de aromático</a>. Explica la misión, el proyecto
+                        y la interfaz para añadir elementos para las experiencias.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 {% endblock %}
