@@ -4,6 +4,8 @@
         let navbarMenu$ = $(".navbar-menu");
         let navbarItem$ = $(".navbar-end a.navbar-item");
         let navbarBurger$ = $(".navbar-burger");
+        let iframe$ = $('.aromatico-iframe');
+        console.log(iframe$);
 
         // Check for click events on the navbar burger icon
         navbarBurger$.click(function() {
@@ -84,5 +86,11 @@
             console.log(fbItems);
             $.fancybox.open(fbItems);
         };
+
+        if (iframe$.length) {
+            let h = $(window).height();
+            iframe$.css('height', h + 'px');
+            $('html').css('overflow', 'hidden');
+        }
     });
 })(window.app = window.app || {}, jQuery);
