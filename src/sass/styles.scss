@@ -717,7 +717,8 @@ figure.essay-img-wrapper .essay-img {
   width: 448px;
   height: 448px;
   padding-top: 395px;
-  top: -784px;
+  margin-bottom: -448px;
+  top: -208px;
   z-index: 1;
 }
 
@@ -726,7 +727,8 @@ figure.essay-img-wrapper .essay-img {
   width: 336px;
   height: 336px;
   padding-top: 276px;
-  top: -392px;
+  margin-bottom: -336px;
+  top: -156px;
   left: 56px;
   z-index: 2;
 }
@@ -736,6 +738,7 @@ figure.essay-img-wrapper .essay-img {
   width: 224px;
   height: 224px;
   padding-top: 120px;
+  margin-bottom: -224px;
   top: -112px;
   left: 112px;
   z-index: 3;
@@ -808,7 +811,8 @@ figure.essay-img-wrapper .essay-img {
     width: 348px;
     height: 348px;
     padding-top: 300px;
-    top: -526px;
+    margin-bottom: -348px;
+    top: -174px;
     left: -5px;
   }
 
@@ -816,7 +820,8 @@ figure.essay-img-wrapper .essay-img {
     width: 236px;
     height: 236px;
     padding-top: 184px;
-    top: -232px;
+    margin-bottom: -236px;
+    top: -118px;
     left: 51px;
   }
 
@@ -824,7 +829,8 @@ figure.essay-img-wrapper .essay-img {
     width: 124px;
     height: 124px;
     padding-top: 65px;
-    top: -57px;
+    margin-bottom: -124px;
+    top: -62px;
     left: 107px;
   }
 
@@ -903,7 +909,8 @@ figure.essay-img-wrapper .essay-img {
     width: 308px;
     height: 308px;
     padding-top: 268px;
-    top: -404px;
+    margin-bottom: -308px;
+    top: -122px;
     left: 5px;
   }
 
@@ -911,7 +918,8 @@ figure.essay-img-wrapper .essay-img {
     width: 196px;
     height: 196px;
     padding-top: 156px;
-    top: -154px;
+    margin-bottom: -196px;
+    top: -66px;
     left: 61px;
   }
 
@@ -919,7 +927,8 @@ figure.essay-img-wrapper .essay-img {
     width: 84px;
     height: 84px;
     padding-top: 40px;
-    top: -14px;
+    margin-bottom: -84px;
+    top: -10px;
     left: 117px;
   }
 }
@@ -946,10 +955,6 @@ figure.essay-img-wrapper .essay-img {
 
   .about-circle-container .about-title {
     margin-top: 156px;
-  }
-
-  .about-circle-container .about-rel-container.about-white-box {
-    margin-top: -522px;
   }
 
   .about-blue-bar,
@@ -979,92 +984,160 @@ figure.essay-img-wrapper .essay-img {
     height: auto;
   }
 
-  .about-circle-what,
-  .about-circle-how,
-  .about-circle-why {
-    font-size: 18px;
-    border-radius: 50%;
-    text-align: center;
-  }
-
   .about-circle-what {
-    width: 264px;
-    height: 264px;
-    padding-top: 230px;
-    top: -678px;
-    left: 344px;
+    left: 352px;
+    top: -412px;
   }
 
   .about-circle-how {
-    width: 184px;
-    height: 184px;
-    padding-top: 145px;
-    left: 384px;
-    top: -454px;
+    left: 408px;
+    top: -356px;
   }
 
   .about-circle-why {
-    width: 104px;
-    height: 104px;
-    padding-top: 50px;
-    left: 424px;
-    top: -311px;
+    left: 464px;
+    top: -300px;
   }
 }
 
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 754px) {
   .about-circle-what {
-    left: 294px;
+    left: 345px;
   }
 
   .about-circle-how {
-    left: 334px;
+    left: 401px;
   }
 
   .about-circle-why {
-    left: 374px;
+    left: 457px;
   }
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 734px) {
   .about-circle-what {
-    left: 244px;
+    left: 325px;
   }
 
   .about-circle-how {
-    left: 284px;
+    left: 381px;
   }
 
   .about-circle-why {
-    left: 324px;
+    left: 437px;
   }
 }
 
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 714px) {
   .about-circle-what {
-    left: 194px;
+    left: 305px;
   }
 
   .about-circle-how {
-    left: 234px;
+    left: 361px;
   }
 
   .about-circle-why {
-    left: 274px;
+    left: 417px;
   }
 }
 
-@media screen and (max-width: 565px) {
+@media screen and (max-width: 694px) {
   .about-circle-what {
-    left: 144px;
+    left: 285px;
   }
 
   .about-circle-how {
-    left: 184px;
+    left: 341px;
   }
 
   .about-circle-why {
-    left: 224px;
+    left: 397px;
+  }
+}
+
+
+@media screen and (max-width: 674px) {
+  .about-circle-what {
+    left: 265px;
+  }
+
+  .about-circle-how {
+    left: 321px;
+  }
+
+  .about-circle-why {
+    left: 377px;
+  }
+}
+
+@media screen and (max-width: 654px) {
+  .about-circle-what {
+    left: 245px;
+  }
+
+  .about-circle-how {
+    left: 301px;
+  }
+
+  .about-circle-why {
+    left: 357px;
+  }
+}
+
+@media screen and (max-width: 634px) {
+  .about-circle-what {
+    left: 225px;
+  }
+
+  .about-circle-how {
+    left: 281px;
+  }
+
+  .about-circle-why {
+    left: 337px;
+  }
+}
+
+@media screen and (max-width: 614px) {
+  .about-circle-what {
+    left: 205px;
+  }
+
+  .about-circle-how {
+    left: 261px;
+  }
+
+  .about-circle-why {
+    left: 317px;
+  }
+}
+
+@media screen and (max-width: 594px) {
+  .about-circle-what {
+    left: 185px;
+  }
+
+  .about-circle-how {
+    left: 241px;
+  }
+
+  .about-circle-why {
+    left: 297px;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .about-circle-what {
+    left: 165px;
+  }
+
+  .about-circle-how {
+    left: 221px;
+  }
+
+  .about-circle-why {
+    left: 277px;
   }
 
   .about-img {
@@ -1072,54 +1145,264 @@ figure.essay-img-wrapper .essay-img {
   }
 }
 
-@media screen and (max-width: 515px) {
+@media screen and (max-width: 554px) {
   .about-circle-what {
-    left: 94px;
+    left: 75px;
   }
 
   .about-circle-how {
-    left: 134px;
+    left: 131px;
   }
 
   .about-circle-why {
-    left: 174px;
+    left: 187px;
   }
 }
 
-@media screen and (max-width: 465px) {
+@media screen and (max-width: 534px) {
   .about-circle-what {
-    left: 44px;
+    left: 65px;
   }
 
   .about-circle-how {
-    left: 84px;
+    left: 121px;
   }
 
   .about-circle-why {
-    left: 124px;
+    left: 177px;
   }
 }
 
-@media screen and (max-width: 421px) {
-  .about-img {
-    width: 100%;
-  }
-
+@media screen and (max-width: 514px) {
   .about-circle-what {
-    left: 0;
+    left: 55px;
   }
 
   .about-circle-how {
+    left: 111px;
+  }
+
+  .about-circle-why {
+    left: 167px;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  .about-circle-what {
+    left: 50px;
+  }
+
+  .about-circle-how {
+    left: 106px;
+  }
+
+  .about-circle-why {
+    left: 162px;
+  }
+}
+
+@media screen and (max-width: 494px) {
+  .about-circle-what {
+    left: 45px;
+  }
+
+  .about-circle-how {
+    left: 101px;
+  }
+
+  .about-circle-why {
+    left: 157px;
+  }
+}
+
+@media screen and (max-width: 484px) {
+  .about-circle-what {
     left: 40px;
   }
 
+  .about-circle-how {
+    left: 96px;
+  }
+
   .about-circle-why {
-    left: 80px;
+    left: 152px;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  .about-circle-what {
+    left: 35px;
+  }
+
+  .about-circle-how {
+    left: 91px;
+  }
+
+  .about-circle-why {
+    left: 147px;
+  }
+}
+
+@media screen and (max-width: 464px) {
+  .about-circle-what {
+    left: 30px;
+  }
+
+  .about-circle-how {
+    left: 86px;
+  }
+
+  .about-circle-why {
+    left: 142px;
   }
 
   .about-circle-container .about-title {
     font-size: 24px;
     letter-spacing: .08em;
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .about-circle-what {
+    left: 25px;
+  }
+
+  .about-circle-how {
+    left: 81px;
+  }
+
+  .about-circle-why {
+    left: 137px;
+  }
+}
+
+@media screen and (max-width: 444px) {
+  .about-circle-what {
+    left: 20px;
+  }
+
+  .about-circle-how {
+    left: 76px;
+  }
+
+  .about-circle-why {
+    left: 132px;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  .about-circle-what {
+    left: 15px;
+  }
+
+  .about-circle-how {
+    left: 71px;
+  }
+
+  .about-circle-why {
+    left: 127px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .about-circle-what {
+    left: 10px;
+  }
+
+  .about-circle-how {
+    left: 66px;
+  }
+
+  .about-circle-why {
+    left: 122px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .about-img {
+    width: 100%;
+  }
+
+  .about-circle-what {
+    left: 5px;
+  }
+
+  .about-circle-how {
+    left: 61px;
+  }
+
+  .about-circle-why {
+    left: 117px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .about-circle-what {
+    left: 4px;
+  }
+
+  .about-circle-how {
+    left: 60px;
+  }
+
+  .about-circle-why {
+    left: 116px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .about-circle-what {
+    left: -10px;
+  }
+
+  .about-circle-how {
+    left: 46px;
+  }
+
+  .about-circle-why {
+    left: 102px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about-circle-what {
+    left: -14px;
+  }
+
+  .about-circle-how {
+    left: 42px;
+  }
+
+  .about-circle-why {
+    left: 98px;
+  }
+}
+
+@media screen and (max-width: 367px) {
+  .about-circle-what {
+    left: -18px;
+  }
+
+  .about-circle-how {
+    left: 38px;
+  }
+
+  .about-circle-why {
+    left: 94px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .about-circle-what {
+    left: -22px;
+  }
+
+  .about-circle-how {
+    left: 34px;
+  }
+
+  .about-circle-why {
+    left: 90px;
   }
 }
 
