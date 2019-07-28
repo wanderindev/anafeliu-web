@@ -8,6 +8,7 @@ let settings = {
     svgs: true,
     copy: true,
     reload: true,
+    sitemap: true
 };
 
 
@@ -57,6 +58,10 @@ let paths = {
     },
     copy: {
         input: ['src/templates/data.json', 'src/copy/**/*'],
+        output: 'dist/',
+    },
+    sitemap: {
+        input: 'dist/**/*/*.html',
         output: 'dist/',
     },
     reload: './dist/',
@@ -129,6 +134,9 @@ let svgmin = require('gulp-svgmin');
 // BrowserSync
 let browserSync = require('browser-sync').create();
 
+// Sitemap
+let sitemap = require('gulp-sitemap');
+
 /**
  * Gulp Tasks
  */
@@ -149,6 +157,22 @@ let cleanDist = function (done) {
 
     // Signal completion
     return done();
+
+};
+
+// Generate sitemap for search engine.
+let siteMap = function (done) {
+
+    // Make sure this feature is activated before running
+    if (!settings.sitemap) return done();
+
+    // Generate sitemap
+    src(paths.sitemap.input, {read: false})
+        .pipe(sitemap({siteUrl: 'https://www.anafeliu.com'}))
+        .pipe(dest(paths.sitemap.output));
+
+    // Signal completion
+    done();
 
 };
 
@@ -465,4 +489,10 @@ exports.watch = series(
     exports.default,
     startServer,
     watchSource
+);
+
+// Generate sitemap
+// gulp sitemap
+exports.sitemap = series(
+    siteMap
 );
