@@ -1,11 +1,14 @@
-(function(app, $) {
+(function(app, $, Sentry) {
     $(document).ready(function() {
         let headerLogo$ = $(".header-logo");
         let navbarMenu$ = $(".navbar-menu");
         let navbarItem$ = $(".navbar-end a.navbar-item");
         let navbarBurger$ = $(".navbar-burger");
         let iframe$ = $('.aromatico-iframe');
-        console.log(iframe$);
+
+        // Init Sentry
+        Sentry.init({ dsn: 'https://456a67b26d574f609ea315fdc982b469@sentry.io/1520877' });
+
 
         // Check for click events on the navbar burger icon
         navbarBurger$.click(function() {
@@ -92,5 +95,6 @@
             iframe$.css('height', h + 'px');
             $('html').css('overflow', 'hidden');
         }
+
     });
-})(window.app = window.app || {}, jQuery);
+})(window.app = window.app || {}, jQuery, Sentry);
