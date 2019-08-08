@@ -480,7 +480,8 @@ exports.default = series(
     buildStyles,
     buildImgs,
     buildSVGs,
-    copyFiles
+    copyFiles,
+    siteMap
 );
 
 // Watch and reload
