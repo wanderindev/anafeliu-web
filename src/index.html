@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Ana Isabel Feliu</title>
+</head>
+<body>
+<script>
+    let lang = navigator.language;
+    console.log(lang);
+    console.log(lang.startsWith("es"));
+    if (lang.startsWith("es")) {
+        window.location.replace("https://anafeliu.com/es/");
+    } else {
+        window.location.replace("https://anafeliu.com/en/");
+    }
+</script>
+
+</body>
+</html>

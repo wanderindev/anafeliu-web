@@ -49,7 +49,7 @@
         });
 
         // Parses the website data.
-        $.getJSON('data.json', function(data) {
+        $.getJSON('data-es.json', function(data) {
             app.siteData = data;
         });
 
@@ -86,7 +86,6 @@
                 });
             }
 
-            console.log(fbItems);
             $.fancybox.open(fbItems);
         };
 

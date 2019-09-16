@@ -15,56 +15,57 @@ let settings = {
 /**
  * Paths to project folders
  */
+let lang = 'en';
 
 let paths = {
     input: 'src/',
-    output: 'dist/',
+    output: 'dist/' + lang + '/',
     render: {
         input: 'src/templates/*.njk',
-        output: 'dist/',
-        data: './src/templates/data.json',
+        output: 'dist/' + lang + '/',
+        data: './src/templates/data-' + lang + '.json',
         partials: 'src/templates/partials',
         cssSrc: 'src/sass/*.{sass,scss}',
         jsSrc: 'src/js/*.js',
     },
     renderProducts: {
         input: 'src/templates/productos/*.njk',
-        output: 'dist/productos'
+        output: 'dist/' + lang + '/productos'
     },
     renderSpaces: {
         input: 'src/templates/espacios/*.njk',
-        output: 'dist/espacios'
+        output: 'dist/' + lang + '/espacios'
     },
     renderEssays: {
         input: 'src/templates/ensayos/*.njk',
-        output: 'dist/ensayos'
+        output: 'dist/' + lang + '/ensayos'
     },
     scripts: {
         input: 'src/js/*',
         polyfills: '.polyfill.js',
-        output: 'dist/js/',
+        output: 'dist/' + lang + '/js/',
     },
     styles: {
         input: 'src/sass/*.{scss,sass}',
-        output: 'dist/css/',
+        output: 'dist/' + lang + '/css/',
     },
     imgs: {
         input: 'src/img/*.{gif,jpg,png}',
-        output: 'dist/img/',
+        output: 'dist/' + lang + '/img/',
     },
     svgs: {
         input: 'src/svg/*.svg',
-        output: 'dist/svg/',
+        output: 'dist/' + lang + '/svg/',
     },
     copy: {
-        input: ['src/templates/data.json', 'src/copy/**/*'],
-        output: 'dist/',
+        input: ['src/templates/data-' + lang + '.json', 'src/copy/**/*'],
+        output: 'dist/' + lang + '/',
     },
     sitemap: {
         input: 'dist/**/*/*.html',
         output: 'dist/',
     },
-    reload: './dist/',
+    reload: './dist',
 };
 
 
@@ -195,9 +196,9 @@ let renderTempls = function(done) {
             path: [paths.render.partials]
         }))
         .pipe(dest(paths.render.output))
-        .pipe(inject(cssSources, {relative: true, ignorePath: '../src/sass/'}))
+        .pipe(inject(cssSources, {relative: true, addPrefix: '', ignorePath: '../../src/sass/'}))
         .pipe(dest(paths.render.output))
-        .pipe(inject(jsSources, {relative: true, ignorePath: '../src/'}))
+        .pipe(inject(jsSources, {relative: true, addPrefix: '', ignorePath: '../../src/'}))
         .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(dest(paths.render.output));
 
@@ -210,9 +211,9 @@ let renderTempls = function(done) {
             path: [paths.render.partials]
         }))
         .pipe(dest(paths.renderProducts.output))
-        .pipe(inject(cssSources, {relative: true, addPrefix: '..', ignorePath: '../../src/sass/'}))
+        .pipe(inject(cssSources, {relative: true, addPrefix: '..', ignorePath: '../../../src/sass/'}))
         .pipe(dest(paths.renderProducts.output))
-        .pipe(inject(jsSources, {relative: true, addPrefix: '..', ignorePath: '../../src/'}))
+        .pipe(inject(jsSources, {relative: true, addPrefix: '..', ignorePath: '../../../src/'}))
         .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(dest(paths.renderProducts.output));
 
@@ -225,9 +226,9 @@ let renderTempls = function(done) {
             path: [paths.render.partials]
         }))
         .pipe(dest(paths.renderSpaces.output))
-        .pipe(inject(cssSources, {relative: true, addPrefix: '..', ignorePath: '../../src/sass/'}))
+        .pipe(inject(cssSources, {relative: true, addPrefix: '..', ignorePath: '../../../src/sass/'}))
         .pipe(dest(paths.renderSpaces.output))
-        .pipe(inject(jsSources, {relative: true, addPrefix: '..', ignorePath: '../../src/'}))
+        .pipe(inject(jsSources, {relative: true, addPrefix: '..', ignorePath: '../../../src/'}))
         .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(dest(paths.renderSpaces.output));
 
@@ -240,9 +241,9 @@ let renderTempls = function(done) {
             path: [paths.render.partials]
         }))
         .pipe(dest(paths.renderEssays.output))
-        .pipe(inject(cssSources, {relative: true, addPrefix: '..', ignorePath: '../../src/sass/'}))
+        .pipe(inject(cssSources, {relative: true, addPrefix: '..', ignorePath: '../../../src/sass/'}))
         .pipe(dest(paths.renderEssays.output))
-        .pipe(inject(jsSources, {relative: true, addPrefix: '..', ignorePath: '../../src/'}))
+        .pipe(inject(jsSources, {relative: true, addPrefix: '..', ignorePath: '../../../src/'}))
         .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(dest(paths.renderEssays.output));
 
@@ -409,6 +410,9 @@ let copyFiles = function (done) {
     // Copy static files
     src(paths.copy.input)
         .pipe(dest(paths.copy.output));
+
+    src('src/index.html')
+        .pipe(dest('dist/'));
 
     // Signal completion
     done();

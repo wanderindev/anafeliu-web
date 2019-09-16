@@ -1,0 +1,1527 @@
+{
+  "menu": [
+    {
+      "url": "index.html",
+      "name": "Products"
+    },
+    {
+      "url": "espacios.html",
+      "name": "Spaces"
+    },
+    {
+      "url": "graficos.html",
+      "name": "Graphics"
+    },
+    {
+      "url": "ensayos.html",
+      "name": "Essays"
+    },
+    {
+      "url": "about-me.html",
+      "name": "About me"
+    }
+  ],
+
+  "galleries": {
+    "products": [
+      {
+        "img": "1",
+        "url": "productos/organizador.html",
+        "alt": ""
+      },
+      {
+        "img": "2",
+        "url": "productos/amplificador.html",
+        "alt": ""
+      },
+      {
+        "img": "3",
+        "url": "productos/mesa-10.html",
+        "alt": ""
+      },
+      {
+        "img": "4",
+        "url": "productos/scooter.html",
+        "alt": ""
+      },
+      {
+        "img": "6",
+        "url": "productos/lotus-lamp.html",
+        "alt": ""
+      },
+      {
+        "img": "7",
+        "url": "productos/wabi-sabi.html",
+        "alt": ""
+      },
+      {
+        "img": "8",
+        "url": "productos/foro-romano.html",
+        "alt": ""
+      },
+      {
+        "img": "9",
+        "url": "productos/kibo.html",
+        "alt": ""
+      },
+      {
+        "img": "10",
+        "url": "productos/futbolito.html",
+        "alt": ""
+      },
+      {
+        "img": "11",
+        "url": "productos/sunrise.html",
+        "alt": ""
+      },
+      {
+        "img": "12",
+        "url": "productos/dispensadores.html",
+        "alt": ""
+      },
+      {
+        "img": "13",
+        "url": "productos/aromatico.html",
+        "alt": ""
+      },
+      {
+        "img": "14",
+        "url": "productos/drone.html",
+        "alt": ""
+      }
+    ],
+    "graphics": [
+      {
+        "img": "201a",
+        "url": "",
+        "alt": "",
+        "class": "is-4-tablet",
+        "images": [
+          "201.png"
+        ]
+      },
+      {
+        "img": "202a",
+        "url": "",
+        "alt": "",
+        "class": "is-4-tablet",
+        "images": [
+          "202.png"
+        ]
+      },
+      {
+        "img": "203a",
+        "url": "",
+        "alt": "",
+        "class": "is-4-tablet",
+        "images": [
+          "203.png"
+        ]
+      },
+      {
+        "img": "204",
+        "url": "",
+        "alt": "",
+        "class": "is-4-tablet",
+        "style": "padding-top:134.4%;",
+        "images": [
+          "204a.png",
+          "204b.png",
+          "204c.png",
+          "204d.png"
+        ]
+      },
+      {
+        "img": "205a",
+        "url": "",
+        "alt": "",
+        "class": "is-8-tablet",
+        "images": [
+          "205a.png",
+          "205b.png"
+        ]
+      },
+      {
+        "img": "206",
+        "url": "",
+        "alt": "",
+        "class": "is-4-tablet",
+        "style": "padding-top:150.5%;",
+        "images": [
+          "206a.png"
+        ]
+      },
+      {
+        "img": "207",
+        "url": "",
+        "alt": "",
+        "class": "is-4-tablet",
+        "style": "padding-top:150.5%;",
+        "images": [
+          "207a.png"
+        ]
+      },
+      {
+        "img": "208",
+        "url": "",
+        "alt": "",
+        "class": "is-4-tablet",
+        "style": "padding-top:150.5%;",
+        "images": [
+          "208a.png"
+        ]
+      },
+      {
+        "img": "209a",
+        "url": "",
+        "alt": "",
+        "class": "is-6-tablet",
+        "style": "padding-top:75%;",
+        "iframe": "https://docs.google.com/presentation/d/e/2PACX-1vS6DhNzCHm_X2bIuOngYzvSx3VvhcIUUniCBiTcjDIKyJ9zh1bDW9_HgmF48EnUNW7UowueI02-2i7n/embed?start=false&loop=false&delayms=3000"
+      },
+      {
+        "img": "210a",
+        "url": "",
+        "alt": "",
+        "class": "is-6-tablet",
+        "style": "padding-top:75%;",
+        "iframe": "https://docs.google.com/presentation/d/e/2PACX-1vSQC1zr14uqEVVGisEZAGy-LPFBqfSweaJt4V1ZSg2Bm83LJ5iyC9FSoepERWsHHTvgEJfNc-UtS7Tv/embed?start=false&loop=false&delayms=3000"
+      },
+      {
+        "img": "211",
+        "url": "",
+        "alt": "",
+        "class": "is-7-tablet",
+        "style": "padding-top:50.5%;",
+        "images": [
+          "211.png"
+        ]
+      },
+      {
+        "img": "212a",
+        "url": "",
+        "alt": "",
+        "class": "is-5-tablet",
+        "style": "padding-top:71%;",
+        "images": [
+          "212a.png",
+          "212b.png",
+          "212c.png",
+          "212d.png",
+          "212e.png",
+          "212f.png",
+          "212g.png",
+          "212h.png",
+          "212i.png",
+          "212j.png",
+          "212k.png",
+          "212l.png",
+          "212m.png",
+          "212n.png",
+          "212o.png",
+          "212p.png"
+        ]
+      },
+      {
+        "img": "213a",
+        "url": "",
+        "alt": "",
+        "class": "is-6-tablet",
+        "style": "padding-top:56%;",
+        "iframe": "https://docs.google.com/presentation/d/e/2PACX-1vSfZlbUhm84pUPBG9pX-vLq5I-YIPYoF_NJrldL4skQQg04SeO2WxUvPksALwMkbg2n8-CrINCe9Rm1/embed?start=false&loop=false&delayms=3000"
+      },
+      {
+        "img": "214a",
+        "url": "",
+        "alt": "",
+        "class": "is-6-tablet",
+        "style": "padding-top:56%;",
+        "iframe": "https://docs.google.com/presentation/d/e/2PACX-1vRYWDtVhY1sr9xXc5T478IzD1esAojhbm2qMssLrpOTT8vGl5P5n1toYHTsTaipDTlw63t58EargDQ_/embed?start=false&loop=false&delayms=3000"
+      },
+      {
+        "img": "215",
+        "url": "",
+        "alt": "",
+        "class": "column-27",
+        "style": "padding-top:154.32%; border:1px #eee solid;",
+        "images": [
+          "215a.png",
+          "215b.png",
+          "215c.png",
+          "215d.png",
+          "215e.png"
+        ]
+      },
+      {
+        "img": "216",
+        "url": "",
+        "alt": "",
+        "class": "column-42",
+        "style": "padding-top:99.5%; border:1px #eee solid;",
+        "images": [
+          "216a.png",
+          "216b.png",
+          "216c.png",
+          "216d.png",
+          "216e.png",
+          "216f.png",
+          "216g.png",
+          "216h.png",
+          "216i.png",
+          "216j.png",
+          "216k.png",
+          "216l.png"
+        ]
+      },
+      {
+        "img": "217a",
+        "url": "",
+        "alt": "",
+        "class": "column-30",
+        "style": "padding-top:141.24%;",
+        "images": [
+          "217a.png",
+          "217b.png",
+          "217c.png",
+          "217d.png",
+          "217e.png",
+          "217f.png"
+        ]
+      },
+      {
+        "img": "218",
+        "url": "",
+        "alt": "",
+        "class": "column-47",
+        "style": "padding-top:120.73%;",
+        "images": [
+          "218.png"
+        ]
+      },
+      {
+        "img": "219",
+        "url": "",
+        "alt": "",
+        "class": "column-53",
+        "style": "padding-top:106.96%;",
+        "images": [
+          "219.png"
+        ]
+      },
+      {
+        "img": "220",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%; border:1px #eee solid;",
+        "images": [
+          "220a.png"
+        ]
+      },
+      {
+        "img": "221",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%; border:1px #eee solid;",
+        "images": [
+          "221a.png"
+        ]
+      },
+      {
+        "img": "222",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%;",
+        "images": [
+          "222a.png"
+        ]
+      },
+      {
+        "img": "223",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%; border:1px #eee solid;",
+        "images": [
+          "223a.png"
+        ]
+      },
+      {
+        "img": "224",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%;",
+        "images": [
+          "224a.png"
+        ]
+      },
+      {
+        "img": "225",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%;",
+        "images": [
+          "225a.png"
+        ]
+      },
+      {
+        "img": "226",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%;",
+        "images": [
+          "226a.png"
+        ]
+      },
+      {
+        "img": "227",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%;",
+        "images": [
+          "227a.png"
+        ]
+      },
+      {
+        "img": "228",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%;",
+        "images": [
+          "228a.png"
+        ]
+      },
+      {
+        "img": "229",
+        "url": "",
+        "alt": "",
+        "class": "is-one-fifth-tablet",
+        "style": "padding-top:129.5%;",
+        "images": [
+          "229a.png"
+        ]
+      }
+    ],
+    "spaces": [
+      {
+        "img": "301",
+        "url": "espacios/sistemas-de-oficina.html",
+        "alt": ""
+      },
+      {
+        "img": "302",
+        "url": "espacios/estanterias-modulares.html",
+        "alt": ""
+      },
+      {
+        "img": "303",
+        "url": "espacios/mobiliario-urbano.html",
+        "alt": ""
+      },
+      {
+        "img": "304",
+        "url": "espacios/model-a.html",
+        "alt": ""
+      }
+    ],
+    "essays": [
+      {
+        "class": "pastel-blue",
+        "title": "40 Things About Me",
+        "desc": "My interests and how I spend my free time",
+        "url": "ensayos/40-things-about-me.html"
+      },
+      {
+        "class": "pastel-yellow",
+        "title": "Calvin and Hobbes: A Lasting Legacy",
+        "desc": "Analyzing the impact of a comic and what it takes to make history.",
+        "url": "ensayos/calvin-and-hobbes-legacy.html"
+      },
+      {
+        "class": "pastel-pink",
+        "title": "The Use of Ethnic Humor and its Evolving Perception in Modern Society",
+        "desc": "What works and what doesn't in the age of political correctness.",
+        "url": "ensayos/ethnic-humor-in-modern-society.html"
+      },
+      {
+        "class": "pastel-green",
+        "title": "Marimekko, Maija Isola y Vuokko Eskolin-Nurmesniemi",
+        "desc": "Textiles como medio para la liberación femenina.",
+        "url": "ensayos/marimekko-maija-isola-y-vuokko-eskolin-nurmesniemi.html"
+      },
+      {
+        "class": "pastel-purple",
+        "title": "La Accesibilidad y el Diseño en Panamá",
+        "desc": "¿Qué existe, qué falta y qué podemos hacer?",
+        "url": "ensayos/accesibilidad-y-diseno-en-panama.html"
+      },
+      {
+        "class": "pastel-orange",
+        "title": "Efectos de la Tercera Revolución Industrial en la Disciplina del Diseño",
+        "desc": "Cómo el internet de las cosas está cambiando la industria.",
+        "url": "ensayos/tercera-revolucion-industrial-y-el-diseno.html"
+      }
+    ]
+  },
+
+  "productPages": [
+    {
+      "id": "1",
+      "url": "productos/organizador.html",
+      "title": "Desk Organizer",
+      "featureImage": {
+        "src": "1a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "1b.png",
+          "alt": "",
+          "caption": "The organizer has two main compartments for storing utensils."
+        },
+        {
+          "src": "1c.png",
+          "alt": "",
+          "caption": "It was made with several layers of cardboard, one on top of the other, which were folded and glued together."
+        },
+        {
+          "src": "1d.png",
+          "alt": "",
+          "caption": "Magnets on the edges keep the two pieces together, when they’re not being used separately."
+        },
+        {
+          "src": "1e.png",
+          "alt": "",
+          "caption": "Everything was covered with car body filler and sanded to give it a finish that mimics plastic. Finally, it was painted bright yellow."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "Why?",
+          "text": "Understand different ways to use cardboard."
+        },
+        {
+          "title": "How?",
+          "text": "Design a desktop organizer."
+        },
+        {
+          "title": "What?",
+          "text": "An organizer with a magnetic closure made with folded cardboard and car body filler."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "",
+          "text": ""
+        },
+        "next": {
+          "url": "amplificador.html",
+          "text": "Amplifier"
+        }
+      }
+    },
+    {
+      "id": "2",
+      "url": "productos/amplificador.html",
+      "title": "Amplifier",
+      "featureImage": {
+        "src": "2a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "2b.png",
+          "alt": "",
+          "caption": "The amplifier is composed of six wooden frames arranged by size."
+        },
+        {
+          "src": "2c.png",
+          "alt": "",
+          "caption": "The first soundboard causes the sound waves to bounce, while the rest of the frames guide it towards the user."
+        },
+        {
+          "src": "2d.png",
+          "alt": "",
+          "caption": "The angle of rotation of the frames creates a dynamic and interesting aesthetic."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "Why?",
+          "text": "Take advantage of scrap materials."
+        },
+        {
+          "title": "How?",
+          "text": "Make an object for the home."
+        },
+        {
+          "title": "What?",
+          "text": "Passive amplifier for cell phones."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "organizador.html",
+          "text": "Desk Organizer"
+        },
+        "next": {
+          "url": "mesa-10.html",
+          "text": "Table 10"
+        }
+      }
+    },
+    {
+      "id": "3",
+      "url": "productos/mesa-10.html",
+      "title": "Table 10",
+      "featureImage": {
+        "src": "3a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "3b.png",
+          "alt": "",
+          "caption": "First, I explored making different folds and shapes in order to test the resistance."
+        },
+        {
+          "src": "3c.png",
+          "alt": "",
+          "caption": "I based my design on the trapezium and the triangle because they created the best structure."
+        },
+        {
+          "src": "3d.png",
+          "alt": "",
+          "caption": "I wanted to take advantage of the properties of the material. The manufacture and transport of cardboard are very economical since it is so lightweight and because it can be sent flat to be assembled on-site."
+        },
+        {
+          "src": "3e.png",
+          "alt": "",
+          "caption": "I decided to make a school desk for rural areas since they can be removed, stored, decorated and accommodated very easily."
+        },
+        {
+          "src": "3f.png",
+          "alt": "",
+          "caption": "The surface has an inclination angle of 10 degrees so users may maintain good posture without fatigue."
+        },
+        {
+          "src": "3g.png",
+          "alt": "",
+          "caption": "The legs have a slight outward angle so the entire piece may share the same aesthetic language."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "Why?",
+          "text": "Explore the potential of cardboard as a material."
+        },
+        {
+          "title": "How?",
+          "text": "Design flat cardboard furniture that can be assembled without using glue."
+        },
+        {
+          "title": "What?",
+          "text": "A cardboard desk for schools in rural areas."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "amplificador.html",
+          "text": "Amplifier"
+        },
+        "next": {
+          "url": "wabi-sabi.html",
+          "text": "Wabi-Sabi Chair"
+        }
+      }
+    },
+    {
+      "id": "4",
+      "url": "productos/wabi-sabi.html",
+      "title": "Wabi-Sabi Chair",
+      "featureImage": {
+        "src": "4a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "4b.png",
+          "alt": "",
+          "caption": "For this chair I got a used pallet and disassembled it. The form naturally evolved from the pallet to the chair, represented in the horizontal bands in the front and back."
+        },
+        {
+          "src": "4c.png",
+          "alt": "",
+          "caption": "The pallet had seals and marks I didn’t conceal because beauty comes from being able to trace the history of the piece and its transformation."
+        },
+        {
+          "src": "4d.png",
+          "alt": "",
+          "caption": "I wrapped up foam with fabric to make the cushions."
+        },
+        {
+          "src": "4e.png",
+          "alt": "",
+          "caption": "In Japan, an admired art form consists of broken ceramic pieces delicately repaired with gold. This is called wabi-sabi and it’s the concept on which I drew my inspiration for this chair."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "Why?",
+          "text": "Study the chair as a design element and its ergonomic measurements."
+        },
+        {
+          "title": "How?",
+          "text": "Design and build a chair from 80% recycled materials."
+        },
+        {
+          "title": "What?",
+          "text": "Chair inspired by the Japanese concept focused on the beauty of the impermanent, imperfect and incomplete."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "mesa-10.html",
+          "text": "Table 10"
+        },
+        "next": {
+          "url": "scooter.html",
+          "text": "PVC Scooter"
+        }
+      }
+    },
+    {
+      "id": "5",
+      "url": "productos/scooter.html",
+      "title": "PVC Scooter",
+      "featureImage": {
+        "src": "5a.gif",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "5b.png",
+          "alt": "",
+          "caption": "I decided to use PVC so children can assemble it and make it their own. The process is very similar to building with LEGOs."
+        },
+        {
+          "src": "5c.png",
+          "alt": "",
+          "caption": "The outline of the instruction manual has the shape of the board so they only have to draw on wood, sand the edges and stick the grip in the pattern they wish."
+        },
+        {
+          "src": "5d.png",
+          "alt": "",
+          "caption": "The instruction manual can be downloaded from the internet and explains the entire process graphically without too much reading.",
+          "doubleWidth": true
+        },
+        {
+          "src": "5e.png",
+          "alt": "",
+          "caption": "PVC doesn’t present any problems if the user has to make adjustments to the measurements, and the pieces can be painted."
+        },
+        {
+          "src": "5f.png",
+          "alt": "",
+          "caption": "Designing is redesigning. PVC lends itself to aesthetic modifications so each user can personalize their scooter."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "Why?",
+          "text": "Rethink expensive products and offer affordable solutions."
+        },
+        {
+          "title": "How?",
+          "text": "Design transportation for children in low-income areas and encourage them to play sports."
+        },
+        {
+          "title": "What?",
+          "text": "A scooter with a PVC structure so users can easily build and modify it on their own."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "wabi-sabi.html",
+          "text": "Wabi-Sabi Chair"
+        },
+        "next": {
+          "url": "lotus-lamp.html",
+          "text": "Lotus Lamp"
+        }
+      }
+    },
+    {
+      "id": "6",
+      "url": "productos/tapon-del-darien.html",
+      "title": "El Tapón del Darién",
+      "featureImage": {
+        "src": "6.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "src": "",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "src": "",
+          "alt": "",
+          "caption": ""
+        },
+        {
+          "src": "",
+          "alt": "",
+          "caption": ""
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "Why?",
+          "text": ""
+        },
+        {
+          "title": "How?",
+          "text": ""
+        },
+        {
+          "title": "What?",
+          "text": ""
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "scooter.html",
+          "text": "PVC Scooter"
+        },
+        "next": {
+          "url": "lotus-lamp.html",
+          "text": "Lotus Lamp"
+        }
+      }
+    },
+    {
+      "id": "7",
+      "url": "productos/lotus-lamp.html",
+      "title": "Lotus Lamp",
+      "featureImage": {
+        "src": "7a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "7b.png",
+          "alt": "",
+          "caption": "The petals of the Lotus open up in the morning and close at sunset. This is why the flower represents rebirth in many cultures, and the Egyptians associated it with the sun. Due to its strong relationship with light, I decided to make a lamp."
+        },
+        {
+          "src": "7c.png",
+          "alt": "",
+          "caption": "The light comes from LED diodes shining through parchment paper to generate indirect light and a Zen feeling."
+        },
+        {
+          "src": "7d.png",
+          "alt": "",
+          "caption": "Buddhists associate it with purity and spiritual awakening, since Lotus flowers emerge in the morning from murky water yet looks perfectly clean. This is the reason I used white light."
+        },
+        {
+          "src": "7e.png",
+          "alt": "",
+          "caption": "The shape was abstracted from the short petals in the center and the long ones from the edge. It has internal tubes that serve as hinges to represent the movement of the flower."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "Why?",
+          "text": "Produce an object starting with the form, not the function."
+        },
+        {
+          "title": "How?",
+          "text": "Choose an element of nature and translate it into an object for the home."
+        },
+        {
+          "title": "What?",
+          "text": "A self-supporting lamp inspired by the lotus flower."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "scooter.html",
+          "text": "PVC Scooter"
+        },
+        "next": {
+          "url": "foro-romano.html",
+          "text": "Roman Forum"
+        }
+      }
+    },
+    {
+      "id": "8",
+      "url": "productos/foro-romano.html",
+      "title": "Roman Forum",
+      "featureImage": {
+        "src": "8i.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "8b.png",
+          "alt": "",
+          "caption": "The board is a pentagon where the legacies of the different players are built. Depending on their character, players must obtain a certain amount of resources. The five resources in the game are wood, coal, marble, stone and artists. The resource cards are placed on the corners of the board."
+        },
+        {
+          "src": "8c.png",
+          "alt": "",
+          "caption": "Each player has pieces that represent workers. Rolling the dice, players place their workers in resources to accumulate them. Each legacy project has three construction phases and each phase requires a certain amount of resources. For example, the personal board of Emperor Vespasian indicates that for the first phase he needs 5 woods and 4 stones; for the second, 2 coals and 7 marbles; and for the third, 9 artists."
+        },
+        {
+          "src": "8d.png",
+          "alt": "",
+          "caption": "At the end of each round, the special turn of the Roman Forum begins. Here, players can trade with other players and exchange materials or workers. In turn, a player can declare war on another player, throws his emperor coin and wins if the coin falls on the face side. One of the emperors is Augustus, who came to power in 27 BC. His legacy is the pantheon."
+        },
+        {
+          "src": "8e.png",
+          "alt": "",
+          "caption": "Julius Caesar was to become the first emperor of Rome but he was murdered in the Senate before he acquired the title. However, later emperors adopted the name Caesar in his honor. His legacy was the multiple military victories that resulted in the annex of territories for the Republic."
+        },
+        {
+          "src": "8f.png",
+          "alt": "",
+          "caption": "Vespesian began his empire in 69 AD and his legacy was the Colosseum, or Flavian Amphitheater."
+        },
+        {
+          "src": "8g.png",
+          "alt": "",
+          "caption": "Caracalla is known for the huge public baths he had built, which were extremely ostentatious."
+        },
+        {
+          "src": "8h.png",
+          "alt": "",
+          "caption": "The infamous Nero is credited with burning the city in 64 AD as an excuse to build himself a new palace that occupied 50 hectares: the Domus Aurea."
+        },
+        {
+          "src": "8i.png",
+          "alt": "",
+          "caption": "The box of the game with the five emperors and the title over a background of the Roman city."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "Why?",
+          "text": "Maximize information retention in a fun way."
+        },
+        {
+          "title": "How?",
+          "text": "Teach history through gamification."
+        },
+        {
+          "title": "What?",
+          "text": "Roman Forum, a board game where each player chooses a Roman emperor and tries to build a lasting legacy."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "lotus-lamp.html",
+          "text": "Lotus Lamp"
+        },
+        "next": {
+          "url": "kibo.html",
+          "text": "Kibo Lamp"
+        }
+      }
+    },
+    {
+      "id": "9",
+      "url": "productos/kibo.html",
+      "title": "Kibo Lamp",
+      "featureImage": {
+        "src": "9a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "9b.png",
+          "alt": "",
+          "caption": "This is the assigned formula."
+        },
+        {
+          "src": "9c.png",
+          "alt": "",
+          "caption": "Mood board from the formula."
+        },
+        {
+          "src": "9d.png",
+          "alt": "",
+          "caption": "The center tube represents a trunk and the discs are the treetops. However, the transparency of the material symbolizes that the trees are disappearing, a result of deforestation."
+        },
+        {
+          "src": "9e.png",
+          "alt": "",
+          "caption": "A xylophone was disassembled and hung to simulate a bell, typical in country houses. Therefore, when the wind blows the lamp makes lovely sounds. Also, its circular shape refers to a clock and the cyclical movement of time."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "Why?",
+          "text": "Involve the senses in a design experience."
+        },
+        {
+          "title": "How?",
+          "text": "Design a lighting object using a formula of 10 random components that must be incorporated in some way."
+        },
+        {
+          "title": "What?",
+          "text": "Kibo Lamp: a lamp that invites the user to interact and create sounds. Kibo is one of the three volcanic peaks of Kilimanjaro. Its name comes from Swahili 'Kilima' or mountain, and 'Njaro' or bright."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "foro-romano.html",
+          "text": "Roman Forum"
+        },
+        "next": {
+          "url": "futbolito.html",
+          "text": "Foosball Table"
+        }
+      }
+    },
+    {
+      "id": "10",
+      "url": "productos/futbolito.html",
+      "title": "Foosball Table",
+      "featureImage": {
+        "src": "10a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "10b.png",
+          "alt": "",
+          "caption": "The structure was made with square iron pipes."
+        },
+        {
+          "src": "10f.png",
+          "alt": "",
+          "caption": "The concrete walls were built with a phenolic plywood mold."
+        },
+        {
+          "src": "10c.png",
+          "alt": "",
+          "caption": "After welding the tubes, automotive sealant and paint were applied with a compressor."
+        },
+        {
+          "src": "10d.png",
+          "alt": "",
+          "caption": "The court is made of yellow ACM cut and bent with a router to create the goals."
+        },
+        {
+          "src": "10e.png",
+          "alt": "",
+          "caption": "The players were cut from square dowels and painted black and white to differentiate the teams."
+        },
+        {
+          "src": "10g.png",
+          "alt": "",
+          "caption": "The white markings of the court were made with white vinyl and the tubes are made of stainless steel with carved wooden handles."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "Why?",
+          "text": "Experiment with materials."
+        },
+        {
+          "title": "How?",
+          "text": "Using concrete, phenolic plywood, stainless steel rods, square iron pipe, pine wood, ACM, vinyl and dental acrylic."
+        },
+        {
+          "title": "What?",
+          "text": "A foosball table made from unconventional materials."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "kibo.html",
+          "text": "Kibo Lamp"
+        },
+        "next": {
+          "url": "sunrise.html",
+          "text": "Sunrise Lamp"
+        }
+      }
+    },
+    {
+      "id": "11",
+      "url": "productos/sunrise.html",
+      "title": "Sunrise Lamp",
+      "featureImage": {
+        "src": "https://youtube.com/embed/FyY5EbU3IME?rel=0",
+        "alt": "",
+        "video": true
+      },
+      "images": [
+        {
+          "src": "11b.png",
+          "alt": "",
+          "caption": "The lamp is made of raft wood with a light and clean aesthetic."
+        },
+        {
+          "src": "11c.png",
+          "alt": "",
+          "caption": "Inside are the LEDs that illuminate indirectly through a window covered with parchment paper."
+        },
+        {
+          "src": "11d.png",
+          "alt": "",
+          "caption": "When it is not used, the lamp is closed. To open it, just push gently and the lamp stays in balance. It encourages play and curiosity."
+        },
+        {
+          "src": "11f.png",
+          "alt": "",
+          "caption": "The logo is a person doing a sun salutation."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "Why?",
+          "text": "Understand physical principles and their use in product design."
+        },
+        {
+          "title": "How?",
+          "text": "Apply the concept of balance in an everyday object."
+        },
+        {
+          "title": "What?",
+          "text": "A desk lamp that sways."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "futbolito.html",
+          "text": "Foosball Table"
+        },
+        "next": {
+          "url": "dispensadores.html",
+          "text": "Stationery Dispenser"
+        }
+      }
+    },
+    {
+      "id": "12",
+      "url": "productos/dispensadores.html",
+      "title": "Stationery Dispenser",
+      "featureImage": {
+        "src": "12a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "12b.png",
+          "alt": "",
+          "caption": "The operator's movements were studied to determine causes of fatigue or discomfort."
+        },
+        {
+          "src": "12c.png",
+          "alt": "",
+          "caption": "The dimensions of the dispensers were defined with the ergonomic tables of ACOPLA."
+        },
+        {
+          "src": "12d.png",
+          "alt": "",
+          "caption": "Wheels are used to facilitate the transport of the materials, and a spring to lift the stationery."
+        },
+        {
+          "src": "12e.png",
+          "alt": "",
+          "caption": "The operator of the packing machine currently carries the stationery from one side of the factory to the other and places it on a cardboard tube."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "Why?",
+          "text": "Understand ergonomics."
+        },
+        {
+          "title": "How?",
+          "text": "Redesign a work-station in a stationery company."
+        },
+        {
+          "title": "What?",
+          "text": "Mobile stationery dispensers for the operator of the packing machine."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "sunrise.html",
+          "text": "Sunrise Lamp"
+        },
+        "next": {
+          "url": "aromatico.html",
+          "text": "Aromatic"
+        }
+      }
+    },
+    {
+      "id": "13",
+      "url": "productos/aromatico.html",
+      "title": "Aromatic",
+      "featureImage": {
+        "src": "13a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "13b.jpg",
+          "alt": "",
+          "caption": "Explains the mission, the project and the interface to add elements and create experiences.",
+          "link": "Aromatic website. ",
+          "web": true
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "Why?",
+          "text": "Innovate in all phases of a project."
+        },
+        {
+          "title": "How?",
+          "text": "Apply business management in a food innovation project."
+        },
+        {
+          "title": "What?",
+          "text": "Aromático, or Aromatic, a strategic design firm that delivers everything necessary to generate an unforgettable experience based on the needs of the users. We don’t sell a meal, but a romantic date; we don't sell cakes, but a birthday party."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "dispensadores.html",
+          "text": "Stationery Dispenser"
+        },
+        "next": {
+          "url": "drone.html",
+          "text": "First-Aid Drone"
+        }
+      }
+    },
+    {
+      "id": "14",
+      "url": "productos/drone.html",
+      "title": "First-Aid Drone",
+      "featureImage": {
+        "src": "14a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "14b.png",
+          "alt": "",
+          "caption": "The kit is secured on top of the main body with a four-point belt."
+        },
+        {
+          "src": "14c.png",
+          "alt": "",
+          "caption": "The drone has a clean aesthetic with red accents to represent its medical function."
+        },
+        {
+          "src": "14d.png",
+          "alt": "",
+          "caption": "At each of the four support points there is a flashing light to signal at night."
+        },
+        {
+          "src": "14e.png",
+          "alt": "",
+          "caption": "The bottom has a red cross that is seen while the drone is in the air."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": "Understand an object as a complete system."
+        },
+        {
+          "title": "¿Cómo?",
+          "text": "Design a product with many small parts."
+        },
+        {
+          "title": "¿Qué?",
+          "text": "Medical drone which carries a first aid kit in case of an emergency."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "aromatico.html",
+          "text": "Aromatic"
+        },
+        "next": {
+          "url": "",
+          "text": ""
+        }
+      }
+    }
+  ],
+  "spacePages": [
+    {
+      "id": "301",
+      "url": "espacios/sistemas-de-oficina.html",
+      "title": "Office Systems",
+      "featureImage": {
+        "src": "301.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "301b.png",
+          "alt": "",
+          "caption": "I placed the meeting rooms near the entrance, where a security pass is not needed. The work areas are located in the center of the office and the rest areas, in the perimeter."
+        },
+        {
+          "src": "301c.png",
+          "alt": "",
+          "caption": "One of the trends in interior design and business innovation are recreational areas for rest and recreation. I placed remote areas for this purpose to increase the efficiency and mental well-being of the staff."
+        },
+        {
+          "src": "301d.png",
+          "alt": "",
+          "caption": "I also designed a desk with a minimalist and industrial aesthetic. I put a privacy panel in a contrasting color so the user may feel more comfortable, particularly women in skirts and dresses. The panel is bent at the end so that users can keep their briefcases or purses out of sight and the office looks tidy."
+        },
+        {
+          "src": "301e.png",
+          "alt": "",
+          "caption": "The privacy panel ends with a short vertical wall so people can comfortably support their feet. I integrated the connectivity through steel tubing, maintaining the industrial look of the workstations. The modular pieces easily adapt to changes in the desk distribution."
+        },
+        {
+          "src": "301f.png",
+          "alt": "",
+          "caption": "I also designed an acoustic panel filled with polyurethane foam. It absorbs the sound to create a quieter and more professional office environment. The hinges make it so the acoustic panel may be accommodated in whichever shape suits the space."
+        },
+        {
+          "src": "301g.png",
+          "alt": "",
+          "caption": "The paneling has interspersed heights to create privacy but also doesn’t completely enclose the user. This also creates visual dynamism. It is inspired by a lion hidden in the tall grass of the savanna, hence its name Savanna Panel."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "Why?",
+          "text": "Merge industrial design with interior design."
+        },
+        {
+          "title": "How?",
+          "text": "Design an area divider, a desk, and the distribution of elements in an office space."
+        },
+        {
+          "title": "What?",
+          "text": "An acoustic panel for recreational areas, minimalist desk with connectivity, and the flow of people and departments in the offices of Recamier in Colombia."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "",
+          "text": ""
+        },
+        "next": {
+          "url": "estanterias-modulares.html",
+          "text": "Modular Shelves"
+        }
+      }
+    },
+    {
+      "id": "302",
+      "url": "espacios/estanterias-modulares.html",
+      "title": "Modular Shelves",
+      "featureImage": {
+        "src": "302.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "302b.png",
+          "alt": "",
+          "caption": "My proposal is based on trapezoid shaped modules."
+        },
+        {
+          "src": "302c.png",
+          "alt": "",
+          "caption": "Different compositions can be created for users to personalize their space according to how much product they move, the type of objects and the aesthetics of the brand."
+        },
+        {
+          "src": "302d.png",
+          "alt": "",
+          "caption": "The shelves are manufactured with iron sheets to give them a sophisticated, slender and modern appearance."
+        },
+        {
+          "src": "302e.png",
+          "alt": "",
+          "caption": "Each module has magnetic unions. When not in use, the middle division may be removed so the shelves can be disassembled for efficient flat storage."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "Why?",
+          "text": "Understand the multiple applications of industrial design in the Panamanian market."
+        },
+        {
+          "title": "How?",
+          "text": "Carry out a project of commercial stands."
+        },
+        {
+          "title": "What?",
+          "text": "Modular trapezoid stands."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "sistemas-de-oficina.html",
+          "text": "Office Systems"
+        },
+        "next": {
+          "url": "mobiliario-urbano.html",
+          "text": "Urban Furniture"
+        }
+      }
+    },
+    {
+      "id": "303",
+      "url": "espacios/mobiliario-urbano.html",
+      "title": "Urban Furniture",
+      "featureImage": {
+        "src": "303a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "303b.png",
+          "alt": "",
+          "caption": "The street furniture is manufactured in concrete from 4 steel molds. The more complex modules can be subdivided to create smaller, simpler parts. The organic forms represent change, transformation, rhythm and repetition."
+        },
+        {
+          "src": "303c.png",
+          "alt": "",
+          "caption": "A pigment can be added to the concrete mix to create playful installations. In this type of finish the result is visually attractive and the color is not lost, even when the material wears out."
+        },
+        {
+          "src": "303d.png",
+          "alt": "",
+          "caption": "Variations in heights and curves are designed to give the user a wide variety of use, with a knee-popliteal distance of 60 cm. They can sit, stand or lie down in any way, because the correct position is the one in which we feel most comfortable."
+        },
+        {
+          "src": "303e.png",
+          "alt": "",
+          "caption": "Due to the versatility of the shape, the modules can be flipped or rotated to create different installations. Here for example, the pieces are arranged to create a closed volume with internal divisions that can then be filled with soil and create an aromatic garden or a communal vegetable garden."
+        },
+        {
+          "src": "303f.png",
+          "alt": "",
+          "caption": "The pieces can also be placed separately to create a maze and incentivize play on a daily basis, or even an obstacle course for pets."
+        },
+        {
+          "src": "303g.png",
+          "alt": "",
+          "caption": "Finally, the modules can also be accommodated in a more abstract way to create urban sculptures or fountains."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "Why?",
+          "text": "Contemplate the city as a setting for people and their needs."
+        },
+        {
+          "title": "How?",
+          "text": "Analyze what urban furniture is needed in City of Knowledge, Panama and provide a solution."
+        },
+        {
+          "title": "What?",
+          "text": "A system consisting of 13 individual pieces located in three facilities, one in each area of \u200B\u200Bthe City of Knowledge, Panama."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "estanterias-modulares.html",
+          "text": "Modular Shelves"
+        },
+        "next": {
+          "url": "model-a.html",
+          "text": "Model-A"
+        }
+      }
+    },
+    {
+      "id": "304",
+      "url": "espacios/model-a.html",
+      "title": "Model-A",
+      "featureImage": {
+        "src": "304a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "304b.png",
+          "alt": "",
+          "caption": "This is the exterior of the lateral view which faces the sidewalk. It has stripes which light up to form a subtle cross, and a screen with the emergency phone number, the word “ambulance” and the star of life. It has perimeter lights at the top, on the door that opens towards the sidewalk and on the camera for the rearview mirror."
+        },
+        {
+          "src": "304c.png",
+          "alt": "",
+          "caption": "This is the front and rear exterior views. On the front, there is a large window for the driver, the star of life and the word “ambulance” flipped. The siren occupies the entire roof to demand the attention of drivers in cities full of distractions and visual pollution. The back door occupies the entire wall and slides upwards to be able to enter and exit comfortably. However, it also has a smaller emergency door in case of an accident. It has perimeter lights above, a step to climb on and the name Model-A, since the vehicle is inspired by Tesla."
+        },
+        {
+          "src": "304d.png",
+          "alt": "",
+          "caption": "This is the interior lateral view which faces the sidewalk. The 4 emergency regulatory briefcases are hung on the wall and form a red cross. The handles are flush: to take them out, the handles are pushed and, with a spring, they come out so that the case can be pulled from the wall. There is a large window for greater visibility. The handheld oxygen tank is in a compartment next to the door, so the doctor can take it out while exiting the vehicle. There are two chairs with retractable seats and four-point seat belts. One chair is for the doctor while working in the patient's chest area, and the other is for a possible companion. Under and above the chairs are storage, safety bars and a window for natural light to enter. Finally, there are two full-size oxygen tanks in the back."
+        },
+        {
+          "src": "304e.png",
+          "alt": "",
+          "caption": "This is the interior lateral view of the driver's side. The driver has the rudder panel, which extends across the width of the vehicle in order to store the wheelchair. There is another chair for the doctor when working in the area of the patient's head and on the wall there is a touch panel with the patient's information: blood type, heartbeats per minute, real-time body scan, etc. Below the panel is the garbage dump for medical waste. Then, there is the stretcher, the medical equipment hanging on the wall and storage at the top."
+        },
+        {
+          "src": "304f.png",
+          "alt": "",
+          "caption": "This is the top view. The steps and the floor have a non-slip texture that meets the aesthetic language of the rest of the vehicle. The door to the sidewalk is 700 mm wide, the total length of the vehicle is 4000 mm, and the total width is 1500 mm."
+        },
+        {
+          "src": "304g.png",
+          "alt": "",
+          "caption": "This is the interior view of the roof. Light comes out from the back door all the way across the length of the vehicle so the doctor has all the lighting he needs to work with precision. There is a safety bar in the back for people to easily climb in the vehicle. I placed a wide skylight for emergency exits in the middle. In case of an accident, two side handles are turned to unlock the skylight mechanism and pushed out with the center handles. In addition, there are two dust bags that expand with heat and serve as fire extinguishers, an extractor, and a safety bar for when the driver gets into the vehicle. Finally, there is a ribbon of light to illuminate the driver's area when required and when moving the wheelchair."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "Why?",
+          "text": "Understand the ergonomics and distribution of objects inside an emergency vehicle, while practicing freehand technical drawing."
+        },
+        {
+          "title": "How?",
+          "text": "Design the exterior and interior of an ambulance."
+        },
+        {
+          "title": "What?",
+          "text": "Model-A: an ambulance for the future inspired by Tesla"
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "mobiliario-urbano.html",
+          "text": "Urban Furniture"
+        },
+        "next": {
+          "url": "",
+          "text": ""
+        }
+      }
+    }
+  ]
+}

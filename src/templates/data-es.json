@@ -1,23 +1,23 @@
 {
   "menu": [
     {
-      "url": "/",
+      "url": "index.html",
       "name": "Productos"
     },
     {
-      "url": "/espacios.html",
+      "url": "espacios.html",
       "name": "Espacios"
     },
     {
-      "url": "/graficos.html",
+      "url": "graficos.html",
       "name": "Gráficos"
     },
     {
-      "url": "/ensayos.html",
+      "url": "ensayos.html",
       "name": "Ensayos"
     },
     {
-      "url": "/sobre-mi.html",
+      "url": "sobre-mi.html",
       "name": "Sobre mí"
     }
   ],
@@ -82,6 +82,11 @@
       {
         "img": "13",
         "url": "productos/aromatico.html",
+        "alt": ""
+      },
+      {
+        "img": "14",
+        "url": "productos/drone.html",
         "alt": ""
       }
     ],
@@ -868,7 +873,7 @@
       "url": "productos/foro-romano.html",
       "title": "Foro Romano",
       "featureImage": {
-        "src": "8a.png",
+        "src": "8i.png",
         "alt": ""
       },
       "images": [
@@ -1181,7 +1186,8 @@
         {
           "src": "13b.jpg",
           "alt": "",
-          "caption": "Sitio web de aromático. Explica la misión, el proyecto y la interfaz para añadir elementos para las experiencias.",
+          "caption": "Explica la misión, el proyecto y la interfaz para añadir elementos para las experiencias.",
+          "link": "Sitio web de aromático.",
           "web": true
         }
       ],
@@ -1203,6 +1209,61 @@
         "prev": {
           "url": "dispensadores.html",
           "text": "Dispensadores de Papelería"
+        },
+        "next": {
+          "url": "drone.html",
+          "text": "Drone de Primeros Auxilios"
+        }
+      }
+    },
+    {
+      "id": "14",
+      "url": "productos/drone.html",
+      "title": "Drone de Primeros Auxilios",
+      "featureImage": {
+        "src": "14a.png",
+        "alt": ""
+      },
+      "images": [
+        {
+          "src": "14b.png",
+          "alt": "",
+          "caption": "El kit se amarra en la parte superior del cuerpo por un cinturón de cuatro puntos."
+        },
+        {
+          "src": "14c.png",
+          "alt": "",
+          "caption": "El drone tiene una estética limpia con acentos en rojo para representar su función médica."
+        },
+        {
+          "src": "14d.png",
+          "alt": "",
+          "caption": "En cada uno de los cuatro puntos de soporte hay luces intermitentes para señalizar durante la noche."
+        },
+        {
+          "src": "14e.png",
+          "alt": "",
+          "caption": "La parte inferior tiene una cruz roja que se ve mientras el drone está en el aire."
+        }
+      ],
+      "descriptions": [
+        {
+          "title": "¿Por Qué?",
+          "text": "Comprender un objeto como un sistema completo."
+        },
+        {
+          "title": "¿Cómo?",
+          "text": "Diseñar un producto con muchas partes pequeñas."
+        },
+        {
+          "title": "¿Qué?",
+          "text": "Drone médico que transporta kit de primeros auxilios en emergencias."
+        }
+      ],
+      "navigation": {
+        "prev": {
+          "url": "aromatico.html",
+          "text": "Aromatico"
         },
         "next": {
           "url": "",

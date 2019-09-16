@@ -1,6 +1,6 @@
 {% set page = 'Ensayos' %}
 {% set title = '40 Cosas Sobre Mí' %}
-{% set pathToRoot = '..' %}
+{% set pathToRoot = '../' %}
 {% set pageId = '401' %}
 {% extends "_base.njk" %}
 {% block content %}
@@ -24,8 +24,8 @@
                 <p class="essay-subtitle">Lo que me interesa y cómo paso mi tiempo libre</p>
             </div>
             <div class="column is-three-fifths-tablet is-offset-one-fifth-tablet is-one-third-desktop
-                is-offset-one-third-desktop content has-text-justified">
-                <ol>
+                is-offset-one-third-desktop">
+                <ol class="essay-list" start="1">
                     <li>Me gusta hornear pan.</li>
                     <li>Me pongo nerviosa al manejar aunque lo hago todos los días.</li>
                     <li>Amo las montañas rusas.</li>
@@ -48,10 +48,10 @@
                     <li>Mi estilo de moda es impecable.</li>
                 </ol>
                 <figure class="essay-img-wrapper-center">
-                    <img src="/img/40-cosas.png" alt="" class="essay-img">
+                    <img src="../img/40-cosas.png" alt="" class="essay-img">
                     <p class="essay-caption">Evidencia del dato #20</p>
                 </figure>
-                <ol start="21">
+                <ol class="essay-list" start="21">
                     <li>Los miércoles voy a noches de trivia.</li>
                     <li>Siempre canto en el carro mientras manejo.</li>
                     <li>Prefiero ilustraciones simples a dibujos realistas.</li>
