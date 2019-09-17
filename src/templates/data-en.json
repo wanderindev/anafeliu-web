@@ -1248,15 +1248,15 @@
       ],
       "descriptions": [
         {
-          "title": "¿Por Qué?",
+          "title": "Why?",
           "text": "Understand an object as a complete system."
         },
         {
-          "title": "¿Cómo?",
+          "title": "How?",
           "text": "Design a product with many small parts."
         },
         {
-          "title": "¿Qué?",
+          "title": "What?",
           "text": "Medical drone which carries a first aid kit in case of an emergency."
         }
       ],

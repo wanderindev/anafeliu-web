@@ -15,7 +15,7 @@ let settings = {
 /**
  * Paths to project folders
  */
-let lang = 'en';
+let lang = 'es';
 
 let paths = {
     input: 'src/',

@@ -15,7 +15,7 @@
     "@fancyapps/fancybox": "^3.5.7",
     "browser-sync": "^2.26.7",
     "del": "3.0.0",
-    "gulp": "4.0.0",
+    "gulp": "4.0.2",
     "gulp-autoprefixer": "6.0.0",
     "gulp-cache": "1.1.1",
     "gulp-concat": "2.6.1",
