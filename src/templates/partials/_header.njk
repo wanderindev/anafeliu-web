@@ -15,7 +15,7 @@
         <div class="navbar-end">
             <div class="navbar-item">
                 {% for item in menu %}
-                <a class="navbar-item {% if page === item.name %}active{% endif %}" href="{{ pathToRoot }}{{ item.url }}" >{{ item.name }}</a>
+                <a class="navbar-item {% if item.name in page  %}active{% endif %}" href="{{ pathToRoot }}{{ item.url }}" >{{ item.name }}</a>
                 {% endfor %}
             </div>
         </div>

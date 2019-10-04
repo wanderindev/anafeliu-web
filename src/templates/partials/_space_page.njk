@@ -28,7 +28,7 @@
             <h1 class="page-title">{{page.title}}</h1>
         </div>
         <div class="feature-img-col column is-narrow-tablet">
-            <img class="feature-img" src="../img/{{page.featureImage.src}}" alt="{{page.featureImage.alt}}">
+            <img class="feature-img" src="/img/{{page.featureImage.src}}" alt="{{page.featureImage.alt}}">
         </div>
         <div class="descr column has-text-centered-mobile">
             {% for description in page.descriptions %}
@@ -41,12 +41,12 @@
         {% for image in page.images %}
             {% if image.doubleWidth %}
                 <div class="column is-half-tablet has-text-centered-mobile">
-                    <img class="product-img" src="../img/{{image.src}}" alt="{{image.alt}}">
+                    <img class="product-img" src="/img/{{image.src}}" alt="{{image.alt}}">
                     <p class="img-caption">{{image.caption}}</p>
                 </div>
             {% else %}
                 <div class="column is-half-tablet has-text-centered-mobile">
-                    <img class="product-img" src="../img/{{image.src}}" alt="{{image.alt}}">
+                    <img class="product-img" src="/img/{{image.src}}" alt="{{image.alt}}">
                     <p class="img-caption">{{image.caption}}</p>
                 </div>
             {%  endif %}

@@ -1,4 +1,4 @@
-{% set page = 'Productos' %}
+{% set page = ['Productos', 'Products']  %}
 {% set title = 'Aromático' %}
 {% set pathToRoot = '../' %}
 {% set pageId = '13' %}
@@ -14,7 +14,7 @@
             <div class="columns is-variable is-8 is-multiline">
                 {% for image in page.images %}
                 <div class="column is-full has-text-centered">
-                    <img class="product-img" src="../img/13b.jpg" alt="{{image.alt}}">
+                    <img class="product-img" src="/img/13b.jpg" alt="{{image.alt}}">
                 </div>
                 <div class="column is-full has-text-centered">
                     <p class="img-caption">

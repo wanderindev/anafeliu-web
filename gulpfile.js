@@ -5,7 +5,6 @@ let settings = {
     polyfills: true,
     styles: true,
     imgs: true,
-    svgs: true,
     copy: true,
     reload: true,
     sitemap: true
@@ -15,54 +14,36 @@ let settings = {
 /**
  * Paths to project folders
  */
-let lang = 'es';
-
 let paths = {
     input: 'src/',
-    output: 'dist/' + lang + '/',
+    output: 'dist/',
     render: {
-        input: 'src/templates/*.njk',
-        output: 'dist/' + lang + '/',
-        data: './src/templates/data-' + lang + '.json',
-        partials: 'src/templates/partials',
-        cssSrc: 'src/sass/*.{sass,scss}',
-        jsSrc: 'src/js/*.js',
-    },
-    renderProducts: {
-        input: 'src/templates/productos/*.njk',
-        output: 'dist/' + lang + '/productos'
-    },
-    renderSpaces: {
-        input: 'src/templates/espacios/*.njk',
-        output: 'dist/' + lang + '/espacios'
-    },
-    renderEssays: {
-        input: 'src/templates/ensayos/*.njk',
-        output: 'dist/' + lang + '/ensayos'
+        input: ['src/templates/**/*.njk', '!src/templates/partials/*.njk'],
+        output: 'dist/',
+        lang: ['es', 'en'],
+        partials: 'src/templates/partials/',
+        data: ['src/templates/data-es.json', 'src/templates/data-en.json']
     },
     scripts: {
         input: 'src/js/*',
         polyfills: '.polyfill.js',
-        output: 'dist/' + lang + '/js/',
+        output: 'dist/js/',
     },
     styles: {
-        input: 'src/sass/*.{scss,sass}',
-        output: 'dist/' + lang + '/css/',
+        input: 'src/sass/*.{scss,sass,css}',
+        output: 'dist/css/',
     },
     imgs: {
         input: 'src/img/*.{gif,jpg,png}',
-        output: 'dist/' + lang + '/img/',
-    },
-    svgs: {
-        input: 'src/svg/*.svg',
-        output: 'dist/' + lang + '/svg/',
+        output: 'dist/img/',
     },
     copy: {
-        input: ['src/templates/data-' + lang + '.json', 'src/copy/**/*'],
-        output: 'dist/' + lang + '/',
+        input: ['src/templates/data-es.json', 'src/copy/**/*', 'src/index.html'],
+        output: 'dist/',
     },
     sitemap: {
         input: 'dist/**/*/*.html',
+        siteUrl: 'https://www.anafeliu.com',
         output: 'dist/',
     },
     reload: './dist',
@@ -97,7 +78,7 @@ let banner = {
  */
 
 // General
-let {src, dest, watch, series} = require('gulp');
+let {src, dest, watch, lastRun, series} = require('gulp');
 let del = require('del');
 let flatmap = require('gulp-flatmap');
 let lazypipe = require('lazypipe');
@@ -127,10 +108,7 @@ let prefix = require('gulp-autoprefixer');
 let minify = require('gulp-cssnano');
 
 // Imgs
-// let imagemin = require('gulp-imagemin');
-
-// SVGs
-let svgmin = require('gulp-svgmin');
+let imagemin = require('gulp-imagemin');
 
 // BrowserSync
 let browserSync = require('browser-sync').create();
@@ -169,7 +147,7 @@ let siteMap = function (done) {
 
     // Generate sitemap
     src(paths.sitemap.input, {read: false})
-        .pipe(sitemap({siteUrl: 'https://www.anafeliu.com'}))
+        .pipe(sitemap({siteUrl: paths.sitemap.siteUrl}))
         .pipe(dest(paths.sitemap.output));
 
     // Signal completion
@@ -184,68 +162,33 @@ let renderTempls = function(done) {
     if (!settings.render) return done();
 
     // Define css and js sources to inject into html files.
-    let cssSources = src(paths.render.cssSrc).pipe(rename({dirname: 'css', extname: '.min.css'}));
-    let jsSources = src(paths.render.jsSrc, {read: false}).pipe(rename({extname: '.min.js'}));
+    let cssSources = src(paths.styles.input).pipe(rename({dirname: 'css', extname: '.min.css'}));
+    let jsSources = src(paths.scripts.input, {read: false}).pipe(rename({extname: '.min.js'}));
 
-    // Render the root templates
-    src(paths.render.input)
-        .pipe(data(function() {
-            return JSON.parse(fs.readFileSync(paths.render.data).toString());
-        }))
-        .pipe(nunjucks({
-            path: [paths.render.partials]
-        }))
-        .pipe(dest(paths.render.output))
-        .pipe(inject(cssSources, {relative: true, addPrefix: '', ignorePath: '../../src/sass/'}))
-        .pipe(dest(paths.render.output))
-        .pipe(inject(jsSources, {relative: true, addPrefix: '', ignorePath: '../../src/'}))
-        .pipe(htmlmin({collapseWhitespace: true}))
-        .pipe(dest(paths.render.output));
-
-    // Render the product templates
-    src(paths.renderProducts.input)
-        .pipe(data(function() {
-            return JSON.parse(fs.readFileSync(paths.render.data).toString());
-        }))
-        .pipe(nunjucks({
-            path: [paths.render.partials]
-        }))
-        .pipe(dest(paths.renderProducts.output))
-        .pipe(inject(cssSources, {relative: true, addPrefix: '..', ignorePath: '../../../src/sass/'}))
-        .pipe(dest(paths.renderProducts.output))
-        .pipe(inject(jsSources, {relative: true, addPrefix: '..', ignorePath: '../../../src/'}))
-        .pipe(htmlmin({collapseWhitespace: true}))
-        .pipe(dest(paths.renderProducts.output));
-
-    // Render the space templates
-    src(paths.renderSpaces.input)
-        .pipe(data(function() {
-            return JSON.parse(fs.readFileSync(paths.render.data).toString());
-        }))
-        .pipe(nunjucks({
-            path: [paths.render.partials]
-        }))
-        .pipe(dest(paths.renderSpaces.output))
-        .pipe(inject(cssSources, {relative: true, addPrefix: '..', ignorePath: '../../../src/sass/'}))
-        .pipe(dest(paths.renderSpaces.output))
-        .pipe(inject(jsSources, {relative: true, addPrefix: '..', ignorePath: '../../../src/'}))
-        .pipe(htmlmin({collapseWhitespace: true}))
-        .pipe(dest(paths.renderSpaces.output));
-
-    // Render the space templates
-    src(paths.renderEssays.input)
-        .pipe(data(function() {
-            return JSON.parse(fs.readFileSync(paths.render.data).toString());
-        }))
-        .pipe(nunjucks({
-            path: [paths.render.partials]
-        }))
-        .pipe(dest(paths.renderEssays.output))
-        .pipe(inject(cssSources, {relative: true, addPrefix: '..', ignorePath: '../../../src/sass/'}))
-        .pipe(dest(paths.renderEssays.output))
-        .pipe(inject(jsSources, {relative: true, addPrefix: '..', ignorePath: '../../../src/'}))
-        .pipe(htmlmin({collapseWhitespace: true}))
-        .pipe(dest(paths.renderEssays.output));
+    // Render the templates
+    paths.render.lang.forEach(function(lang) {
+        src(paths.render.input)
+            .pipe(data(function () {
+                return JSON.parse(fs.readFileSync('src/templates/data-' + lang + '.json').toString());
+            }))
+            .pipe(nunjucks({
+                path: [paths.render.partials]
+            }))
+            .pipe(dest(paths.render.output + lang + ''))
+            .pipe(inject(cssSources, {
+                relative: false,
+                addPrefix: '',
+                ignorePath: '/src/sass/'
+            }))
+            .pipe(dest(paths.render.output + lang + '/'))
+            .pipe(inject(jsSources, {
+                relative: false,
+                addPrefix: '',
+                ignorePath: '/src/'
+            }))
+            .pipe(htmlmin({collapseWhitespace: true}))
+            .pipe(dest(paths.render.output + lang + '/'));
+    });
 
     // Signal completion
     done();
@@ -341,7 +284,6 @@ let buildStyles = function (done) {
             sourceComments: true
         }))
         .pipe(prefix({
-            browsers: ['last 2 version', '> 0.25%'],
             cascade: true,
             remove: true
         }))
@@ -368,8 +310,7 @@ let buildImgs = function (done) {
     if (!settings.imgs) return done();
 
     // Optimize image files
-    src(paths.imgs.input)
-        /*
+    src(paths.imgs.input, {since: lastRun(buildImgs)})
         .pipe(cache(imagemin([
             imagemin.gifsicle({interlaced: true}),
             imagemin.jpegtran({progressive: true}),
@@ -377,24 +318,7 @@ let buildImgs = function (done) {
         ], {
             verbose: false
         })))
-        */
         .pipe(dest(paths.imgs.output));
-
-    // Signal completion
-    done();
-
-};
-
-// Optimize SVG files
-let buildSVGs = function (done) {
-
-    // Make sure this feature is activated before running
-    if (!settings.svgs) return done();
-
-    // Optimize SVG files
-    src(paths.svgs.input)
-        .pipe(svgmin())
-        .pipe(dest(paths.svgs.output));
 
     // Signal completion
     done();
@@ -410,9 +334,6 @@ let copyFiles = function (done) {
     // Copy static files
     src(paths.copy.input)
         .pipe(dest(paths.copy.output));
-
-    src('src/index.html')
-        .pipe(dest('dist/'));
 
     // Signal completion
     done();
@@ -449,13 +370,12 @@ let reloadBrowser = function (done) {
 let watchSource = function (done) {
     let options = {delay: 1000};
 
-    watch([paths.render.input, paths.render.partials, paths.render.data],
+    watch([paths.render.input[0], paths.render.partials, paths.render.data[0]],
         {delay: 1000},
         series(renderTempls, reloadBrowser));
     watch(paths.scripts.input, {delay: 1000}, series(buildScripts, lintScripts, reloadBrowser));
     watch(paths.styles.input, {delay: 1000}, series(buildStyles, reloadBrowser));
     watch(paths.imgs.input, options, series(buildImgs, reloadBrowser));
-    watch(paths.svgs.input, options, series(buildSVGs, reloadBrowser));
     watch(paths.copy.input, options, series(copyFiles, reloadBrowser));
     done();
 };
@@ -483,7 +403,6 @@ exports.default = series(
     lintScripts,
     buildStyles,
     buildImgs,
-    buildSVGs,
     copyFiles,
     siteMap
 );

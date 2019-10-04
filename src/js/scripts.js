@@ -49,7 +49,7 @@
         });
 
         // Parses the website data.
-        $.getJSON('data-es.json', function(data) {
+        $.getJSON('/data-es.json', function(data) {
             app.siteData = data;
         });
 
@@ -75,7 +75,7 @@
             if (imgs) {
                 imgs.forEach(function(img) {
                     fbItems.push({
-                        src: "img/" + img,
+                        src: "/img/" + img,
                         type: "image"
                     });
                 });

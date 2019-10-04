@@ -1,4 +1,4 @@
-{% set page = 'Gráficos' %}
+{% set page = ['Gráficos', 'Graphics'] %}
 {% set title = 'Gráficos' %}
 {% set pathToRoot = '' %}
 {% extends "_base.njk" %}
@@ -14,7 +14,7 @@
                     <a class="image-trigger image-{{item.img}}"
                        style="{{item.style}};"
                        onclick="app.openFB({{loop.index}})">
-                        <img class="thumb-img" src="img/{{item.img}}.png" alt="{{item.alt}}">
+                        <img class="thumb-img" src="/img/{{item.img}}.png" alt="{{item.alt}}">
                     </a>
                 </div>
             {% endfor %}

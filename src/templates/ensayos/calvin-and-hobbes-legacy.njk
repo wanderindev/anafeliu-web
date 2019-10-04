@@ -1,4 +1,4 @@
-{% set page = 'Ensayos' %}
+{% set page = ['Ensayos', 'Essays'] %}
 {% set title = 'Calvin and Hobbes: A Lasting Legacy' %}
 {% set pathToRoot = '../' %}
 {% set pageId = '405' %}
@@ -7,22 +7,21 @@
     <div class="container">
         <nav class="level is-mobile">
             <div class="level-left">
-
+                {% if lang === 'es' %}
                 <a class="level-item product-nav" href="tercera-revolucion-industrial-y-el-diseno.html">
                 <span class="icon left">
                     <i class="fas fa-3x fa-chevron-left"></i>
                 </span>
                     Efectos de la Tercera Revolución Industrial en la Disciplina del Diseño
                 </a>
-                -->
-                <!--
+                {% elif lang === 'en' %}
                 <a class="level-item product-nav" href="40-things-about-me.html">
                 <span class="icon left">
                     <i class="fas fa-3x fa-chevron-left"></i>
                 </span>
                     40 Things About Me
                 </a>
-                -->
+                {% endif %}
             </div>
             <div class="level-right">
                 <a class="level-item product-nav" href="ethnic-humor-in-modern-society.html">
@@ -67,7 +66,7 @@
                     The first example is a topic which human beings have been discussing for centuries: the question of morality, and the debate of good versus evil. Calvin is a mischievous kid who, when Christmas-time rolls around, is very concerned about being perceived as good, so he can receive a great amount of presents for the holiday:
                 </p>
                 <figure class="essay-img-wrapper-center">
-                    <img src="../img/calvin-and-hobbes-1.jpg" alt="" class="essay-img">
+                    <img src="/img/calvin-and-hobbes-1.jpg" alt="" class="essay-img">
                     <p class="essay-caption">Figure 1. Santa’s Guidelines. Complete 3: 166.</p>
                 </figure>
                 <p class="dialogue">
@@ -103,7 +102,7 @@
                     Calvin lives in a world shaped by those around him. So, rather than placing importance on the demands of an abstract, greater authority, perhaps we should just focus on our relationship with others. Watterson’s message could be that there may or may not be an entity that will reward or punish our behavior sometime in the future; the point is: we don’t know. Regardless, we do know the people that are here right now and we should be kind to them, not throw rock-filled snowballs at them. Of course, Watterson could mean something entirely different. The beauty of these cartoons lies in the fact that their generality opens up conversation and interpretation from all sorts of places in time, since it concerns a topic that is and will continue to be relevant for some time, deeming this strip lasting.
                 </p>
                 <figure class="essay-img-wrapper-center">
-                    <img src="../img/calvin-and-hobbes-2.png" alt="" class="essay-img">
+                    <img src="/img/calvin-and-hobbes-2.png" alt="" class="essay-img">
                     <p class="essay-caption">Figure 2. Butterfly release. Complete 3: 208.</p>
                 </figure>
                 <p>

@@ -1,4 +1,4 @@
-{% set page = 'Ensayos' %}
+{% set page = ['Ensayos', 'Essays'] %}
 {% set pathToRoot = '..' %}
 {% set title = 'The Use of Ethnic Humor and its Evolving Perception in Modern Society' %}
 {% set pathToRoot = '../' %}
@@ -16,14 +16,14 @@
                 </a>
             </div>
             <div class="level-right">
-                <!--
+                {% if lang === 'en' %}
                 <a class="level-item product-nav" href="marimekko-maija-isola-y-vuokko-eskolin-nurmesniemi.html">
                     Marimekko, Maija Isola y Vuokko Eskolin-Nurmesniemi
                     <span class="icon right">
                     <i class="fas fa-3x fa-chevron-right"></i>
                 </span>
                 </a>
-                -->
+                {% endif %}
             </div>
         </nav>
         <div class="columns is-multiline">

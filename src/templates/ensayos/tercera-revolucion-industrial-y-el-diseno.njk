@@ -1,4 +1,4 @@
-{% set page = 'Ensayos' %}
+{% set page = ['Ensayos', 'Essays'] %}
 {% set title = 'Efectos de la Tercera Revolución Industrial en la Disciplina del Diseño' %}
 {% set pathToRoot = '../' %}
 {% set pageId = '404' %}
@@ -15,14 +15,14 @@
             </a>
         </div>
         <div class="level-right">
-
+            {% if lang === 'es' %}
             <a class="level-item product-nav" href="calvin-and-hobbes-legacy.html">
                 Calvin and Hobbes: A Lasting Legacy
                 <span class="icon right">
                     <i class="fas fa-3x fa-chevron-right"></i>
                 </span>
             </a>
-
+            {% endif %}
         </div>
     </nav>
     <div class="columns is-multiline">
