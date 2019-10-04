@@ -759,6 +759,28 @@ figure.essay-img-wrapper .essay-img {
   z-index: 3;
 }
 
+.footer {
+  background-color: #fff;
+  padding-bottom: 1rem;
+}
+
+.footer a {
+  color: #787878;
+}
+
+.footer a:hover {
+  color: #000;
+}
+
+.footer a.active {
+  color: #000;
+  font-weight: 700;
+}
+
+.footer a.active:hover {
+  cursor: default;
+}
+
 @media screen and (max-width: 1279px) {
   figure.essay-img-wrapper {
     width: 26%;

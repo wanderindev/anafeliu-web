@@ -36,6 +36,17 @@
 {%  block content %} {% endblock %}
 {%  block web %} {% endblock %}
 </section>
+<section class="section">
+    <div class="container">
+        <footer class="footer">
+            <div class="content has-text-right">
+                <p>
+                    <a href="#" class="{% if lang === 'es' %}active{% endif %}" onclick="app.switchLang('es')">ES</a> / <a href="#" class="{% if lang === 'en' %}active{% endif %}" onclick="app.switchLang('en')">EN</a>
+                </p>
+            </div>
+        </footer>
+    </div>
+</section>
 <!-- jQuery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!-- Sentry -->

@@ -95,5 +95,16 @@
             $('html').css('overflow', 'hidden');
         }
 
+        app.switchLang = function(lang) {
+            let url = window.location.href;
+
+            if (lang === 'es') {
+                url = url.replace('/en/', '/es/');
+            } else {
+                url = url.replace('/es/', '/en/');
+            }
+
+            window.location.href = url;
+        };
     });
 })(window.app = window.app || {}, jQuery, Sentry);
