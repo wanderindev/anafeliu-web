@@ -526,7 +526,8 @@ figure.essay-img-wrapper .essay-img {
 .message.pastel-purple,
 .message.pastel-orange,
 .message.pastel-yellow,
-.message.pastel-pink{
+.message.pastel-pink,
+.message.dark-blue {
   background-color: #fff!important;
   margin-bottom: 24px!important;
 }
@@ -566,6 +567,11 @@ figure.essay-img-wrapper .essay-img {
 .pastel-pink,
 .message.pastel-pink .message-body {
   border-color: #fce4e9!important;
+}
+
+.dark-blue,
+.message.dark-blue .message-body {
+  border-color: #c9dafa!important;
 }
 
 .top-scroller {

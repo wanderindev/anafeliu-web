@@ -30,7 +30,7 @@ let paths = {
         output: 'dist/js/',
     },
     styles: {
-        input: 'src/sass/*.{scss,sass,css}',
+        input: ['src/sass/*.sass', 'src/sass/*.{scss,css}'],
         output: 'dist/css/',
     },
     imgs: {
